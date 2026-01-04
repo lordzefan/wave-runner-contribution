@@ -1,0 +1,30 @@
+<svg viewBox="0 0 400 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wave" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00f5ff"/>
+      <stop offset="100%" stop-color="#002233"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="100%" height="100%" fill="#050b14"/>
+
+  <path d="M0 80 L0 80 L12 80 L24 80 L36 80 L48 80 L60 80 L72 80 L84 80 L96 80 L108 80 L120 80 L132 80 L144 80 L156 80 L168 80 L180 80 L192 80 L204 80 L216 80 L228 80 L240 80 L252 44 L264 80 L276 74 L288 62 L300 80 L312 62 L324 50 L336 80 L348 30 L360 100 L0 100 Z" fill="url(#wave)">
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      from="0 0"
+      to="-12 0"
+      dur="2s"
+      repeatCount="indefinite" />
+  </path>
+
+  <!-- Runner -->
+  <g>
+    <circle r="4" fill="#ffffff">
+      <animateMotion
+        dur="4s"
+        repeatCount="indefinite"
+        path="M0 60 L400 60" />
+    </circle>
+  </g>
+</svg>
