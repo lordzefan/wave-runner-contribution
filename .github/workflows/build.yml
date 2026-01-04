@@ -1,1 +1,36 @@
 
+name: Wave Runner Contribution Animation
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # setiap hari
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install axios
+
+      - name: Generate SVG
+        run: node generate.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit SVG
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add output.svg
+          git commit -m "update wave runner animation" || echo "No changes"
+          git push
