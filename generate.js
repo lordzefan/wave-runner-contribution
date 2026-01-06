@@ -61,25 +61,28 @@ function generateBars() {
     // Stereo behavior
     if (pos < 0.35) {
       // LEFT – BASS
-      minH = 30 + Math.random() * 20;
-      midH = minH + Math.random() * 50;
-      maxH = midH + Math.random() * 90;
-      baseDur = 2.5 + Math.random() * 2.5;
-      chaos = 0.6;
-    } else if (pos > 0.65) {
-      // RIGHT – TREBLE
-      minH = 10 + Math.random() * 15;
+      minH = 28 + Math.random() * 15;
       midH = minH + Math.random() * 35;
       maxH = midH + Math.random() * 55;
-      baseDur = 0.6 + Math.random() * 1.2;
-      chaos = 1.2;
+      baseDur = 3.2 + Math.random() * 2.8;
+      chaos = 0.5;
+
+    } else if (pos > 0.65) {
+      // RIGHT – TREBLE
+      minH = 14 + Math.random() * 12;
+      midH = minH + Math.random() * 28;
+      maxH = midH + Math.random() * 40;
+      baseDur = 1.4 + Math.random() * 1.6;
+      chaos = 1.05;
+
     } else {
       // CENTER – MIX
-      minH = 20 + Math.random() * 15;
-      midH = minH + Math.random() * 40;
-      maxH = midH + Math.random() * 70;
-      baseDur = 1.2 + Math.random() * 2;
-      chaos = 1;
+      minH = 18 + Math.random() * 12;
+      midH = minH + Math.random() * 32;
+      maxH = midH + Math.random() * 50;
+      baseDur = 2.2 + Math.random() * 2.2;
+      chaos = 0.9;
+
     }
 
     const yMin = HEIGHT - minH;
@@ -89,10 +92,11 @@ function generateBars() {
     const opacity = 0.3 + Math.random() * 0.5;
 
     // Glitch parameters
-    const glitchHeight = maxH * (1.4 + Math.random() * 0.6);
+    const glitchHeight = maxH * (1.15 + Math.random() * 0.25);
     const glitchY = HEIGHT - glitchHeight;
     const glitchDelay = (Math.random() * baseDur).toFixed(2);
-    const glitchDur = (0.08 + Math.random() * 0.15).toFixed(2);
+    const glitchDur = (0.06 + Math.random() * 0.1).toFixed(2);
+
 
     bars.push(`
       <rect x="${i * barWidth}"
