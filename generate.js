@@ -2,42 +2,38 @@ const fs = require("fs");
 
 const WIDTH = 960;
 const HEIGHT = 280;
-const BASELINE = 140;
+const BASELINE = 150;
 const POINTS = 200;
 const BARS = 60;
 
-
+/* ======================
+   EQUALIZER BARS
+====================== */
 function generateBars() {
   const bars = [];
   const barWidth = WIDTH / BARS;
 
   for (let i = 0; i < BARS; i++) {
-
     const pos = i / BARS;
     let minH, midH, maxH, baseDur, chaos;
 
-    /* ======================
-       STEREO BEHAVIOR
-    ====================== */
+    // STEREO FIELD
     if (pos < 0.35) {
-      // LEFT – BASS
-      minH = 30 + Math.random() * 20;
-      midH = minH + Math.random() * 50;
-      maxH = midH + Math.random() * 90;
-      baseDur = 2.5 + Math.random() * 2.5;
+      minH = 40 + Math.random() * 20;
+      midH = minH + Math.random() * 60;
+      maxH = midH + Math.random() * 100;
+      baseDur = 2.5 + Math.random() * 2;
       chaos = 0.6;
     } else if (pos > 0.65) {
-      // RIGHT – TREBLE
-      minH = 10 + Math.random() * 15;
-      midH = minH + Math.random() * 35;
-      maxH = midH + Math.random() * 55;
-      baseDur = 0.6 + Math.random() * 1.2;
-      chaos = 1.2;
-    } else {
-      // CENTER – MIX
-      minH = 20 + Math.random() * 15;
+      minH = 15 + Math.random() * 15;
       midH = minH + Math.random() * 40;
-      maxH = midH + Math.random() * 70;
+      maxH = midH + Math.random() * 60;
+      baseDur = 0.6 + Math.random() * 1.2;
+      chaos = 1.3;
+    } else {
+      minH = 25 + Math.random() * 20;
+      midH = minH + Math.random() * 50;
+      maxH = midH + Math.random() * 80;
       baseDur = 1.2 + Math.random() * 2;
       chaos = 1;
     }
@@ -46,80 +42,59 @@ function generateBars() {
     const yMid = HEIGHT - midH;
     const yMax = HEIGHT - maxH;
 
-    const opacity = 0.3 + Math.random() * 0.5;
+    const opacity = 0.35 + Math.random() * 0.5;
 
-    /* ======================
-       GLITCH PARAM
-    ====================== */
+    // GLITCH
     const glitchHeight = maxH * (1.4 + Math.random() * 0.6);
     const glitchY = HEIGHT - glitchHeight;
     const glitchDelay = (Math.random() * baseDur).toFixed(2);
     const glitchDur = (0.08 + Math.random() * 0.15).toFixed(2);
 
     bars.push(`
-      <rect x="${i * barWidth}"
-            y="${yMin}"
-            width="${barWidth - 2}"
-            height="${minH}"
-            fill="url(#grad)"
-            opacity="${opacity}">
+<rect x="${i * barWidth}"
+      y="${yMin}"
+      width="${barWidth - 2}"
+      height="${minH}"
+      fill="url(#grad)"
+      opacity="${opacity}">
 
-        <!-- MAIN HEIGHT -->
-        <animate attributeName="height"
-          dur="${baseDur}s"
-          repeatCount="indefinite"
-          values="${minH};${maxH};${midH};${maxH * chaos};${minH}"
-          keyTimes="0;0.2;0.45;0.7;1"
-          calcMode="spline"
-          keySplines="
-            0.8 0.2 0.2 1;
-            0.2 0.8 0.4 1;
-            0.9 0.1 0.1 0.9;
-            0.1 0.9 0.9 0.1
-          " />
+  <animate attributeName="height"
+    dur="${baseDur}s"
+    repeatCount="indefinite"
+    values="${minH};${maxH};${midH};${maxH * chaos};${minH}" />
 
-        <!-- MAIN Y -->
-        <animate attributeName="y"
-          dur="${baseDur}s"
-          repeatCount="indefinite"
-          values="${yMin};${yMax};${yMid};${HEIGHT - maxH * chaos};${yMin}"
-          keyTimes="0;0.2;0.45;0.7;1"
-          calcMode="spline"
-          keySplines="
-            0.8 0.2 0.2 1;
-            0.2 0.8 0.4 1;
-            0.9 0.1 0.1 0.9;
-            0.1 0.9 0.9 0.1
-          " />
+  <animate attributeName="y"
+    dur="${baseDur}s"
+    repeatCount="indefinite"
+    values="${yMin};${yMax};${yMid};${HEIGHT - maxH * chaos};${yMin}" />
 
-        <!-- GLITCH SPIKE HEIGHT -->
-        <animate attributeName="height"
-          begin="${glitchDelay}s"
-          dur="${glitchDur}s"
-          values="${minH};${glitchHeight};${minH}"
-          repeatCount="indefinite" />
+  <animate attributeName="height"
+    begin="${glitchDelay}s"
+    dur="${glitchDur}s"
+    values="${minH};${glitchHeight};${minH}"
+    repeatCount="indefinite" />
 
-        <!-- GLITCH SPIKE Y -->
-        <animate attributeName="y"
-          begin="${glitchDelay}s"
-          dur="${glitchDur}s"
-          values="${yMin};${glitchY};${yMin}"
-          repeatCount="indefinite" />
+  <animate attributeName="y"
+    begin="${glitchDelay}s"
+    dur="${glitchDur}s"
+    values="${yMin};${glitchY};${yMin}"
+    repeatCount="indefinite" />
 
-        <!-- GLITCH FLICKER -->
-        <animate attributeName="opacity"
-          begin="${glitchDelay}s"
-          dur="${glitchDur}s"
-          values="${opacity};1;${opacity}"
-          repeatCount="indefinite" />
-      </rect>
-    `);
+  <animate attributeName="opacity"
+    begin="${glitchDelay}s"
+    dur="${glitchDur}s"
+    values="${opacity};1;${opacity}"
+    repeatCount="indefinite" />
+</rect>
+`);
   }
 
   return bars.join("");
 }
 
-
+/* ======================
+   WAVES
+====================== */
 function generateWave(layer) {
   const points = [];
   const phase = Math.random() * Math.PI * 2;
@@ -127,7 +102,6 @@ function generateWave(layer) {
 
   for (let i = 0; i < POINTS; i++) {
     const t = i / POINTS;
-
     const y =
       Math.sin(t * Math.PI * 2 + phase) * 28 +
       Math.sin(t * Math.PI * (6 + layer * 2) + phase * 0.6) * 14 +
@@ -142,21 +116,20 @@ function generateWave(layer) {
 function buildPath(points) {
   const step = WIDTH / (points.length - 1);
   let d = `M 0 ${points[0]} `;
-
   for (let i = 1; i < points.length; i++) {
     const x = i * step;
-    const px = (i - 1) * step;
-    const cx = (px + x) / 2;
+    const cx = (x + (i - 1) * step) / 2;
     d += `Q ${cx} ${points[i - 1]} ${x} ${points[i]} `;
   }
-
   return d;
 }
 
-
+/* ======================
+   SVG BUILD
+====================== */
 function generateSVG() {
-  const waveBack  = buildPath(generateWave(2));
-  const waveMid   = buildPath(generateWave(1));
+  const waveBack = buildPath(generateWave(2));
+  const waveMid = buildPath(generateWave(1));
   const waveFront = buildPath(generateWave(0));
 
   const svg = `
@@ -183,42 +156,55 @@ function generateSVG() {
 
 <!-- EQUALIZER -->
 <g filter="url(#glow)">
-  ${generateBars()}
+${generateBars()}
 </g>
 
-<!-- ======================
-     PARALLAX WAVES
-====================== -->
+<!-- PARALLAX WAVES -->
+${["14s","8s","4s"].map((dur,i)=>`
+<g opacity="${[0.18,0.35,1][i]}" ${i===2?'filter="url(#glow)"':''}>
+  <path d="${[waveBack,waveMid,waveFront][i]}"
+        stroke="url(#grad)"
+        stroke-width="${2+i}"
+        fill="none">
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      from="0 0"
+      to="-${WIDTH} 0"
+      dur="${dur}"
+      repeatCount="indefinite"/>
+  </path>
+  <path d="${[waveBack,waveMid,waveFront][i]}"
+        stroke="url(#grad)"
+        stroke-width="${2+i}"
+        fill="none"
+        transform="translate(${WIDTH},0)">
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      from="0 0"
+      to="-${WIDTH} 0"
+      dur="${dur}"
+      repeatCount="indefinite"/>
+  </path>
+</g>`).join("")}
 
-<!-- BACK -->
-<g opacity="0.18">
-  <path d="${waveBack}" stroke="url(#grad)" stroke-width="2" fill="none"/>
-  <path d="${waveBack}" stroke="url(#grad)" stroke-width="2" fill="none"
-        transform="translate(${WIDTH},0)"/>
-  <animateTransform type="translate"
-    from="0 0" to="-${WIDTH} 0"
-    dur="14s" repeatCount="indefinite"/>
-</g>
-
-<!-- MID -->
-<g opacity="0.35">
-  <path d="${waveMid}" stroke="url(#grad)" stroke-width="3" fill="none"/>
-  <path d="${waveMid}" stroke="url(#grad)" stroke-width="3" fill="none"
-        transform="translate(${WIDTH},0)"/>
-  <animateTransform type="translate"
-    from="0 0" to="-${WIDTH} 0"
-    dur="8s" repeatCount="indefinite"/>
-</g>
-
-<!-- FRONT -->
-<g filter="url(#glow)">
-  <path d="${waveFront}" stroke="url(#grad)" stroke-width="4" fill="none"/>
-  <path d="${waveFront}" stroke="url(#grad)" stroke-width="4" fill="none"
-        transform="translate(${WIDTH},0)"/>
-  <animateTransform type="translate"
-    from="0 0" to="-${WIDTH} 0"
-    dur="4s" repeatCount="indefinite"/>
-</g>
+<!-- BRAND -->
+<text x="50%" y="52%"
+      text-anchor="middle"
+      dominant-baseline="middle"
+      font-size="32"
+      letter-spacing="6"
+      fill="#ffffff"
+      opacity="0.85"
+      style="font-family: monospace"
+      filter="url(#glow)">
+  LORDZEFAN
+  <animate attributeName="opacity"
+           values="0.6;1;0.6"
+           dur="2.5s"
+           repeatCount="indefinite"/>
+</text>
 
 </svg>
 `;
@@ -227,4 +213,3 @@ function generateSVG() {
 }
 
 generateSVG();
-
