@@ -10,6 +10,12 @@ const POINTS = 200;
 const BARS = 60;
 
 /* ======================
+   GLOBAL SPEED CONTROL
+   (SEMakin besar = semakin pelan)
+====================== */
+const GLOBAL_SPEED = 1.6;
+
+/* ======================
    PARALLAX WAVE
 ====================== */
 function generateWave(layer) {
@@ -25,9 +31,7 @@ function generateWave(layer) {
       Math.sin(t * Math.PI * (6 + layer * 2) + phase * 0.7) * 14 +
       Math.sin(t * Math.PI * (12 + layer * 3)) * 6;
 
-    points.push(
-      BASELINE - noise * depth
-    );
+    points.push(BASELINE - noise * depth);
   }
 
   return points;
@@ -47,7 +51,7 @@ function buildPath(points) {
 }
 
 /* ======================
-   STEREO + CHAOTIC + GLITCH EQUALIZER
+   STEREO + CHAOTIC + GLITCH EQUALIZER (SLOWED)
 ====================== */
 function generateBars() {
   const bars = [];
@@ -55,35 +59,38 @@ function generateBars() {
 
   for (let i = 0; i < BARS; i++) {
     const pos = i / BARS;
-
     let minH, midH, maxH, baseDur, chaos;
 
-    // Stereo behavior
     if (pos < 0.35) {
       // LEFT – BASS
       minH = 28 + Math.random() * 15;
-      midH = minH + Math.random() * 35;
-      maxH = midH + Math.random() * 55;
-      baseDur = 3.2 + Math.random() * 2.8;
+      midH = minH + Math.random() * 30;
+      maxH = midH + Math.random() * 45;
+      baseDur = 4.5 + Math.random() * 3.5;
       chaos = 0.5;
 
     } else if (pos > 0.65) {
       // RIGHT – TREBLE
       minH = 14 + Math.random() * 12;
-      midH = minH + Math.random() * 28;
-      maxH = midH + Math.random() * 40;
-      baseDur = 1.4 + Math.random() * 1.6;
-      chaos = 1.05;
+      midH = minH + Math.random() * 22;
+      maxH = midH + Math.random() * 32;
+      baseDur = 2.4 + Math.random() * 2.2;
+      chaos = 1.0;
 
     } else {
       // CENTER – MIX
       minH = 18 + Math.random() * 12;
-      midH = minH + Math.random() * 32;
-      maxH = midH + Math.random() * 50;
-      baseDur = 2.2 + Math.random() * 2.2;
-      chaos = 0.9;
-
+      midH = minH + Math.random() * 26;
+      maxH = midH + Math.random() * 40;
+      baseDur = 3.6 + Math.random() * 3;
+      chaos = 0.85;
     }
+
+    /* ======================
+       FINAL SPEED (PER BAR)
+    ====================== */
+    const speedVariance = 0.85 + Math.random() * 0.3;
+    const finalDur = (baseDur * speedVariance * GLOBAL_SPEED).toFixed(2);
 
     const yMin = HEIGHT - minH;
     const yMid = HEIGHT - midH;
@@ -91,12 +98,11 @@ function generateBars() {
 
     const opacity = 0.3 + Math.random() * 0.5;
 
-    // Glitch parameters
-    const glitchHeight = maxH * (1.15 + Math.random() * 0.25);
+    // Glitch (lebih jarang & singkat)
+    const glitchHeight = maxH * (1.1 + Math.random() * 0.2);
     const glitchY = HEIGHT - glitchHeight;
-    const glitchDelay = (Math.random() * baseDur).toFixed(2);
-    const glitchDur = (0.06 + Math.random() * 0.1).toFixed(2);
-
+    const glitchDelay = (Math.random() * finalDur * 1.2).toFixed(2);
+    const glitchDur = (0.05 + Math.random() * 0.08).toFixed(2);
 
     bars.push(`
       <rect x="${i * barWidth}"
@@ -106,35 +112,33 @@ function generateBars() {
             fill="url(#grad)"
             opacity="${opacity}">
 
-        <!-- MAIN HEIGHT -->
         <animate attributeName="height"
-          dur="${baseDur}s"
+          dur="${finalDur}s"
           repeatCount="indefinite"
           values="${minH};${maxH};${midH};${maxH * chaos};${minH}"
-          keyTimes="0;0.2;0.45;0.7;1"
+          keyTimes="0;0.25;0.5;0.75;1"
           calcMode="spline"
           keySplines="
-            0.8 0.2 0.2 1;
-            0.2 0.8 0.4 1;
-            0.9 0.1 0.1 0.9;
-            0.1 0.9 0.9 0.1
+            0.4 0 0.2 1;
+            0.4 0 0.2 1;
+            0.4 0 0.2 1;
+            0.4 0 0.2 1
           " />
 
-        <!-- MAIN Y -->
         <animate attributeName="y"
-          dur="${baseDur}s"
+          dur="${finalDur}s"
           repeatCount="indefinite"
           values="${yMin};${yMax};${yMid};${HEIGHT - maxH * chaos};${yMin}"
-          keyTimes="0;0.2;0.45;0.7;1"
+          keyTimes="0;0.25;0.5;0.75;1"
           calcMode="spline"
           keySplines="
-            0.8 0.2 0.2 1;
-            0.2 0.8 0.4 1;
-            0.9 0.1 0.1 0.9;
-            0.1 0.9 0.9 0.1
+            0.4 0 0.2 1;
+            0.4 0 0.2 1;
+            0.4 0 0.2 1;
+            0.4 0 0.2 1
           " />
 
-        <!-- GLITCH SPIKE -->
+        <!-- GLITCH -->
         <animate attributeName="height"
           begin="${glitchDelay}s"
           dur="${glitchDur}s"
@@ -171,7 +175,6 @@ function generateSVG() {
 <svg viewBox="0 0 ${WIDTH} ${HEIGHT}" xmlns="http://www.w3.org/2000/svg">
 
 <defs>
-  <!-- CYBERPUNK GRADIENT -->
   <linearGradient id="grad" x1="0" y1="0" x2="1" y2="0">
     <stop offset="0%" stop-color="#ff2fdc"/>
     <stop offset="40%" stop-color="#9b5cff"/>
@@ -179,7 +182,6 @@ function generateSVG() {
     <stop offset="100%" stop-color="#00f5ff"/>
   </linearGradient>
 
-  <!-- NEON GLOW -->
   <filter id="glow">
     <feGaussianBlur stdDeviation="4" result="b"/>
     <feMerge>
@@ -188,22 +190,18 @@ function generateSVG() {
     </feMerge>
   </filter>
 
-  <!-- SCANLINE -->
   <pattern id="scanline" width="4" height="4">
     <rect width="4" height="1" fill="rgba(255,255,255,0.05)"/>
   </pattern>
 </defs>
 
-<!-- BACKGROUND -->
 <rect width="100%" height="100%" fill="#05010d"/>
 <rect width="100%" height="100%" fill="url(#scanline)"/>
 
-<!-- EQUALIZER -->
 <g filter="url(#glow)">
   ${generateBars()}
 </g>
 
-<!-- PARALLAX WAVES -->
 <path d="${waveBack}" stroke="url(#grad)" stroke-width="2"
       opacity="0.18" fill="none">
   <animateTransform type="translate" from="0 0" to="-40 0"
@@ -224,7 +222,6 @@ function generateSVG() {
   </path>
 </g>
 
-<!-- TEXT -->
 <text x="50%" y="50%"
       text-anchor="middle"
       font-size="30"
