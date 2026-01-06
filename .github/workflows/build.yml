@@ -1,17 +1,16 @@
-
-name: Wave Runner Contribution Animation
+name: Generate Cyberpunk Music Wave
 
 on:
   schedule:
-    - cron: "0 0 * * *" # setiap hari
+    - cron: "0 0 * * *"   # update harian (opsional)
   workflow_dispatch:
 
 jobs:
-  generate:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v3
 
       - name: Setup Node.js
@@ -19,18 +18,13 @@ jobs:
         with:
           node-version: 18
 
-      - name: Install dependencies
-        run: npm install axios
-
       - name: Generate SVG
         run: node generate.js
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit SVG
+      - name: Commit & Push SVG
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add output.svg
-          git commit -m "update wave runner animation" || echo "No changes"
+          git commit -m "update cyberpunk music wave" || echo "No changes"
           git push
