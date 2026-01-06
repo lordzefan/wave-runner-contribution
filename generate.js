@@ -1,84 +1,72 @@
 const fs = require("fs");
-const axios = require("axios");
-
-const USERNAME = "lordzefan";
-const GRAPHQL_URL = "https://api.github.com/graphql";
 
 /* =======================
-   FETCH CONTRIBUTIONS
+   CONFIG
 ======================= */
-async function fetchContributions() {
-  const res = await axios.post(
-    GRAPHQL_URL,
-    {
-      query: `
-      query {
-        user(login: "${USERNAME}") {
-          contributionsCollection {
-            contributionCalendar {
-              weeks {
-                contributionDays {
-                  contributionCount
-                }
-              }
-            }
-          }
-        }
-      }
-      `
-    },
-    {
-      headers: {
-        Authorization: `Bearer ${process.env.GITHUB_TOKEN}`
-      }
-    }
-  );
+const WIDTH = 900;
+const HEIGHT = 180;
+const BASELINE = 90;
+const POINTS = 140;
 
-  return res.data.data.user.contributionsCollection.contributionCalendar.weeks
-    .flatMap(w => w.contributionDays)
-    .map(d => d.contributionCount);
+/* =======================
+   GENERATE MUSIC WAVE
+======================= */
+function generateWavePoints() {
+  const points = [];
+  let phase = Math.random() * Math.PI * 2;
+
+  for (let i = 0; i < POINTS; i++) {
+    const t = i / POINTS;
+    const amp =
+      Math.sin(t * Math.PI * 2 + phase) * 28 +
+      Math.sin(t * Math.PI * 6 + phase * 0.7) * 16 +
+      Math.sin(t * Math.PI * 12) * 8;
+
+    points.push(BASELINE - amp);
+  }
+
+  return points;
 }
 
 /* =======================
-   BUILD SMOOTH WAVE PATH
+   BUILD SMOOTH PATH
 ======================= */
-function buildWavePath(data) {
-  const points = data.slice(-90); // AMBIL 90 HARI
-  let x = 0;
-  const step = 8;
+function buildPath(points) {
+  const step = WIDTH / (points.length - 1);
+  let d = `M 0 ${points[0]} `;
 
-  let path = "M0 90 ";
+  for (let i = 1; i < points.length; i++) {
+    const x = i * step;
+    const prevX = (i - 1) * step;
+    const cx = (prevX + x) / 2;
 
-  for (let i = 0; i < points.length; i++) {
-    const c = Math.min(points[i], 10); // clamp
-    const y = 90 - (c * c * 0.7);      // non-linear height
-    const cx = x + step / 2;
-
-    path += `Q ${cx} ${y} ${x + step} ${y} `;
-    x += step;
+    d += `Q ${cx} ${points[i - 1]} ${x} ${points[i]} `;
   }
 
-  path += `L${x} 120 L0 120 Z`;
-  return { path, width: x };
+  return d;
 }
 
 /* =======================
    GENERATE SVG
 ======================= */
-async function generateSVG() {
-  const data = await fetchContributions();
-  const { path: wavePath, width } = buildWavePath(data);
+function generateSVG() {
+  const waveA = buildPath(generateWavePoints());
+  const waveB = buildPath(generateWavePoints());
 
   const svg = `
-<svg viewBox="0 0 ${width} 120" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 ${WIDTH} ${HEIGHT}" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="waveGradient" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#00f5ff"/>
-      <stop offset="100%" stop-color="#003344"/>
+    <!-- Cyberpunk Gradient -->
+    <linearGradient id="cyberGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff2fdc"/>
+      <stop offset="45%" stop-color="#9b5cff"/>
+      <stop offset="75%" stop-color="#00f5ff"/>
+      <stop offset="100%" stop-color="#00f5ff"/>
     </linearGradient>
 
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="2" result="blur"/>
+    <!-- Neon Glow -->
+    <filter id="neonGlow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -87,33 +75,24 @@ async function generateSVG() {
   </defs>
 
   <!-- Background -->
-  <rect width="100%" height="100%" fill="#050b14"/>
+  <rect width="100%" height="100%" fill="#05010d"/>
 
-  <!-- Wave -->
-  <path id="wavePath" d="${wavePath}" fill="url(#waveGradient)">
-    <animateTransform
-      attributeName="transform"
-      type="translate"
-      from="0 0"
-      to="-8 0"
-      dur="2.5s"
-      repeatCount="indefinite" />
+  <!-- Music Wave -->
+  <path d="${waveA}"
+        stroke="url(#cyberGradient)"
+        stroke-width="3.5"
+        fill="none"
+        filter="url(#neonGlow)">
+    <animate
+      attributeName="d"
+      dur="2.4s"
+      repeatCount="indefinite"
+      values="
+        ${waveA};
+        ${waveB};
+        ${waveA}
+      " />
   </path>
-
-  <!-- Invisible path for runner -->
-  <path id="runnerPath" d="${wavePath}" fill="none"/>
-
-  <!-- Runner -->
-  <g filter="url(#glow)">
-    <circle r="4" fill="#ffffff">
-      <animateMotion
-        dur="5s"
-        repeatCount="indefinite"
-        rotate="auto">
-        <mpath href="#runnerPath"/>
-      </animateMotion>
-    </circle>
-  </g>
 </svg>
 `;
 
