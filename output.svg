@@ -23,2001 +23,1383 @@
 <g filter="url(#glow)">
 
 <rect x="0"
-      y="240"
+      y="250"
       width="14"
-      height="40"
+      height="30"
       fill="url(#grad)"
-      opacity="0.45171583423628925">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.4798869355211375">
   <animate attributeName="height"
-    dur="4.5137439113436235s"
+    dur="3.429948736620194s"
     repeatCount="indefinite"
-    values="40;150;40"
+    values="30;90;30"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="4.5137439113436235s"
+    dur="3.429948736620194s"
     repeatCount="indefinite"
-    values="240;130;240"
+    values="250;190;250"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="0.86s"
-    values="0.45171583423628925;1;0.45171583423628925"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="16"
-      y="240"
+      y="250"
       width="14"
-      height="40"
+      height="30"
       fill="url(#grad)"
-      opacity="0.7969691304407576">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.48546094532031187">
   <animate attributeName="height"
-    dur="3.9936677980110953s"
+    dur="4.82112620509918s"
     repeatCount="indefinite"
-    values="40;150;40"
+    values="30;90;30"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="3.9936677980110953s"
+    dur="4.82112620509918s"
     repeatCount="indefinite"
-    values="240;130;240"
+    values="250;190;250"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="0.54s"
-    values="0.7969691304407576;1;0.7969691304407576"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="32"
-      y="240"
+      y="250"
       width="14"
-      height="40"
+      height="30"
       fill="url(#grad)"
-      opacity="0.723060226464987">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.6611908288494666">
   <animate attributeName="height"
-    dur="4.893975780274932s"
+    dur="3.2617166031441247s"
     repeatCount="indefinite"
-    values="40;150;40"
+    values="30;90;30"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="4.893975780274932s"
+    dur="3.2617166031441247s"
     repeatCount="indefinite"
-    values="240;130;240"
+    values="250;190;250"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="0.84s"
-    values="0.723060226464987;1;0.723060226464987"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="48"
-      y="240"
+      y="250"
       width="14"
-      height="40"
+      height="30"
       fill="url(#grad)"
-      opacity="0.44766253884943713">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.7154521764950406">
   <animate attributeName="height"
-    dur="3.929690885603819s"
+    dur="4.610029764718476s"
     repeatCount="indefinite"
-    values="40;150;40"
+    values="30;90;30"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="3.929690885603819s"
+    dur="4.610029764718476s"
     repeatCount="indefinite"
-    values="240;130;240"
+    values="250;190;250"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="1.16s"
-    values="0.44766253884943713;1;0.44766253884943713"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="64"
-      y="240"
+      y="250"
       width="14"
-      height="40"
+      height="30"
       fill="url(#grad)"
-      opacity="0.5416097231516361">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.49853670691294866">
   <animate attributeName="height"
-    dur="4.270366758145358s"
+    dur="3.9061697610141968s"
     repeatCount="indefinite"
-    values="40;150;40"
+    values="30;90;30"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="4.270366758145358s"
+    dur="3.9061697610141968s"
     repeatCount="indefinite"
-    values="240;130;240"
+    values="250;190;250"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="0.72s"
-    values="0.5416097231516361;1;0.5416097231516361"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="80"
-      y="240"
+      y="250"
       width="14"
-      height="40"
+      height="30"
       fill="url(#grad)"
-      opacity="0.5547252581254407">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.4565628172049852">
   <animate attributeName="height"
-    dur="4.640107365104209s"
+    dur="3.7165522792884884s"
     repeatCount="indefinite"
-    values="40;150;40"
+    values="30;90;30"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="4.640107365104209s"
+    dur="3.7165522792884884s"
     repeatCount="indefinite"
-    values="240;130;240"
+    values="250;190;250"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="0.40s"
-    values="0.5547252581254407;1;0.5547252581254407"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="96"
-      y="240"
+      y="250"
       width="14"
-      height="40"
+      height="30"
       fill="url(#grad)"
-      opacity="0.6356951930596542">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.7724876759817145">
   <animate attributeName="height"
-    dur="4.957336784670815s"
+    dur="3.917677889530686s"
     repeatCount="indefinite"
-    values="40;150;40"
+    values="30;90;30"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="4.957336784670815s"
+    dur="3.917677889530686s"
     repeatCount="indefinite"
-    values="240;130;240"
+    values="250;190;250"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="0.69s"
-    values="0.6356951930596542;1;0.6356951930596542"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="112"
-      y="240"
+      y="250"
       width="14"
-      height="40"
+      height="30"
       fill="url(#grad)"
-      opacity="0.5035124835676922">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.49143247681756325">
   <animate attributeName="height"
-    dur="3.441970298500223s"
+    dur="4.631092618997858s"
     repeatCount="indefinite"
-    values="40;150;40"
+    values="30;90;30"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="3.441970298500223s"
+    dur="4.631092618997858s"
     repeatCount="indefinite"
-    values="240;130;240"
+    values="250;190;250"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="1.07s"
-    values="0.5035124835676922;1;0.5035124835676922"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="128"
-      y="240"
+      y="250"
       width="14"
-      height="40"
+      height="30"
       fill="url(#grad)"
-      opacity="0.7109930799424478">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.6435437753525398">
   <animate attributeName="height"
-    dur="4.199417141954531s"
+    dur="4.050800186360041s"
     repeatCount="indefinite"
-    values="40;150;40"
+    values="30;90;30"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="4.199417141954531s"
+    dur="4.050800186360041s"
     repeatCount="indefinite"
-    values="240;130;240"
+    values="250;190;250"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="0.54s"
-    values="0.7109930799424478;1;0.7109930799424478"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="144"
-      y="240"
+      y="250"
       width="14"
-      height="40"
+      height="30"
       fill="url(#grad)"
-      opacity="0.5659426529673895">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.4454692796079993">
   <animate attributeName="height"
-    dur="4.991711146543837s"
+    dur="3.866077292263881s"
     repeatCount="indefinite"
-    values="40;150;40"
+    values="30;90;30"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="4.991711146543837s"
+    dur="3.866077292263881s"
     repeatCount="indefinite"
-    values="240;130;240"
+    values="250;190;250"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="1.02s"
-    values="0.5659426529673895;1;0.5659426529673895"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="160"
-      y="240"
+      y="250"
       width="14"
-      height="40"
+      height="30"
       fill="url(#grad)"
-      opacity="0.6844481754679126">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.5136376890193145">
   <animate attributeName="height"
-    dur="4.181343859013463s"
+    dur="3.537416032544637s"
     repeatCount="indefinite"
-    values="40;150;40"
+    values="30;90;30"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="4.181343859013463s"
+    dur="3.537416032544637s"
     repeatCount="indefinite"
-    values="240;130;240"
+    values="250;190;250"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="0.69s"
-    values="0.6844481754679126;1;0.6844481754679126"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="176"
-      y="240"
+      y="250"
       width="14"
-      height="40"
+      height="30"
       fill="url(#grad)"
-      opacity="0.7945017764431461">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.7927450105611255">
   <animate attributeName="height"
-    dur="3.9782354081812037s"
+    dur="3.843065835164348s"
     repeatCount="indefinite"
-    values="40;150;40"
+    values="30;90;30"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="3.9782354081812037s"
+    dur="3.843065835164348s"
     repeatCount="indefinite"
-    values="240;130;240"
+    values="250;190;250"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="0.49s"
-    values="0.7945017764431461;1;0.7945017764431461"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="192"
-      y="240"
+      y="250"
       width="14"
-      height="40"
+      height="30"
       fill="url(#grad)"
-      opacity="0.4272408141242798">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.5065206969485686">
   <animate attributeName="height"
-    dur="3.9513110315233777s"
+    dur="3.6433843997397246s"
     repeatCount="indefinite"
-    values="40;150;40"
+    values="30;90;30"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="3.9513110315233777s"
+    dur="3.6433843997397246s"
     repeatCount="indefinite"
-    values="240;130;240"
+    values="250;190;250"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="0.51s"
-    values="0.4272408141242798;1;0.4272408141242798"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="208"
-      y="240"
+      y="250"
       width="14"
-      height="40"
+      height="30"
       fill="url(#grad)"
-      opacity="0.6173466434444531">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.669743280391051">
   <animate attributeName="height"
-    dur="4.536374778173155s"
+    dur="3.890151835535217s"
     repeatCount="indefinite"
-    values="40;150;40"
+    values="30;90;30"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="4.536374778173155s"
+    dur="3.890151835535217s"
     repeatCount="indefinite"
-    values="240;130;240"
+    values="250;190;250"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="0.60s"
-    values="0.6173466434444531;1;0.6173466434444531"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="224"
-      y="240"
+      y="250"
       width="14"
-      height="40"
+      height="30"
       fill="url(#grad)"
-      opacity="0.7313988245923253">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.7048673436702466">
   <animate attributeName="height"
-    dur="4.0825882674553675s"
+    dur="4.936695377077045s"
     repeatCount="indefinite"
-    values="40;150;40"
+    values="30;90;30"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="4.0825882674553675s"
+    dur="4.936695377077045s"
     repeatCount="indefinite"
-    values="240;130;240"
+    values="250;190;250"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="0.58s"
-    values="0.7313988245923253;1;0.7313988245923253"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="240"
-      y="240"
+      y="250"
       width="14"
-      height="40"
+      height="30"
       fill="url(#grad)"
-      opacity="0.4229342462286259">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.6348091052004255">
   <animate attributeName="height"
-    dur="3.5545684940551605s"
+    dur="4.1080972488814265s"
     repeatCount="indefinite"
-    values="40;150;40"
+    values="30;90;30"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="3.5545684940551605s"
+    dur="4.1080972488814265s"
     repeatCount="indefinite"
-    values="240;130;240"
+    values="250;190;250"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="0.49s"
-    values="0.4229342462286259;1;0.4229342462286259"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="256"
-      y="240"
+      y="250"
       width="14"
-      height="40"
+      height="30"
       fill="url(#grad)"
-      opacity="0.5936627555703718">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.6456054572782364">
   <animate attributeName="height"
-    dur="3.112810178968346s"
+    dur="4.57036157191272s"
     repeatCount="indefinite"
-    values="40;150;40"
+    values="30;90;30"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="3.112810178968346s"
+    dur="4.57036157191272s"
     repeatCount="indefinite"
-    values="240;130;240"
+    values="250;190;250"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="1.13s"
-    values="0.5936627555703718;1;0.5936627555703718"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="272"
-      y="240"
+      y="250"
       width="14"
-      height="40"
+      height="30"
       fill="url(#grad)"
-      opacity="0.6348547818473749">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.7952606536186531">
   <animate attributeName="height"
-    dur="4.025072854545787s"
+    dur="4.640755778331469s"
     repeatCount="indefinite"
-    values="40;150;40"
+    values="30;90;30"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="4.025072854545787s"
+    dur="4.640755778331469s"
     repeatCount="indefinite"
-    values="240;130;240"
+    values="250;190;250"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="1.06s"
-    values="0.6348547818473749;1;0.6348547818473749"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="288"
-      y="240"
+      y="250"
       width="14"
-      height="40"
+      height="30"
       fill="url(#grad)"
-      opacity="0.7135547897712822">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.5259408020297776">
   <animate attributeName="height"
-    dur="4.01736803872601s"
+    dur="4.250074758142264s"
     repeatCount="indefinite"
-    values="40;150;40"
+    values="30;90;30"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="4.01736803872601s"
+    dur="4.250074758142264s"
     repeatCount="indefinite"
-    values="240;130;240"
+    values="250;190;250"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="0.57s"
-    values="0.7135547897712822;1;0.7135547897712822"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="304"
-      y="240"
+      y="250"
       width="14"
-      height="40"
+      height="30"
       fill="url(#grad)"
-      opacity="0.6166341383627039">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.42692794796959144">
   <animate attributeName="height"
-    dur="4.790490724485969s"
+    dur="4.488080098181964s"
     repeatCount="indefinite"
-    values="40;150;40"
+    values="30;90;30"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="4.790490724485969s"
+    dur="4.488080098181964s"
     repeatCount="indefinite"
-    values="240;130;240"
+    values="250;190;250"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="0.31s"
-    values="0.6166341383627039;1;0.6166341383627039"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="320"
-      y="240"
+      y="250"
       width="14"
-      height="40"
+      height="30"
       fill="url(#grad)"
-      opacity="0.4352854478739039">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.7595101773219982">
   <animate attributeName="height"
-    dur="3.1539997106960875s"
+    dur="3.3170558287225984s"
     repeatCount="indefinite"
-    values="40;150;40"
+    values="30;90;30"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="3.1539997106960875s"
+    dur="3.3170558287225984s"
     repeatCount="indefinite"
-    values="240;130;240"
+    values="250;190;250"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="0.50s"
-    values="0.4352854478739039;1;0.4352854478739039"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="336"
-      y="250"
+      y="258"
       width="14"
-      height="30"
+      height="22"
       fill="url(#grad)"
-      opacity="0.6844892074273343">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.550245654885617">
   <animate attributeName="height"
-    dur="2.531624662328972s"
+    dur="1.991736191506365s"
     repeatCount="indefinite"
-    values="30;120;30"
+    values="22;80;22"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="2.531624662328972s"
+    dur="1.991736191506365s"
     repeatCount="indefinite"
-    values="250;160;250"
+    values="258;200;258"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="1.20s"
-    values="0.6844892074273343;1;0.6844892074273343"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="352"
-      y="250"
+      y="258"
       width="14"
-      height="30"
+      height="22"
       fill="url(#grad)"
-      opacity="0.4393071848990287">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.7303870145406053">
   <animate attributeName="height"
-    dur="2.482352311079243s"
+    dur="2.044619232358615s"
     repeatCount="indefinite"
-    values="30;120;30"
+    values="22;80;22"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="2.482352311079243s"
+    dur="2.044619232358615s"
     repeatCount="indefinite"
-    values="250;160;250"
+    values="258;200;258"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="0.38s"
-    values="0.4393071848990287;1;0.4393071848990287"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="368"
-      y="250"
+      y="258"
       width="14"
-      height="30"
+      height="22"
       fill="url(#grad)"
-      opacity="0.45959254124032767">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.5204900327508639">
   <animate attributeName="height"
-    dur="1.7509415055760584s"
+    dur="2.649260370545669s"
     repeatCount="indefinite"
-    values="30;120;30"
+    values="22;80;22"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="1.7509415055760584s"
+    dur="2.649260370545669s"
     repeatCount="indefinite"
-    values="250;160;250"
+    values="258;200;258"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="0.43s"
-    values="0.45959254124032767;1;0.45959254124032767"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="384"
-      y="250"
+      y="258"
       width="14"
-      height="30"
+      height="22"
       fill="url(#grad)"
-      opacity="0.6152668563260669">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.7549320757048198">
   <animate attributeName="height"
-    dur="2.3920970030869837s"
+    dur="2.5728470763185363s"
     repeatCount="indefinite"
-    values="30;120;30"
+    values="22;80;22"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="2.3920970030869837s"
+    dur="2.5728470763185363s"
     repeatCount="indefinite"
-    values="250;160;250"
+    values="258;200;258"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="0.73s"
-    values="0.6152668563260669;1;0.6152668563260669"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="400"
-      y="250"
+      y="258"
       width="14"
-      height="30"
+      height="22"
       fill="url(#grad)"
-      opacity="0.7061115064131789">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.577641451666311">
   <animate attributeName="height"
-    dur="1.9469710709356556s"
+    dur="2.7552394760417545s"
     repeatCount="indefinite"
-    values="30;120;30"
+    values="22;80;22"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="1.9469710709356556s"
+    dur="2.7552394760417545s"
     repeatCount="indefinite"
-    values="250;160;250"
+    values="258;200;258"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="0.37s"
-    values="0.7061115064131789;1;0.7061115064131789"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="416"
-      y="250"
+      y="258"
       width="14"
-      height="30"
+      height="22"
       fill="url(#grad)"
-      opacity="0.46487817523707087">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.6118442334258247">
   <animate attributeName="height"
-    dur="2.77568661561763s"
+    dur="2.1367809359575936s"
     repeatCount="indefinite"
-    values="30;120;30"
+    values="22;80;22"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="2.77568661561763s"
+    dur="2.1367809359575936s"
     repeatCount="indefinite"
-    values="250;160;250"
+    values="258;200;258"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="0.51s"
-    values="0.46487817523707087;1;0.46487817523707087"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="432"
-      y="250"
+      y="258"
       width="14"
-      height="30"
+      height="22"
       fill="url(#grad)"
-      opacity="0.5625205235073039">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.7041596898871594">
   <animate attributeName="height"
-    dur="1.9125308444014166s"
+    dur="1.9511533385773385s"
     repeatCount="indefinite"
-    values="30;120;30"
+    values="22;80;22"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="1.9125308444014166s"
+    dur="1.9511533385773385s"
     repeatCount="indefinite"
-    values="250;160;250"
+    values="258;200;258"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="0.65s"
-    values="0.5625205235073039;1;0.5625205235073039"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="448"
-      y="250"
+      y="258"
       width="14"
-      height="30"
+      height="22"
       fill="url(#grad)"
-      opacity="0.7873960476709208">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.5296615006621204">
   <animate attributeName="height"
-    dur="2.13561647173273s"
+    dur="2.044601101679395s"
     repeatCount="indefinite"
-    values="30;120;30"
+    values="22;80;22"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="2.13561647173273s"
+    dur="2.044601101679395s"
     repeatCount="indefinite"
-    values="250;160;250"
+    values="258;200;258"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="0.36s"
-    values="0.7873960476709208;1;0.7873960476709208"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="464"
-      y="250"
+      y="258"
       width="14"
-      height="30"
+      height="22"
       fill="url(#grad)"
-      opacity="0.5524525526232377">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.6564870673695529">
   <animate attributeName="height"
-    dur="2.6296954530286607s"
+    dur="2.121642173251583s"
     repeatCount="indefinite"
-    values="30;120;30"
+    values="22;80;22"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="2.6296954530286607s"
+    dur="2.121642173251583s"
     repeatCount="indefinite"
-    values="250;160;250"
+    values="258;200;258"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="0.90s"
-    values="0.5524525526232377;1;0.5524525526232377"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="480"
-      y="250"
+      y="258"
       width="14"
-      height="30"
+      height="22"
       fill="url(#grad)"
-      opacity="0.5307477283317604">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.6749490963526734">
   <animate attributeName="height"
-    dur="2.088659799855436s"
+    dur="2.227854246161269s"
     repeatCount="indefinite"
-    values="30;120;30"
+    values="22;80;22"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="2.088659799855436s"
+    dur="2.227854246161269s"
     repeatCount="indefinite"
-    values="250;160;250"
+    values="258;200;258"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="0.49s"
-    values="0.5307477283317604;1;0.5307477283317604"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="496"
-      y="250"
+      y="258"
       width="14"
-      height="30"
+      height="22"
       fill="url(#grad)"
-      opacity="0.5746236019603594">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.6141117217563682">
   <animate attributeName="height"
-    dur="1.615810616332538s"
+    dur="2.1671486163353206s"
     repeatCount="indefinite"
-    values="30;120;30"
+    values="22;80;22"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="1.615810616332538s"
+    dur="2.1671486163353206s"
     repeatCount="indefinite"
-    values="250;160;250"
+    values="258;200;258"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="0.93s"
-    values="0.5746236019603594;1;0.5746236019603594"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="512"
-      y="250"
+      y="258"
       width="14"
-      height="30"
+      height="22"
       fill="url(#grad)"
-      opacity="0.4855747408616414">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.5533252880946689">
   <animate attributeName="height"
-    dur="3.040472703447307s"
+    dur="2.612155521386973s"
     repeatCount="indefinite"
-    values="30;120;30"
+    values="22;80;22"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="3.040472703447307s"
+    dur="2.612155521386973s"
     repeatCount="indefinite"
-    values="250;160;250"
+    values="258;200;258"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="0.49s"
-    values="0.4855747408616414;1;0.4855747408616414"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="528"
-      y="250"
+      y="258"
       width="14"
-      height="30"
+      height="22"
       fill="url(#grad)"
-      opacity="0.5610910764648889">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.5959271283872998">
   <animate attributeName="height"
-    dur="3.028229257358272s"
+    dur="2.5529986908920277s"
     repeatCount="indefinite"
-    values="30;120;30"
+    values="22;80;22"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="3.028229257358272s"
+    dur="2.5529986908920277s"
     repeatCount="indefinite"
-    values="250;160;250"
+    values="258;200;258"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="0.52s"
-    values="0.5610910764648889;1;0.5610910764648889"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="544"
-      y="250"
+      y="258"
       width="14"
-      height="30"
+      height="22"
       fill="url(#grad)"
-      opacity="0.40350416007513745">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.7076993334836663">
   <animate attributeName="height"
-    dur="2.56977161592829s"
+    dur="1.6023443168991653s"
     repeatCount="indefinite"
-    values="30;120;30"
+    values="22;80;22"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="2.56977161592829s"
+    dur="1.6023443168991653s"
     repeatCount="indefinite"
-    values="250;160;250"
+    values="258;200;258"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="1.19s"
-    values="0.40350416007513745;1;0.40350416007513745"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="560"
-      y="250"
+      y="258"
       width="14"
-      height="30"
+      height="22"
       fill="url(#grad)"
-      opacity="0.40607310074110753">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.5718931506472371">
   <animate attributeName="height"
-    dur="2.766063931677667s"
+    dur="1.684177293186841s"
     repeatCount="indefinite"
-    values="30;120;30"
+    values="22;80;22"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="2.766063931677667s"
+    dur="1.684177293186841s"
     repeatCount="indefinite"
-    values="250;160;250"
+    values="258;200;258"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="0.53s"
-    values="0.40607310074110753;1;0.40607310074110753"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="576"
-      y="250"
+      y="258"
       width="14"
-      height="30"
+      height="22"
       fill="url(#grad)"
-      opacity="0.7949196355876125">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.4514303052771229">
   <animate attributeName="height"
-    dur="2.8153149776089776s"
+    dur="2.83638051972886s"
     repeatCount="indefinite"
-    values="30;120;30"
+    values="22;80;22"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="2.8153149776089776s"
+    dur="2.83638051972886s"
     repeatCount="indefinite"
-    values="250;160;250"
+    values="258;200;258"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="0.56s"
-    values="0.7949196355876125;1;0.7949196355876125"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="592"
-      y="250"
+      y="258"
       width="14"
-      height="30"
+      height="22"
       fill="url(#grad)"
-      opacity="0.774615928839409">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.5081009567403063">
   <animate attributeName="height"
-    dur="2.8916424964830725s"
+    dur="1.630422555284918s"
     repeatCount="indefinite"
-    values="30;120;30"
+    values="22;80;22"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="2.8916424964830725s"
+    dur="1.630422555284918s"
     repeatCount="indefinite"
-    values="250;160;250"
+    values="258;200;258"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="0.41s"
-    values="0.774615928839409;1;0.774615928839409"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="608"
-      y="250"
+      y="258"
       width="14"
-      height="30"
+      height="22"
       fill="url(#grad)"
-      opacity="0.7646495504654051">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.7248002262680557">
   <animate attributeName="height"
-    dur="2.5564214322484258s"
+    dur="2.9672270084929537s"
     repeatCount="indefinite"
-    values="30;120;30"
+    values="22;80;22"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="2.5564214322484258s"
+    dur="2.9672270084929537s"
     repeatCount="indefinite"
-    values="250;160;250"
+    values="258;200;258"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="0.72s"
-    values="0.7646495504654051;1;0.7646495504654051"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="624"
-      y="250"
+      y="258"
       width="14"
-      height="30"
+      height="22"
       fill="url(#grad)"
-      opacity="0.7384937581082437">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.6665067664882451">
   <animate attributeName="height"
-    dur="1.8592905200871035s"
+    dur="2.4669378444002446s"
     repeatCount="indefinite"
-    values="30;120;30"
+    values="22;80;22"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="1.8592905200871035s"
+    dur="2.4669378444002446s"
     repeatCount="indefinite"
-    values="250;160;250"
+    values="258;200;258"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="1.22s"
-    values="0.7384937581082437;1;0.7384937581082437"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="640"
-      y="260"
+      y="265"
       width="14"
-      height="20"
+      height="15"
       fill="url(#grad)"
-      opacity="0.6325830348200583">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.44350151111871894">
   <animate attributeName="height"
-    dur="1.5277013698087356s"
+    dur="1.2931224929963638s"
     repeatCount="indefinite"
-    values="20;80;20"
+    values="15;60;15"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="1.5277013698087356s"
+    dur="1.2931224929963638s"
     repeatCount="indefinite"
-    values="260;200;260"
+    values="265;220;265"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="1.25s"
-    values="0.6325830348200583;1;0.6325830348200583"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="656"
-      y="260"
+      y="265"
       width="14"
-      height="20"
+      height="15"
       fill="url(#grad)"
-      opacity="0.7889032104988404">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.5034462988515512">
   <animate attributeName="height"
-    dur="1.2958319781570269s"
+    dur="1.2763304126008148s"
     repeatCount="indefinite"
-    values="20;80;20"
+    values="15;60;15"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="1.2958319781570269s"
+    dur="1.2763304126008148s"
     repeatCount="indefinite"
-    values="260;200;260"
+    values="265;220;265"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="0.69s"
-    values="0.7889032104988404;1;0.7889032104988404"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="672"
-      y="260"
+      y="265"
       width="14"
-      height="20"
+      height="15"
       fill="url(#grad)"
-      opacity="0.6868592832286264">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.7883635881983593">
   <animate attributeName="height"
-    dur="1.6998344855490086s"
+    dur="1.282176095559389s"
     repeatCount="indefinite"
-    values="20;80;20"
+    values="15;60;15"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="1.6998344855490086s"
+    dur="1.282176095559389s"
     repeatCount="indefinite"
-    values="260;200;260"
+    values="265;220;265"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="0.88s"
-    values="0.6868592832286264;1;0.6868592832286264"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="688"
-      y="260"
+      y="265"
       width="14"
-      height="20"
+      height="15"
       fill="url(#grad)"
-      opacity="0.44348743643298427">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.7536059819913294">
   <animate attributeName="height"
-    dur="0.9687763970530239s"
+    dur="1.7634544203402849s"
     repeatCount="indefinite"
-    values="20;80;20"
+    values="15;60;15"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="0.9687763970530239s"
+    dur="1.7634544203402849s"
     repeatCount="indefinite"
-    values="260;200;260"
+    values="265;220;265"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="0.75s"
-    values="0.44348743643298427;1;0.44348743643298427"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="704"
-      y="260"
+      y="265"
       width="14"
-      height="20"
+      height="15"
       fill="url(#grad)"
-      opacity="0.45625625374873285">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.5975520037150202">
   <animate attributeName="height"
-    dur="1.2640599607282932s"
+    dur="1.1130586467717218s"
     repeatCount="indefinite"
-    values="20;80;20"
+    values="15;60;15"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="1.2640599607282932s"
+    dur="1.1130586467717218s"
     repeatCount="indefinite"
-    values="260;200;260"
+    values="265;220;265"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="0.77s"
-    values="0.45625625374873285;1;0.45625625374873285"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="720"
-      y="260"
+      y="265"
       width="14"
-      height="20"
+      height="15"
       fill="url(#grad)"
-      opacity="0.7144137399773499">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.7578059405340828">
   <animate attributeName="height"
-    dur="1.5174724212341646s"
+    dur="1.7167936765454501s"
     repeatCount="indefinite"
-    values="20;80;20"
+    values="15;60;15"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="1.5174724212341646s"
+    dur="1.7167936765454501s"
     repeatCount="indefinite"
-    values="260;200;260"
+    values="265;220;265"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="0.72s"
-    values="0.7144137399773499;1;0.7144137399773499"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="736"
-      y="260"
+      y="265"
       width="14"
-      height="20"
+      height="15"
       fill="url(#grad)"
-      opacity="0.7678660369452259">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.5070186630653598">
   <animate attributeName="height"
-    dur="1.2486729880637375s"
+    dur="1.4598507941961119s"
     repeatCount="indefinite"
-    values="20;80;20"
+    values="15;60;15"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="1.2486729880637375s"
+    dur="1.4598507941961119s"
     repeatCount="indefinite"
-    values="260;200;260"
+    values="265;220;265"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="0.86s"
-    values="0.7678660369452259;1;0.7678660369452259"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="752"
-      y="260"
+      y="265"
       width="14"
-      height="20"
+      height="15"
       fill="url(#grad)"
-      opacity="0.7320624940281505">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.4687770669484689">
   <animate attributeName="height"
-    dur="1.2057741183553665s"
+    dur="1.5926548898632524s"
     repeatCount="indefinite"
-    values="20;80;20"
+    values="15;60;15"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="1.2057741183553665s"
+    dur="1.5926548898632524s"
     repeatCount="indefinite"
-    values="260;200;260"
+    values="265;220;265"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="0.67s"
-    values="0.7320624940281505;1;0.7320624940281505"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="768"
-      y="260"
+      y="265"
       width="14"
-      height="20"
+      height="15"
       fill="url(#grad)"
-      opacity="0.6558736210611404">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.7716633709063149">
   <animate attributeName="height"
-    dur="1.0484862458412194s"
+    dur="0.8670971832045495s"
     repeatCount="indefinite"
-    values="20;80;20"
+    values="15;60;15"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="1.0484862458412194s"
+    dur="0.8670971832045495s"
     repeatCount="indefinite"
-    values="260;200;260"
+    values="265;220;265"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="0.95s"
-    values="0.6558736210611404;1;0.6558736210611404"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="784"
-      y="260"
+      y="265"
       width="14"
-      height="20"
+      height="15"
       fill="url(#grad)"
-      opacity="0.7704011065316001">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.6158840184900013">
   <animate attributeName="height"
-    dur="1.2893347585985147s"
+    dur="1.1949367524673535s"
     repeatCount="indefinite"
-    values="20;80;20"
+    values="15;60;15"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="1.2893347585985147s"
+    dur="1.1949367524673535s"
     repeatCount="indefinite"
-    values="260;200;260"
+    values="265;220;265"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="1.05s"
-    values="0.7704011065316001;1;0.7704011065316001"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="800"
-      y="260"
+      y="265"
       width="14"
-      height="20"
+      height="15"
       fill="url(#grad)"
-      opacity="0.6196692544418455">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.5047643214873343">
   <animate attributeName="height"
-    dur="0.9091285087986578s"
+    dur="1.6481285824352716s"
     repeatCount="indefinite"
-    values="20;80;20"
+    values="15;60;15"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="0.9091285087986578s"
+    dur="1.6481285824352716s"
     repeatCount="indefinite"
-    values="260;200;260"
+    values="265;220;265"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="1.17s"
-    values="0.6196692544418455;1;0.6196692544418455"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="816"
-      y="260"
+      y="265"
       width="14"
-      height="20"
+      height="15"
       fill="url(#grad)"
-      opacity="0.5805029161862039">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.77357591452173">
   <animate attributeName="height"
-    dur="0.9655660249590807s"
+    dur="1.2348785827280375s"
     repeatCount="indefinite"
-    values="20;80;20"
+    values="15;60;15"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="0.9655660249590807s"
+    dur="1.2348785827280375s"
     repeatCount="indefinite"
-    values="260;200;260"
+    values="265;220;265"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="0.69s"
-    values="0.5805029161862039;1;0.5805029161862039"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="832"
-      y="260"
+      y="265"
       width="14"
-      height="20"
+      height="15"
       fill="url(#grad)"
-      opacity="0.5486075494159857">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.7922945861585906">
   <animate attributeName="height"
-    dur="0.8396194594355768s"
+    dur="1.6375332756737269s"
     repeatCount="indefinite"
-    values="20;80;20"
+    values="15;60;15"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="0.8396194594355768s"
+    dur="1.6375332756737269s"
     repeatCount="indefinite"
-    values="260;200;260"
+    values="265;220;265"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="0.31s"
-    values="0.5486075494159857;1;0.5486075494159857"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="848"
-      y="260"
+      y="265"
       width="14"
-      height="20"
+      height="15"
       fill="url(#grad)"
-      opacity="0.48797125074048725">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.6799576845454562">
   <animate attributeName="height"
-    dur="1.6905287680450154s"
+    dur="1.1985323065412503s"
     repeatCount="indefinite"
-    values="20;80;20"
+    values="15;60;15"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="1.6905287680450154s"
+    dur="1.1985323065412503s"
     repeatCount="indefinite"
-    values="260;200;260"
+    values="265;220;265"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="0.90s"
-    values="0.48797125074048725;1;0.48797125074048725"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="864"
-      y="260"
+      y="265"
       width="14"
-      height="20"
+      height="15"
       fill="url(#grad)"
-      opacity="0.579805084241219">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.7561045110725236">
   <animate attributeName="height"
-    dur="0.8057509694179212s"
+    dur="1.4894648548529625s"
     repeatCount="indefinite"
-    values="20;80;20"
+    values="15;60;15"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="0.8057509694179212s"
+    dur="1.4894648548529625s"
     repeatCount="indefinite"
-    values="260;200;260"
+    values="265;220;265"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="0.35s"
-    values="0.579805084241219;1;0.579805084241219"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="880"
-      y="260"
+      y="265"
       width="14"
-      height="20"
+      height="15"
       fill="url(#grad)"
-      opacity="0.4918744198190404">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.43356044742736294">
   <animate attributeName="height"
-    dur="0.8418437059489188s"
+    dur="1.2325917055076685s"
     repeatCount="indefinite"
-    values="20;80;20"
+    values="15;60;15"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="0.8418437059489188s"
+    dur="1.2325917055076685s"
     repeatCount="indefinite"
-    values="260;200;260"
+    values="265;220;265"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="0.87s"
-    values="0.4918744198190404;1;0.4918744198190404"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="896"
-      y="260"
+      y="265"
       width="14"
-      height="20"
+      height="15"
       fill="url(#grad)"
-      opacity="0.701128560668298">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.6089290124401696">
   <animate attributeName="height"
-    dur="1.7375422427110065s"
+    dur="1.1995585579206887s"
     repeatCount="indefinite"
-    values="20;80;20"
+    values="15;60;15"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="1.7375422427110065s"
+    dur="1.1995585579206887s"
     repeatCount="indefinite"
-    values="260;200;260"
+    values="265;220;265"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="0.89s"
-    values="0.701128560668298;1;0.701128560668298"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="912"
-      y="260"
+      y="265"
       width="14"
-      height="20"
+      height="15"
       fill="url(#grad)"
-      opacity="0.7499641028327284">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.5018843689564091">
   <animate attributeName="height"
-    dur="1.204787563628499s"
+    dur="1.6137096407310936s"
     repeatCount="indefinite"
-    values="20;80;20"
+    values="15;60;15"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="1.204787563628499s"
+    dur="1.6137096407310936s"
     repeatCount="indefinite"
-    values="260;200;260"
+    values="265;220;265"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="0.87s"
-    values="0.7499641028327284;1;0.7499641028327284"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="928"
-      y="260"
+      y="265"
       width="14"
-      height="20"
+      height="15"
       fill="url(#grad)"
-      opacity="0.6078856701491443">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.6433923764494949">
   <animate attributeName="height"
-    dur="1.2109949058884375s"
+    dur="1.6041879370083532s"
     repeatCount="indefinite"
-    values="20;80;20"
+    values="15;60;15"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="1.2109949058884375s"
+    dur="1.6041879370083532s"
     repeatCount="indefinite"
-    values="260;200;260"
+    values="265;220;265"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="1.16s"
-    values="0.6078856701491443;1;0.6078856701491443"
-    repeatCount="indefinite"/>
 </rect>
 
 <rect x="944"
-      y="260"
+      y="265"
       width="14"
-      height="20"
+      height="15"
       fill="url(#grad)"
-      opacity="0.678824368874851">
-
-  <!-- MAIN HEIGHT -->
+      opacity="0.5264420055065084">
   <animate attributeName="height"
-    dur="1.5364806996046454s"
+    dur="1.5781393011939784s"
     repeatCount="indefinite"
-    values="20;80;20"
+    values="15;60;15"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- LOCK BOTTOM -->
   <animate attributeName="y"
-    dur="1.5364806996046454s"
+    dur="1.5781393011939784s"
     repeatCount="indefinite"
-    values="260;200;260"
+    values="265;220;265"
     keyTimes="0;0.5;1"
     calcMode="spline"
     keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-
-  <!-- GLITCH (VISUAL ONLY) -->
-  <animate attributeName="opacity"
-    dur="1.26s"
-    values="0.678824368874851;1;0.678824368874851"
-    repeatCount="indefinite"/>
 </rect>
 
 </g>
 
-<!-- WAVES -->
+<!-- VERTICAL WAVES -->
 
 <g opacity="0.18" >
-  <path d="M 0 139.77105931362965 Q 2 139.77105931362965 4 139.71308290268212 Q 6 139.71308290268212 8 139.86307388683596 Q 10 139.86307388683596 12 140.22638725855643 Q 14 140.22638725855643 16 140.80157154835624 Q 18 140.80157154835624 20 141.58027419499865 Q 22 141.58027419499865 24 142.547422684289 Q 26 142.547422684289 28 143.68167555475728 Q 30 143.68167555475728 32 144.9561258351135 Q 34 144.9561258351135 36 146.33922868199713 Q 38 146.33922868199713 40 147.79591539651196 Q 42 147.79591539651196 44 149.28884803117847 Q 46 149.28884803117847 48 150.77976280148116 Q 50 150.77976280148116 52 152.23084674864378 Q 54 152.23084674864378 56 153.6060907260478 Q 58 153.6060907260478 60 154.87256286000823 Q 62 154.87256286000823 64 156.00155011883925 Q 66 156.00155011883925 68 156.96952135995576 Q 70 156.96952135995576 72 157.7588729628039 Q 74 157.7588729628039 76 158.35842755819883 Q 78 158.35842755819883 80 158.76366702232124 Q 82 158.76366702232124 84 158.97669235184446 Q 86 158.97669235184446 88 159.00591477691225 Q 90 159.00591477691225 92 158.86549399000393 Q 94 158.86549399000393 96 158.57455017003883 Q 98 158.57455017003883 100 158.15618609306532 Q 102 158.15618609306532 104 157.63636362646295 Q 106 157.63636362646295 108 157.04268495610964 Q 110 157.04268495610964 112 156.40313273431175 Q 114 156.40313273431175 116 155.7448247962809 Q 118 155.7448247962809 120 155.0928381144261 Q 122 155.0928381144261 124 154.46915328923058 Q 126 154.46915328923058 128 153.8917652640752 Q 130 153.8917652640752 132 153.37399834806496 Q 134 153.37399834806496 136 152.92405437172295 Q 138 152.92405437172295 140 152.54481229361812 Q 142 152.54481229361812 144 152.23388628427563 Q 146 152.23388628427563 148 151.9839377338868 Q 150 151.9839377338868 152 151.78322527159133 Q 154 151.78322527159133 156 151.61636624573478 Q 158 151.61636624573478 160 151.4652736640491 Q 162 151.4652736640491 164 151.31022474547342 Q 166 151.31022474547342 168 151.1310113362518 Q 170 151.1310113362518 172 150.90811875143967 Q 174 150.90811875143967 176 150.62387828160493 Q 178 150.62387828160493 180 150.26353971193603 Q 182 150.26353971193603 184 149.81621368924806 Q 186 149.81621368924806 188 149.27563948913308 Q 190 149.27563948913308 192 148.64074143057474 Q 194 148.64074143057474 196 147.91594652172196 Q 198 147.91594652172196 200 147.11124648906195 Q 202 147.11124648906195 204 146.24199867959092 Q 206 146.24199867959092 208 145.32847193444366 Q 210 145.32847193444366 212 144.39515490329126 Q 214 144.39515490329126 216 143.46985490222926 Q 218 143.46985490222926 220 142.58262484637365 Q 222 142.58262484637365 224 141.76456359688515 Q 226 141.76456359688515 228 141.04654090615742 Q 230 141.04654090615742 232 140.4579017656048 Q 234 140.4579017656048 236 140.0252061960664 Q 238 140.0252061960664 240 139.77105931362965 Q 242 139.77105931362965 244 139.71308290268212 Q 246 139.71308290268212 248 139.86307388683596 Q 250 139.86307388683596 252 140.22638725855643 Q 254 140.22638725855643 256 140.80157154835624 Q 258 140.80157154835624 260 141.58027419499865 Q 262 141.58027419499865 264 142.547422684289 Q 266 142.547422684289 268 143.68167555475728 Q 270 143.68167555475728 272 144.9561258351135 Q 274 144.9561258351135 276 146.3392286819971 Q 278 146.3392286819971 280 147.79591539651196 Q 282 147.79591539651196 284 149.28884803117847 Q 286 149.28884803117847 288 150.77976280148116 Q 290 150.77976280148116 292 152.23084674864378 Q 294 152.23084674864378 296 153.6060907260478 Q 298 153.6060907260478 300 154.87256286000823 Q 302 154.87256286000823 304 156.00155011883922 Q 306 156.00155011883922 308 156.9695213599558 Q 310 156.9695213599558 312 157.7588729628039 Q 314 157.7588729628039 316 158.35842755819883 Q 318 158.35842755819883 320 158.76366702232124 Q 322 158.76366702232124 324 158.97669235184446 Q 326 158.97669235184446 328 159.00591477691225 Q 330 159.00591477691225 332 158.86549399000393 Q 334 158.86549399000393 336 158.57455017003883 Q 338 158.57455017003883 340 158.15618609306532 Q 342 158.15618609306532 344 157.63636362646295 Q 346 157.63636362646295 348 157.04268495610964 Q 350 157.04268495610964 352 156.40313273431178 Q 354 156.40313273431178 356 155.7448247962809 Q 358 155.7448247962809 360 155.0928381144261 Q 362 155.0928381144261 364 154.46915328923058 Q 366 154.46915328923058 368 153.8917652640752 Q 370 153.8917652640752 372 153.37399834806496 Q 374 153.37399834806496 376 152.92405437172295 Q 378 152.92405437172295 380 152.54481229361812 Q 382 152.54481229361812 384 152.23388628427563 Q 386 152.23388628427563 388 151.9839377338868 Q 390 151.9839377338868 392 151.78322527159133 Q 394 151.78322527159133 396 151.61636624573478 Q 398 151.61636624573478 400 151.4652736640491 Q 402 151.4652736640491 404 151.31022474547342 Q 406 151.31022474547342 408 151.13101133625176 Q 410 151.13101133625176 412 150.90811875143967 Q 414 150.90811875143967 416 150.62387828160493 Q 418 150.62387828160493 420 150.26353971193603 Q 422 150.26353971193603 424 149.81621368924806 Q 426 149.81621368924806 428 149.27563948913308 Q 430 149.27563948913308 432 148.64074143057474 Q 434 148.64074143057474 436 147.91594652172196 Q 438 147.91594652172196 440 147.11124648906198 Q 442 147.11124648906198 444 146.24199867959095 Q 446 146.24199867959095 448 145.32847193444366 Q 450 145.32847193444366 452 144.39515490329126 Q 454 144.39515490329126 456 143.46985490222926 Q 458 143.46985490222926 460 142.58262484637365 Q 462 142.58262484637365 464 141.76456359688515 Q 466 141.76456359688515 468 141.04654090615742 Q 470 141.04654090615742 472 140.4579017656048 Q 474 140.4579017656048 476 140.0252061960664 Q 478 140.0252061960664 480 139.77105931362968 Q 482 139.77105931362968 484 139.71308290268212 Q 486 139.71308290268212 488 139.86307388683596 Q 490 139.86307388683596 492 140.2263872585564 Q 494 140.2263872585564 496 140.80157154835624 Q 498 140.80157154835624 500 141.58027419499868 Q 502 141.58027419499868 504 142.547422684289 Q 506 142.547422684289 508 143.68167555475728 Q 510 143.68167555475728 512 144.95612583511348 Q 514 144.95612583511348 516 146.33922868199713 Q 518 146.33922868199713 520 147.79591539651193 Q 522 147.79591539651193 524 149.28884803117847 Q 526 149.28884803117847 528 150.77976280148118 Q 530 150.77976280148118 532 152.23084674864378 Q 534 152.23084674864378 536 153.6060907260478 Q 538 153.6060907260478 540 154.8725628600082 Q 542 154.8725628600082 544 156.00155011883922 Q 546 156.00155011883922 548 156.96952135995576 Q 550 156.96952135995576 552 157.75887296280388 Q 554 157.75887296280388 556 158.35842755819883 Q 558 158.35842755819883 560 158.76366702232124 Q 562 158.76366702232124 564 158.97669235184446 Q 566 158.97669235184446 568 159.00591477691225 Q 570 159.00591477691225 572 158.86549399000393 Q 574 158.86549399000393 576 158.57455017003883 Q 578 158.57455017003883 580 158.15618609306532 Q 582 158.15618609306532 584 157.63636362646295 Q 586 157.63636362646295 588 157.04268495610964 Q 590 157.04268495610964 592 156.40313273431178 Q 594 156.40313273431178 596 155.7448247962809 Q 598 155.7448247962809 600 155.0928381144261 Q 602 155.0928381144261 604 154.4691532892306 Q 606 154.4691532892306 608 153.8917652640752 Q 610 153.8917652640752 612 153.37399834806496 Q 614 153.37399834806496 616 152.92405437172295 Q 618 152.92405437172295 620 152.54481229361812 Q 622 152.54481229361812 624 152.23388628427563 Q 626 152.23388628427563 628 151.9839377338868 Q 630 151.9839377338868 632 151.7832252715913 Q 634 151.7832252715913 636 151.61636624573478 Q 638 151.61636624573478 640 151.4652736640491 Q 642 151.4652736640491 644 151.31022474547342 Q 646 151.31022474547342 648 151.13101133625176 Q 650 151.13101133625176 652 150.90811875143967 Q 654 150.90811875143967 656 150.62387828160493 Q 658 150.62387828160493 660 150.26353971193603 Q 662 150.26353971193603 664 149.81621368924806 Q 666 149.81621368924806 668 149.27563948913308 Q 670 149.27563948913308 672 148.64074143057474 Q 674 148.64074143057474 676 147.91594652172196 Q 678 147.91594652172196 680 147.11124648906195 Q 682 147.11124648906195 684 146.24199867959092 Q 686 146.24199867959092 688 145.32847193444368 Q 690 145.32847193444368 692 144.39515490329126 Q 694 144.39515490329126 696 143.46985490222926 Q 698 143.46985490222926 700 142.58262484637365 Q 702 142.58262484637365 704 141.76456359688518 Q 706 141.76456359688518 708 141.04654090615742 Q 710 141.04654090615742 712 140.45790176560476 Q 714 140.45790176560476 716 140.0252061960664 Q 718 140.0252061960664 720 139.77105931362968 Q 722 139.77105931362968 724 139.71308290268212 Q 726 139.71308290268212 728 139.86307388683596 Q 730 139.86307388683596 732 140.2263872585564 Q 734 140.2263872585564 736 140.80157154835626 Q 738 140.80157154835626 740 141.58027419499865 Q 742 141.58027419499865 744 142.547422684289 Q 746 142.547422684289 748 143.68167555475728 Q 750 143.68167555475728 752 144.9561258351135 Q 754 144.9561258351135 756 146.3392286819971 Q 758 146.3392286819971 760 147.79591539651193 Q 762 147.79591539651193 764 149.28884803117847 Q 766 149.28884803117847 768 150.77976280148116 Q 770 150.77976280148116 772 152.23084674864378 Q 774 152.23084674864378 776 153.6060907260478 Q 778 153.6060907260478 780 154.87256286000826 Q 782 154.87256286000826 784 156.00155011883922 Q 786 156.00155011883922 788 156.96952135995576 Q 790 156.96952135995576 792 157.7588729628039 Q 794 157.7588729628039 796 158.35842755819883 Q 798 158.35842755819883 800 158.76366702232124 Q 802 158.76366702232124 804 158.97669235184446 Q 806 158.97669235184446 808 159.00591477691228 Q 810 159.00591477691228 812 158.86549399000393 Q 814 158.86549399000393 816 158.57455017003883 Q 818 158.57455017003883 820 158.15618609306532 Q 822 158.15618609306532 824 157.63636362646298 Q 826 157.63636362646298 828 157.04268495610964 Q 830 157.04268495610964 832 156.40313273431175 Q 834 156.40313273431175 836 155.7448247962809 Q 838 155.7448247962809 840 155.0928381144261 Q 842 155.0928381144261 844 154.46915328923058 Q 846 154.46915328923058 848 153.8917652640752 Q 850 153.8917652640752 852 153.37399834806496 Q 854 153.37399834806496 856 152.92405437172295 Q 858 152.92405437172295 860 152.54481229361812 Q 862 152.54481229361812 864 152.23388628427563 Q 866 152.23388628427563 868 151.9839377338868 Q 870 151.9839377338868 872 151.78322527159133 Q 874 151.78322527159133 876 151.61636624573478 Q 878 151.61636624573478 880 151.4652736640491 Q 882 151.4652736640491 884 151.31022474547342 Q 886 151.31022474547342 888 151.1310113362518 Q 890 151.1310113362518 892 150.90811875143967 Q 894 150.90811875143967 896 150.62387828160493 Q 898 150.62387828160493 900 150.26353971193603 Q 902 150.26353971193603 904 149.81621368924806 Q 906 149.81621368924806 908 149.27563948913308 Q 910 149.27563948913308 912 148.64074143057474 Q 914 148.64074143057474 916 147.91594652172196 Q 918 147.91594652172196 920 147.11124648906195 Q 922 147.11124648906195 924 146.24199867959092 Q 926 146.24199867959092 928 145.32847193444368 Q 930 145.32847193444368 932 144.39515490329126 Q 934 144.39515490329126 936 143.46985490222926 Q 938 143.46985490222926 940 142.58262484637365 Q 942 142.58262484637365 944 141.76456359688518 Q 946 141.76456359688518 948 141.04654090615742 Q 950 141.04654090615742 952 140.4579017656048 Q 954 140.4579017656048 956 140.0252061960664 Q 958 140.0252061960664 960 139.77105931362965 " stroke="url(#grad)" stroke-width="2" fill="none">
+  <path d="M 0 140 Q 2.1818181818181817 140 4.363636363636363 138.94686853229678 Q 6.545454545454545 138.94686853229678 8.727272727272727 137.89811159088464 Q 10.909090909090908 137.89811159088464 13.09090909090909 136.85807434196192 Q 15.272727272727272 136.85807434196192 17.454545454545453 135.83104344471306 Q 19.636363636363633 135.83104344471306 21.818181818181817 134.82121832916897 Q 24 134.82121832916897 26.18181818181818 133.83268310734547 Q 28.36363636363636 133.83268310734547 30.545454545454543 132.86937932151594 Q 32.72727272727273 132.86937932151594 34.90909090909091 131.93507972734037 Q 37.090909090909086 131.93507972734037 39.272727272727266 131.03336330198889 Q 41.45454545454545 131.03336330198889 43.63636363636363 130.16759165842245 Q 45.81818181818182 130.16759165842245 48 129.34088703668877 Q 50.18181818181818 129.34088703668877 52.36363636363636 128.55611203153725 Q 54.54545454545454 128.55611203153725 56.72727272727272 127.8158512029329 Q 58.90909090909091 127.8158512029329 61.090909090909086 127.12239470225481 Q 63.27272727272727 127.12239470225481 65.45454545454545 126.47772403219471 Q 67.63636363636363 126.47772403219471 69.81818181818181 125.88350004273994 Q 71.99999999999999 125.88350004273994 74.18181818181817 125.34105324924201 Q 76.36363636363635 125.34105324924201 78.54545454545453 124.85137654156154 Q 80.72727272727272 124.85137654156154 82.9090909090909 124.41512033576403 Q 85.09090909090908 124.41512033576403 87.27272727272727 124.03259020194938 Q 89.45454545454544 124.03259020194938 91.63636363636363 123.70374698366146 Q 93.81818181818181 123.70374698366146 96 123.42820940607601 Q 98.18181818181817 123.42820940607601 100.36363636363636 123.20525915193855 Q 102.54545454545453 123.20525915193855 104.72727272727272 123.0338483661541 Q 106.90909090909089 123.0338483661541 109.09090909090908 122.91260953214842 Q 111.27272727272725 122.91260953214842 113.45454545454544 122.83986764575732 Q 115.63636363636363 122.83986764575732 117.81818181818181 122.81365459558336 Q 119.99999999999999 122.81365459558336 122.18181818181817 122.83172564261233 Q 124.36363636363635 122.83172564261233 126.54545454545453 122.89157787652145 Q 128.72727272727272 122.89157787652145 130.9090909090909 122.99047051165309 Q 133.09090909090907 122.99047051165309 135.27272727272725 123.12544687217476 Q 137.45454545454544 123.12544687217476 139.63636363636363 123.29335790359949 Q 141.8181818181818 123.29335790359949 144 123.49088703668878 Q 146.18181818181816 123.49088703668878 148.36363636363635 123.71457621988775 Q 150.54545454545453 123.71457621988775 152.72727272727272 123.96085292791705 Q 154.90909090909088 123.96085292791705 157.09090909090907 124.22605794703597 Q 159.27272727272725 124.22605794703597 161.45454545454544 124.5064737318443 Q 163.63636363636363 124.5064737318443 165.8181818181818 124.79835312434975 Q 167.99999999999997 124.79835312434975 170.18181818181816 125.09794822342374 Q 172.36363636363635 125.09794822342374 174.54545454545453 125.40153919171968 Q 176.72727272727272 125.40153919171968 178.9090909090909 125.70546278764174 Q 181.09090909090907 125.70546278764174 183.27272727272725 126.00614041202616 Q 185.45454545454544 126.00614041202616 187.63636363636363 126.30010546281402 Q 189.8181818181818 126.30010546281402 192 126.58402979612981 Q 194.18181818181816 126.58402979612981 196.36363636363635 126.85474909879434 Q 198.54545454545453 126.85474909879434 200.72727272727272 127.10928698534624 Q 202.90909090909088 127.10928698534624 205.09090909090907 127.34487764206422 Q 207.27272727272725 127.34487764206422 209.45454545454544 127.55898685120239 Q 211.63636363636363 127.55898685120239 213.8181818181818 127.74933124059612 Q 215.99999999999997 127.74933124059612 218.18181818181816 127.91389561687667 Q 220.36363636363635 127.91389561687667 222.54545454545453 128.0509482546551 Q 224.7272727272727 128.0509482546551 226.90909090909088 128.15905402909388 Q 229.09090909090907 128.15905402909388 231.27272727272725 128.23708529517003 Q 233.45454545454544 128.23708529517003 235.63636363636363 128.28423043352754 Q 237.81818181818178 128.28423043352754 239.99999999999997 128.3 Q 242.18181818181816 128.3 244.36363636363635 128.28423043352754 Q 246.54545454545453 128.28423043352754 248.72727272727272 128.23708529517003 Q 250.90909090909088 128.23708529517003 253.09090909090907 128.15905402909388 Q 255.27272727272725 128.15905402909388 257.45454545454544 128.0509482546551 Q 259.6363636363636 128.0509482546551 261.8181818181818 127.91389561687667 Q 264 127.91389561687667 266.1818181818182 127.74933124059612 Q 268.3636363636363 127.74933124059612 270.5454545454545 127.55898685120239 Q 272.7272727272727 127.55898685120239 274.9090909090909 127.34487764206422 Q 277.09090909090907 127.34487764206422 279.27272727272725 127.10928698534624 Q 281.45454545454544 127.10928698534624 283.6363636363636 126.85474909879434 Q 285.8181818181818 126.85474909879434 288 126.58402979612981 Q 290.18181818181813 126.58402979612981 292.3636363636363 126.30010546281402 Q 294.5454545454545 126.30010546281402 296.7272727272727 126.00614041202616 Q 298.9090909090909 126.00614041202616 301.09090909090907 125.70546278764174 Q 303.27272727272725 125.70546278764174 305.45454545454544 125.40153919171968 Q 307.6363636363636 125.40153919171968 309.8181818181818 125.09794822342374 Q 311.99999999999994 125.09794822342374 314.18181818181813 124.79835312434975 Q 316.3636363636363 124.79835312434975 318.5454545454545 124.5064737318443 Q 320.7272727272727 124.5064737318443 322.9090909090909 124.22605794703595 Q 325.09090909090907 124.22605794703595 327.27272727272725 123.96085292791705 Q 329.45454545454544 123.96085292791705 331.6363636363636 123.71457621988776 Q 333.8181818181818 123.71457621988776 336 123.49088703668878 Q 338.18181818181813 123.49088703668878 340.3636363636363 123.29335790359949 Q 342.5454545454545 123.29335790359949 344.7272727272727 123.12544687217478 Q 346.9090909090909 123.12544687217478 349.09090909090907 122.99047051165309 Q 351.27272727272725 122.99047051165309 353.45454545454544 122.89157787652145 Q 355.6363636363636 122.89157787652145 357.8181818181818 122.83172564261233 Q 359.99999999999994 122.83172564261233 362.18181818181813 122.81365459558336 Q 364.3636363636363 122.81365459558336 366.5454545454545 122.83986764575732 Q 368.7272727272727 122.83986764575732 370.9090909090909 122.91260953214842 Q 373.09090909090907 122.91260953214842 375.27272727272725 123.0338483661541 Q 377.45454545454544 123.0338483661541 379.6363636363636 123.20525915193855 Q 381.8181818181818 123.20525915193855 384 123.42820940607601 Q 386.18181818181813 123.42820940607601 388.3636363636363 123.70374698366146 Q 390.5454545454545 123.70374698366146 392.7272727272727 124.03259020194938 Q 394.9090909090909 124.03259020194938 397.09090909090907 124.41512033576403 Q 399.27272727272725 124.41512033576403 401.45454545454544 124.85137654156154 Q 403.6363636363636 124.85137654156154 405.8181818181818 125.34105324924201 Q 407.99999999999994 125.34105324924201 410.18181818181813 125.88350004273993 Q 412.3636363636363 125.88350004273993 414.5454545454545 126.47772403219471 Q 416.7272727272727 126.47772403219471 418.9090909090909 127.12239470225481 Q 421.09090909090907 127.12239470225481 423.27272727272725 127.8158512029329 Q 425.45454545454544 127.8158512029329 427.6363636363636 128.55611203153722 Q 429.81818181818176 128.55611203153722 431.99999999999994 129.34088703668877 Q 434.18181818181813 129.34088703668877 436.3636363636363 130.16759165842242 Q 438.5454545454545 130.16759165842242 440.7272727272727 131.03336330198889 Q 442.9090909090909 131.03336330198889 445.09090909090907 131.93507972734037 Q 447.27272727272725 131.93507972734037 449.45454545454544 132.86937932151594 Q 451.63636363636357 132.86937932151594 453.81818181818176 133.83268310734547 Q 455.99999999999994 133.83268310734547 458.18181818181813 134.821218329169 Q 460.3636363636363 134.821218329169 462.5454545454545 135.83104344471306 Q 464.7272727272727 135.83104344471306 466.9090909090909 136.85807434196192 Q 469.09090909090907 136.85807434196192 471.27272727272725 137.89811159088464 Q 473.45454545454544 137.89811159088464 475.6363636363636 138.94686853229678 Q 477.81818181818176 138.94686853229678 479.99999999999994 140 Q 482.18181818181813 140 484.3636363636363 141.0531314677032 Q 486.5454545454545 141.0531314677032 488.7272727272727 142.10188840911533 Q 490.9090909090909 142.10188840911533 493.09090909090907 143.14192565803808 Q 495.27272727272725 143.14192565803808 497.45454545454544 144.16895655528694 Q 499.63636363636357 144.16895655528694 501.81818181818176 145.178781670831 Q 503.99999999999994 145.178781670831 506.18181818181813 146.16731689265453 Q 508.3636363636363 146.16731689265453 510.5454545454545 147.13062067848406 Q 512.7272727272727 147.13062067848406 514.9090909090909 148.06492027265963 Q 517.0909090909091 148.06492027265963 519.2727272727273 148.96663669801111 Q 521.4545454545455 148.96663669801111 523.6363636363636 149.83240834157755 Q 525.8181818181819 149.83240834157755 528 150.65911296331123 Q 530.1818181818182 150.65911296331123 532.3636363636364 151.44388796846275 Q 534.5454545454545 151.44388796846275 536.7272727272726 152.18414879706708 Q 538.9090909090909 152.18414879706708 541.090909090909 152.8776052977452 Q 543.2727272727273 152.8776052977452 545.4545454545454 153.52227596780529 Q 547.6363636363636 153.52227596780529 549.8181818181818 154.11649995726006 Q 552 154.11649995726006 554.1818181818181 154.658946750758 Q 556.3636363636364 154.658946750758 558.5454545454545 155.14862345843846 Q 560.7272727272727 155.14862345843846 562.9090909090909 155.58487966423596 Q 565.0909090909091 155.58487966423596 567.2727272727273 155.96740979805062 Q 569.4545454545455 155.96740979805062 571.6363636363636 156.29625301633854 Q 573.8181818181819 156.29625301633854 576 156.571790593924 Q 578.1818181818182 156.571790593924 580.3636363636364 156.79474084806145 Q 582.5454545454545 156.79474084806145 584.7272727272726 156.9661516338459 Q 586.9090909090909 156.9661516338459 589.090909090909 157.08739046785158 Q 591.2727272727273 157.08739046785158 593.4545454545454 157.16013235424268 Q 595.6363636363636 157.16013235424268 597.8181818181818 157.18634540441664 Q 600 157.18634540441664 602.1818181818181 157.16827435738767 Q 604.3636363636364 157.16827435738767 606.5454545454545 157.10842212347856 Q 608.7272727272727 157.10842212347856 610.9090909090909 157.0095294883469 Q 613.0909090909091 157.0095294883469 615.2727272727273 156.87455312782524 Q 617.4545454545455 156.87455312782524 619.6363636363636 156.70664209640051 Q 621.8181818181819 156.70664209640051 624 156.50911296331122 Q 626.1818181818181 156.50911296331122 628.3636363636363 156.28542378011224 Q 630.5454545454545 156.28542378011224 632.7272727272726 156.03914707208295 Q 634.9090909090909 156.03914707208295 637.090909090909 155.77394205296403 Q 639.2727272727273 155.77394205296403 641.4545454545454 155.4935262681557 Q 643.6363636363636 155.4935262681557 645.8181818181818 155.20164687565025 Q 648 155.20164687565025 650.1818181818181 154.90205177657626 Q 652.3636363636364 154.90205177657626 654.5454545454545 154.59846080828032 Q 656.7272727272727 154.59846080828032 658.9090909090909 154.29453721235825 Q 661.0909090909091 154.29453721235825 663.2727272727273 153.99385958797384 Q 665.4545454545455 153.99385958797384 667.6363636363636 153.699894537186 Q 669.8181818181819 153.699894537186 672 153.4159702038702 Q 674.1818181818181 153.4159702038702 676.3636363636363 153.14525090120566 Q 678.5454545454545 153.14525090120566 680.7272727272726 152.89071301465376 Q 682.9090909090909 152.89071301465376 685.090909090909 152.6551223579358 Q 687.2727272727273 152.6551223579358 689.4545454545454 152.44101314879762 Q 691.6363636363636 152.44101314879762 693.8181818181818 152.25066875940388 Q 696 152.25066875940388 698.1818181818181 152.0861043831233 Q 700.3636363636364 152.0861043831233 702.5454545454545 151.9490517453449 Q 704.7272727272727 151.9490517453449 706.9090909090909 151.84094597090612 Q 709.0909090909091 151.84094597090612 711.2727272727273 151.76291470482997 Q 713.4545454545455 151.76291470482997 715.6363636363636 151.71576956647246 Q 717.8181818181819 151.71576956647246 720 151.7 Q 722.1818181818181 151.7 724.3636363636363 151.71576956647246 Q 726.5454545454545 151.71576956647246 728.7272727272726 151.76291470482997 Q 730.9090909090909 151.76291470482997 733.090909090909 151.84094597090612 Q 735.2727272727273 151.84094597090612 737.4545454545454 151.9490517453449 Q 739.6363636363636 151.9490517453449 741.8181818181818 152.0861043831233 Q 744 152.0861043831233 746.1818181818181 152.25066875940388 Q 748.3636363636364 152.25066875940388 750.5454545454545 152.44101314879762 Q 752.7272727272727 152.44101314879762 754.9090909090909 152.6551223579358 Q 757.0909090909091 152.6551223579358 759.2727272727273 152.89071301465376 Q 761.4545454545455 152.89071301465376 763.6363636363636 153.14525090120566 Q 765.8181818181819 153.14525090120566 768 153.4159702038702 Q 770.1818181818181 153.4159702038702 772.3636363636363 153.69989453718597 Q 774.5454545454545 153.69989453718597 776.7272727272726 153.99385958797384 Q 778.9090909090909 153.99385958797384 781.090909090909 154.29453721235825 Q 783.2727272727273 154.29453721235825 785.4545454545454 154.59846080828032 Q 787.6363636363636 154.59846080828032 789.8181818181818 154.90205177657626 Q 792 154.90205177657626 794.1818181818181 155.20164687565025 Q 796.3636363636364 155.20164687565025 798.5454545454545 155.4935262681557 Q 800.7272727272727 155.4935262681557 802.9090909090909 155.77394205296403 Q 805.0909090909091 155.77394205296403 807.2727272727273 156.03914707208295 Q 809.4545454545455 156.03914707208295 811.6363636363636 156.28542378011224 Q 813.8181818181818 156.28542378011224 815.9999999999999 156.50911296331122 Q 818.1818181818181 156.50911296331122 820.3636363636363 156.70664209640051 Q 822.5454545454545 156.70664209640051 824.7272727272726 156.8745531278252 Q 826.9090909090909 156.8745531278252 829.090909090909 157.0095294883469 Q 831.2727272727273 157.0095294883469 833.4545454545454 157.10842212347856 Q 835.6363636363636 157.10842212347856 837.8181818181818 157.16827435738767 Q 840 157.16827435738767 842.1818181818181 157.18634540441664 Q 844.3636363636364 157.18634540441664 846.5454545454545 157.16013235424268 Q 848.7272727272727 157.16013235424268 850.9090909090909 157.08739046785158 Q 853.0909090909091 157.08739046785158 855.2727272727273 156.9661516338459 Q 857.4545454545455 156.9661516338459 859.6363636363636 156.79474084806145 Q 861.8181818181818 156.79474084806145 863.9999999999999 156.571790593924 Q 866.1818181818181 156.571790593924 868.3636363636363 156.29625301633854 Q 870.5454545454545 156.29625301633854 872.7272727272726 155.96740979805065 Q 874.9090909090909 155.96740979805065 877.090909090909 155.58487966423596 Q 879.2727272727273 155.58487966423596 881.4545454545454 155.14862345843846 Q 883.6363636363636 155.14862345843846 885.8181818181818 154.658946750758 Q 888 154.658946750758 890.1818181818181 154.11649995726006 Q 892.3636363636364 154.11649995726006 894.5454545454545 153.5222759678053 Q 896.7272727272727 153.5222759678053 898.9090909090909 152.8776052977452 Q 901.0909090909091 152.8776052977452 903.2727272727273 152.1841487970671 Q 905.4545454545454 152.1841487970671 907.6363636363635 151.44388796846275 Q 909.8181818181818 151.44388796846275 911.9999999999999 150.65911296331123 Q 914.1818181818181 150.65911296331123 916.3636363636363 149.83240834157755 Q 918.5454545454545 149.83240834157755 920.7272727272726 148.96663669801111 Q 922.9090909090909 148.96663669801111 925.090909090909 148.06492027265966 Q 927.2727272727273 148.06492027265966 929.4545454545454 147.13062067848406 Q 931.6363636363636 147.13062067848406 933.8181818181818 146.16731689265453 Q 936 146.16731689265453 938.1818181818181 145.17878167083103 Q 940.3636363636364 145.17878167083103 942.5454545454545 144.16895655528694 Q 944.7272727272727 144.16895655528694 946.9090909090909 143.1419256580381 Q 949.0909090909091 143.1419256580381 951.2727272727273 142.10188840911533 Q 953.4545454545454 142.10188840911533 955.6363636363635 141.05313146770322 Q 957.8181818181818 141.05313146770322 959.9999999999999 140 "
+        stroke="url(#grad)"
+        stroke-width="3"
+        fill="none">
     <animateTransform
       attributeName="transform"
       type="translate"
-      from="0 0"
-      to="-960 0"
-      dur="18s"
-      repeatCount="indefinite"/>
-  </path>
-  <path d="M 0 139.77105931362965 Q 2 139.77105931362965 4 139.71308290268212 Q 6 139.71308290268212 8 139.86307388683596 Q 10 139.86307388683596 12 140.22638725855643 Q 14 140.22638725855643 16 140.80157154835624 Q 18 140.80157154835624 20 141.58027419499865 Q 22 141.58027419499865 24 142.547422684289 Q 26 142.547422684289 28 143.68167555475728 Q 30 143.68167555475728 32 144.9561258351135 Q 34 144.9561258351135 36 146.33922868199713 Q 38 146.33922868199713 40 147.79591539651196 Q 42 147.79591539651196 44 149.28884803117847 Q 46 149.28884803117847 48 150.77976280148116 Q 50 150.77976280148116 52 152.23084674864378 Q 54 152.23084674864378 56 153.6060907260478 Q 58 153.6060907260478 60 154.87256286000823 Q 62 154.87256286000823 64 156.00155011883925 Q 66 156.00155011883925 68 156.96952135995576 Q 70 156.96952135995576 72 157.7588729628039 Q 74 157.7588729628039 76 158.35842755819883 Q 78 158.35842755819883 80 158.76366702232124 Q 82 158.76366702232124 84 158.97669235184446 Q 86 158.97669235184446 88 159.00591477691225 Q 90 159.00591477691225 92 158.86549399000393 Q 94 158.86549399000393 96 158.57455017003883 Q 98 158.57455017003883 100 158.15618609306532 Q 102 158.15618609306532 104 157.63636362646295 Q 106 157.63636362646295 108 157.04268495610964 Q 110 157.04268495610964 112 156.40313273431175 Q 114 156.40313273431175 116 155.7448247962809 Q 118 155.7448247962809 120 155.0928381144261 Q 122 155.0928381144261 124 154.46915328923058 Q 126 154.46915328923058 128 153.8917652640752 Q 130 153.8917652640752 132 153.37399834806496 Q 134 153.37399834806496 136 152.92405437172295 Q 138 152.92405437172295 140 152.54481229361812 Q 142 152.54481229361812 144 152.23388628427563 Q 146 152.23388628427563 148 151.9839377338868 Q 150 151.9839377338868 152 151.78322527159133 Q 154 151.78322527159133 156 151.61636624573478 Q 158 151.61636624573478 160 151.4652736640491 Q 162 151.4652736640491 164 151.31022474547342 Q 166 151.31022474547342 168 151.1310113362518 Q 170 151.1310113362518 172 150.90811875143967 Q 174 150.90811875143967 176 150.62387828160493 Q 178 150.62387828160493 180 150.26353971193603 Q 182 150.26353971193603 184 149.81621368924806 Q 186 149.81621368924806 188 149.27563948913308 Q 190 149.27563948913308 192 148.64074143057474 Q 194 148.64074143057474 196 147.91594652172196 Q 198 147.91594652172196 200 147.11124648906195 Q 202 147.11124648906195 204 146.24199867959092 Q 206 146.24199867959092 208 145.32847193444366 Q 210 145.32847193444366 212 144.39515490329126 Q 214 144.39515490329126 216 143.46985490222926 Q 218 143.46985490222926 220 142.58262484637365 Q 222 142.58262484637365 224 141.76456359688515 Q 226 141.76456359688515 228 141.04654090615742 Q 230 141.04654090615742 232 140.4579017656048 Q 234 140.4579017656048 236 140.0252061960664 Q 238 140.0252061960664 240 139.77105931362965 Q 242 139.77105931362965 244 139.71308290268212 Q 246 139.71308290268212 248 139.86307388683596 Q 250 139.86307388683596 252 140.22638725855643 Q 254 140.22638725855643 256 140.80157154835624 Q 258 140.80157154835624 260 141.58027419499865 Q 262 141.58027419499865 264 142.547422684289 Q 266 142.547422684289 268 143.68167555475728 Q 270 143.68167555475728 272 144.9561258351135 Q 274 144.9561258351135 276 146.3392286819971 Q 278 146.3392286819971 280 147.79591539651196 Q 282 147.79591539651196 284 149.28884803117847 Q 286 149.28884803117847 288 150.77976280148116 Q 290 150.77976280148116 292 152.23084674864378 Q 294 152.23084674864378 296 153.6060907260478 Q 298 153.6060907260478 300 154.87256286000823 Q 302 154.87256286000823 304 156.00155011883922 Q 306 156.00155011883922 308 156.9695213599558 Q 310 156.9695213599558 312 157.7588729628039 Q 314 157.7588729628039 316 158.35842755819883 Q 318 158.35842755819883 320 158.76366702232124 Q 322 158.76366702232124 324 158.97669235184446 Q 326 158.97669235184446 328 159.00591477691225 Q 330 159.00591477691225 332 158.86549399000393 Q 334 158.86549399000393 336 158.57455017003883 Q 338 158.57455017003883 340 158.15618609306532 Q 342 158.15618609306532 344 157.63636362646295 Q 346 157.63636362646295 348 157.04268495610964 Q 350 157.04268495610964 352 156.40313273431178 Q 354 156.40313273431178 356 155.7448247962809 Q 358 155.7448247962809 360 155.0928381144261 Q 362 155.0928381144261 364 154.46915328923058 Q 366 154.46915328923058 368 153.8917652640752 Q 370 153.8917652640752 372 153.37399834806496 Q 374 153.37399834806496 376 152.92405437172295 Q 378 152.92405437172295 380 152.54481229361812 Q 382 152.54481229361812 384 152.23388628427563 Q 386 152.23388628427563 388 151.9839377338868 Q 390 151.9839377338868 392 151.78322527159133 Q 394 151.78322527159133 396 151.61636624573478 Q 398 151.61636624573478 400 151.4652736640491 Q 402 151.4652736640491 404 151.31022474547342 Q 406 151.31022474547342 408 151.13101133625176 Q 410 151.13101133625176 412 150.90811875143967 Q 414 150.90811875143967 416 150.62387828160493 Q 418 150.62387828160493 420 150.26353971193603 Q 422 150.26353971193603 424 149.81621368924806 Q 426 149.81621368924806 428 149.27563948913308 Q 430 149.27563948913308 432 148.64074143057474 Q 434 148.64074143057474 436 147.91594652172196 Q 438 147.91594652172196 440 147.11124648906198 Q 442 147.11124648906198 444 146.24199867959095 Q 446 146.24199867959095 448 145.32847193444366 Q 450 145.32847193444366 452 144.39515490329126 Q 454 144.39515490329126 456 143.46985490222926 Q 458 143.46985490222926 460 142.58262484637365 Q 462 142.58262484637365 464 141.76456359688515 Q 466 141.76456359688515 468 141.04654090615742 Q 470 141.04654090615742 472 140.4579017656048 Q 474 140.4579017656048 476 140.0252061960664 Q 478 140.0252061960664 480 139.77105931362968 Q 482 139.77105931362968 484 139.71308290268212 Q 486 139.71308290268212 488 139.86307388683596 Q 490 139.86307388683596 492 140.2263872585564 Q 494 140.2263872585564 496 140.80157154835624 Q 498 140.80157154835624 500 141.58027419499868 Q 502 141.58027419499868 504 142.547422684289 Q 506 142.547422684289 508 143.68167555475728 Q 510 143.68167555475728 512 144.95612583511348 Q 514 144.95612583511348 516 146.33922868199713 Q 518 146.33922868199713 520 147.79591539651193 Q 522 147.79591539651193 524 149.28884803117847 Q 526 149.28884803117847 528 150.77976280148118 Q 530 150.77976280148118 532 152.23084674864378 Q 534 152.23084674864378 536 153.6060907260478 Q 538 153.6060907260478 540 154.8725628600082 Q 542 154.8725628600082 544 156.00155011883922 Q 546 156.00155011883922 548 156.96952135995576 Q 550 156.96952135995576 552 157.75887296280388 Q 554 157.75887296280388 556 158.35842755819883 Q 558 158.35842755819883 560 158.76366702232124 Q 562 158.76366702232124 564 158.97669235184446 Q 566 158.97669235184446 568 159.00591477691225 Q 570 159.00591477691225 572 158.86549399000393 Q 574 158.86549399000393 576 158.57455017003883 Q 578 158.57455017003883 580 158.15618609306532 Q 582 158.15618609306532 584 157.63636362646295 Q 586 157.63636362646295 588 157.04268495610964 Q 590 157.04268495610964 592 156.40313273431178 Q 594 156.40313273431178 596 155.7448247962809 Q 598 155.7448247962809 600 155.0928381144261 Q 602 155.0928381144261 604 154.4691532892306 Q 606 154.4691532892306 608 153.8917652640752 Q 610 153.8917652640752 612 153.37399834806496 Q 614 153.37399834806496 616 152.92405437172295 Q 618 152.92405437172295 620 152.54481229361812 Q 622 152.54481229361812 624 152.23388628427563 Q 626 152.23388628427563 628 151.9839377338868 Q 630 151.9839377338868 632 151.7832252715913 Q 634 151.7832252715913 636 151.61636624573478 Q 638 151.61636624573478 640 151.4652736640491 Q 642 151.4652736640491 644 151.31022474547342 Q 646 151.31022474547342 648 151.13101133625176 Q 650 151.13101133625176 652 150.90811875143967 Q 654 150.90811875143967 656 150.62387828160493 Q 658 150.62387828160493 660 150.26353971193603 Q 662 150.26353971193603 664 149.81621368924806 Q 666 149.81621368924806 668 149.27563948913308 Q 670 149.27563948913308 672 148.64074143057474 Q 674 148.64074143057474 676 147.91594652172196 Q 678 147.91594652172196 680 147.11124648906195 Q 682 147.11124648906195 684 146.24199867959092 Q 686 146.24199867959092 688 145.32847193444368 Q 690 145.32847193444368 692 144.39515490329126 Q 694 144.39515490329126 696 143.46985490222926 Q 698 143.46985490222926 700 142.58262484637365 Q 702 142.58262484637365 704 141.76456359688518 Q 706 141.76456359688518 708 141.04654090615742 Q 710 141.04654090615742 712 140.45790176560476 Q 714 140.45790176560476 716 140.0252061960664 Q 718 140.0252061960664 720 139.77105931362968 Q 722 139.77105931362968 724 139.71308290268212 Q 726 139.71308290268212 728 139.86307388683596 Q 730 139.86307388683596 732 140.2263872585564 Q 734 140.2263872585564 736 140.80157154835626 Q 738 140.80157154835626 740 141.58027419499865 Q 742 141.58027419499865 744 142.547422684289 Q 746 142.547422684289 748 143.68167555475728 Q 750 143.68167555475728 752 144.9561258351135 Q 754 144.9561258351135 756 146.3392286819971 Q 758 146.3392286819971 760 147.79591539651193 Q 762 147.79591539651193 764 149.28884803117847 Q 766 149.28884803117847 768 150.77976280148116 Q 770 150.77976280148116 772 152.23084674864378 Q 774 152.23084674864378 776 153.6060907260478 Q 778 153.6060907260478 780 154.87256286000826 Q 782 154.87256286000826 784 156.00155011883922 Q 786 156.00155011883922 788 156.96952135995576 Q 790 156.96952135995576 792 157.7588729628039 Q 794 157.7588729628039 796 158.35842755819883 Q 798 158.35842755819883 800 158.76366702232124 Q 802 158.76366702232124 804 158.97669235184446 Q 806 158.97669235184446 808 159.00591477691228 Q 810 159.00591477691228 812 158.86549399000393 Q 814 158.86549399000393 816 158.57455017003883 Q 818 158.57455017003883 820 158.15618609306532 Q 822 158.15618609306532 824 157.63636362646298 Q 826 157.63636362646298 828 157.04268495610964 Q 830 157.04268495610964 832 156.40313273431175 Q 834 156.40313273431175 836 155.7448247962809 Q 838 155.7448247962809 840 155.0928381144261 Q 842 155.0928381144261 844 154.46915328923058 Q 846 154.46915328923058 848 153.8917652640752 Q 850 153.8917652640752 852 153.37399834806496 Q 854 153.37399834806496 856 152.92405437172295 Q 858 152.92405437172295 860 152.54481229361812 Q 862 152.54481229361812 864 152.23388628427563 Q 866 152.23388628427563 868 151.9839377338868 Q 870 151.9839377338868 872 151.78322527159133 Q 874 151.78322527159133 876 151.61636624573478 Q 878 151.61636624573478 880 151.4652736640491 Q 882 151.4652736640491 884 151.31022474547342 Q 886 151.31022474547342 888 151.1310113362518 Q 890 151.1310113362518 892 150.90811875143967 Q 894 150.90811875143967 896 150.62387828160493 Q 898 150.62387828160493 900 150.26353971193603 Q 902 150.26353971193603 904 149.81621368924806 Q 906 149.81621368924806 908 149.27563948913308 Q 910 149.27563948913308 912 148.64074143057474 Q 914 148.64074143057474 916 147.91594652172196 Q 918 147.91594652172196 920 147.11124648906195 Q 922 147.11124648906195 924 146.24199867959092 Q 926 146.24199867959092 928 145.32847193444368 Q 930 145.32847193444368 932 144.39515490329126 Q 934 144.39515490329126 936 143.46985490222926 Q 938 143.46985490222926 940 142.58262484637365 Q 942 142.58262484637365 944 141.76456359688518 Q 946 141.76456359688518 948 141.04654090615742 Q 950 141.04654090615742 952 140.4579017656048 Q 954 140.4579017656048 956 140.0252061960664 Q 958 140.0252061960664 960 139.77105931362965 " stroke="url(#grad)" stroke-width="2" fill="none"
-        transform="translate(960,0)">
-    <animateTransform
-      attributeName="transform"
-      type="translate"
-      from="0 0"
-      to="-960 0"
-      dur="18s"
-      repeatCount="indefinite"/>
+      from="0 -6"
+      to="0 6"
+      dur="6s"
+      repeatCount="indefinite"
+      direction="alternate"/>
   </path>
 </g>
 <g opacity="0.35" >
-  <path d="M 0 155.66651094385034 Q 2 155.66651094385034 4 156.77139458308756 Q 6 156.77139458308756 8 157.9201746395813 Q 10 157.9201746395813 12 159.0956607023592 Q 14 159.0956607023592 16 160.27863774930796 Q 18 160.27863774930796 20 161.4482793001356 Q 22 161.4482793001356 24 162.58260904674415 Q 26 162.58260904674415 28 163.6589999097243 Q 30 163.6589999097243 32 164.65469849193937 Q 34 164.65469849193937 36 165.54736221701893 Q 38 165.54736221701893 40 166.31559606920624 Q 42 166.31559606920624 44 166.93947580091225 Q 46 166.93947580091225 48 167.40104474711805 Q 50 167.40104474711805 52 167.68477197509955 Q 54 167.68477197509955 56 167.77796038968066 Q 58 167.77796038968066 60 167.67109458677004 Q 62 167.67109458677004 64 167.3581196727986 Q 66 167.3581196727986 68 166.8366439101253 Q 70 166.8366439101253 72 166.1080598684321 Q 74 166.1080598684321 76 165.17758071511167 Q 78 165.17758071511167 80 164.05419031590876 Q 82 164.05419031590876 84 162.7505078907327 Q 86 162.7505078907327 88 161.28257002785773 Q 90 161.28257002785773 92 159.66953485226324 Q 94 159.66953485226324 96 157.9333150218429 Q 98 157.9333150218429 100 156.0981479426207 Q 102 156.0981479426207 104 154.19011310888686 Q 106 154.19011310888686 108 152.23660774919588 Q 110 152.23660774919588 112 150.26579296322674 Q 114 150.26579296322674 116 148.30602324300517 Q 118 148.30602324300517 120 146.3852726675967 Q 122 146.3852726675967 124 144.53057113343965 Q 126 144.53057113343965 128 142.76746373125488 Q 130 142.76746373125488 132 141.11950581115306 Q 134 141.11950581115306 136 139.60780540417994 Q 138 139.60780540417994 140 138.250623512563 Q 142 138.250623512563 144 137.06304137075344 Q 146 137.06304137075344 148 136.056702149627 Q 150 136.056702149627 152 135.23963276692692 Q 154 135.23963276692692 156 134.61614952260376 Q 158 134.61614952260376 160 134.18684924583926 Q 162 134.18684924583926 164 133.94868557106338 Q 166 133.94868557106338 168 133.89512790392402 Q 170 133.89512790392402 172 134.0163986453329 Q 174 134.0163986453329 176 134.29978236119516 Q 178 134.29978236119516 180 134.72999886325002 Q 182 134.72999886325002 184 135.28963064470904 Q 186 135.28963064470904 188 135.95959383022446 Q 190 135.95959383022446 192 136.7196407844422 Q 194 136.7196407844422 196 137.5488818016404 Q 198 137.5488818016404 200 138.4263128881467 Q 202 138.4263128881467 204 139.33133655911072 Q 206 139.33133655911072 208 140.24426280363815 Q 210 140.24426280363815 212 141.1467779211692 Q 214 141.1467779211692 216 142.02236978342083 Q 218 142.02236978342083 220 142.8566992088713 Q 222 142.8566992088713 224 143.63790852238952 Q 226 143.63790852238952 228 144.3568599767188 Q 230 144.3568599767188 232 145.00729849526428 Q 234 145.00729849526428 236 145.58593511276334 Q 238 145.58593511276334 240 146.09244949440165 Q 242 146.09244949440165 244 146.52941195511636 Q 246 146.52941195511636 248 146.90212742863696 Q 250 146.90212742863696 252 147.21840580004465 Q 254 147.21840580004465 256 147.48826486765395 Q 258 147.48826486765395 260 147.72357389399366 Q 262 147.72357389399366 264 147.93764719965995 Q 266 147.93764719965995 268 148.1447985108554 Q 270 148.1447985108554 272 148.3598677603917 Q 274 148.3598677603917 276 148.5977327383355 Q 278 148.5977327383355 280 148.87281837505037 Q 282 148.87281837505037 284 149.1986165065374 Q 286 149.1986165065374 288 149.58722871798892 Q 290 149.58722871798892 292 150.0489442925782 Q 294 150.0489442925782 296 150.59186442271857 Q 298 150.59186442271857 300 151.22158269179562 Q 302 151.22158269179562 304 151.9409304340584 Q 306 151.9409304340584 308 152.7497939635289 Q 310 152.7497939635289 312 153.6450088693767 Q 314 153.6450088693767 316 154.62033464952123 Q 318 154.62033464952123 320 155.66651094385034 Q 322 155.66651094385034 324 156.77139458308756 Q 326 156.77139458308756 328 157.9201746395813 Q 330 157.9201746395813 332 159.09566070235917 Q 334 159.09566070235917 336 160.27863774930796 Q 338 160.27863774930796 340 161.4482793001356 Q 342 161.4482793001356 344 162.58260904674412 Q 346 162.58260904674412 348 163.6589999097243 Q 350 163.6589999097243 352 164.65469849193937 Q 354 164.65469849193937 356 165.54736221701893 Q 358 165.54736221701893 360 166.3155960692062 Q 362 166.3155960692062 364 166.93947580091225 Q 366 166.93947580091225 368 167.40104474711805 Q 370 167.40104474711805 372 167.68477197509955 Q 374 167.68477197509955 376 167.77796038968066 Q 378 167.77796038968066 380 167.67109458677004 Q 382 167.67109458677004 384 167.3581196727986 Q 386 167.3581196727986 388 166.8366439101253 Q 390 166.8366439101253 392 166.1080598684321 Q 394 166.1080598684321 396 165.17758071511167 Q 398 165.17758071511167 400 164.05419031590876 Q 402 164.05419031590876 404 162.7505078907327 Q 406 162.7505078907327 408 161.28257002785776 Q 410 161.28257002785776 412 159.66953485226327 Q 414 159.66953485226327 416 157.9333150218429 Q 418 157.9333150218429 420 156.0981479426207 Q 422 156.0981479426207 424 154.1901131088869 Q 426 154.1901131088869 428 152.23660774919585 Q 430 152.23660774919585 432 150.26579296322674 Q 434 150.26579296322674 436 148.30602324300517 Q 438 148.30602324300517 440 146.3852726675967 Q 442 146.3852726675967 444 144.53057113343965 Q 446 144.53057113343965 448 142.76746373125488 Q 450 142.76746373125488 452 141.11950581115306 Q 454 141.11950581115306 456 139.6078054041799 Q 458 139.6078054041799 460 138.250623512563 Q 462 138.250623512563 464 137.06304137075347 Q 466 137.06304137075347 468 136.05670214962703 Q 470 136.05670214962703 472 135.23963276692695 Q 474 135.23963276692695 476 134.61614952260376 Q 478 134.61614952260376 480 134.18684924583926 Q 482 134.18684924583926 484 133.94868557106338 Q 486 133.94868557106338 488 133.89512790392402 Q 490 133.89512790392402 492 134.0163986453329 Q 494 134.0163986453329 496 134.29978236119516 Q 498 134.29978236119516 500 134.72999886325002 Q 502 134.72999886325002 504 135.289630644709 Q 506 135.289630644709 508 135.95959383022446 Q 510 135.95959383022446 512 136.7196407844422 Q 514 136.7196407844422 516 137.54888180164042 Q 518 137.54888180164042 520 138.4263128881467 Q 522 138.4263128881467 524 139.33133655911072 Q 526 139.33133655911072 528 140.24426280363815 Q 530 140.24426280363815 532 141.1467779211692 Q 534 141.1467779211692 536 142.02236978342083 Q 538 142.02236978342083 540 142.8566992088713 Q 542 142.8566992088713 544 143.63790852238952 Q 546 143.63790852238952 548 144.3568599767188 Q 550 144.3568599767188 552 145.00729849526428 Q 554 145.00729849526428 556 145.58593511276337 Q 558 145.58593511276337 560 146.09244949440165 Q 562 146.09244949440165 564 146.52941195511633 Q 566 146.52941195511633 568 146.90212742863693 Q 570 146.90212742863693 572 147.21840580004465 Q 574 147.21840580004465 576 147.48826486765395 Q 578 147.48826486765395 580 147.72357389399366 Q 582 147.72357389399366 584 147.93764719965995 Q 586 147.93764719965995 588 148.1447985108554 Q 590 148.1447985108554 592 148.3598677603917 Q 594 148.3598677603917 596 148.59773273833548 Q 598 148.59773273833548 600 148.87281837505037 Q 602 148.87281837505037 604 149.19861650653738 Q 606 149.19861650653738 608 149.58722871798892 Q 610 149.58722871798892 612 150.0489442925782 Q 614 150.0489442925782 616 150.59186442271857 Q 618 150.59186442271857 620 151.22158269179562 Q 622 151.22158269179562 624 151.9409304340584 Q 626 151.9409304340584 628 152.7497939635289 Q 630 152.7497939635289 632 153.6450088693767 Q 634 153.6450088693767 636 154.62033464952117 Q 638 154.62033464952117 640 155.66651094385037 Q 642 155.66651094385037 644 156.77139458308756 Q 646 156.77139458308756 648 157.92017463958132 Q 650 157.92017463958132 652 159.0956607023592 Q 654 159.0956607023592 656 160.278637749308 Q 658 160.278637749308 660 161.4482793001356 Q 662 161.4482793001356 664 162.58260904674412 Q 666 162.58260904674412 668 163.6589999097243 Q 670 163.6589999097243 672 164.65469849193937 Q 674 164.65469849193937 676 165.54736221701893 Q 678 165.54736221701893 680 166.31559606920624 Q 682 166.31559606920624 684 166.93947580091225 Q 686 166.93947580091225 688 167.40104474711802 Q 690 167.40104474711802 692 167.68477197509955 Q 694 167.68477197509955 696 167.77796038968063 Q 698 167.77796038968063 700 167.67109458677007 Q 702 167.67109458677007 704 167.35811967279864 Q 706 167.35811967279864 708 166.83664391012533 Q 710 166.83664391012533 712 166.10805986843206 Q 714 166.10805986843206 716 165.1775807151117 Q 718 165.1775807151117 720 164.05419031590876 Q 722 164.05419031590876 724 162.7505078907327 Q 726 162.7505078907327 728 161.2825700278578 Q 730 161.2825700278578 732 159.66953485226324 Q 734 159.66953485226324 736 157.93331502184287 Q 738 157.93331502184287 740 156.09814794262067 Q 742 156.09814794262067 744 154.1901131088869 Q 746 154.1901131088869 748 152.23660774919583 Q 750 152.23660774919583 752 150.26579296322674 Q 754 150.26579296322674 756 148.30602324300526 Q 758 148.30602324300526 760 146.3852726675967 Q 762 146.3852726675967 764 144.5305711334397 Q 766 144.5305711334397 768 142.76746373125488 Q 770 142.76746373125488 772 141.1195058111531 Q 774 141.1195058111531 776 139.6078054041799 Q 778 139.6078054041799 780 138.25062351256304 Q 782 138.25062351256304 784 137.0630413707535 Q 786 137.0630413707535 788 136.05670214962703 Q 790 136.05670214962703 792 135.23963276692695 Q 794 135.23963276692695 796 134.61614952260373 Q 798 134.61614952260373 800 134.18684924583926 Q 802 134.18684924583926 804 133.94868557106335 Q 806 133.94868557106335 808 133.89512790392402 Q 810 133.89512790392402 812 134.0163986453329 Q 814 134.0163986453329 816 134.29978236119513 Q 818 134.29978236119513 820 134.72999886325002 Q 822 134.72999886325002 824 135.289630644709 Q 826 135.289630644709 828 135.95959383022446 Q 830 135.95959383022446 832 136.71964078444216 Q 834 136.71964078444216 836 137.5488818016404 Q 838 137.5488818016404 840 138.4263128881467 Q 842 138.4263128881467 844 139.33133655911072 Q 846 139.33133655911072 848 140.2442628036381 Q 850 140.2442628036381 852 141.14677792116916 Q 854 141.14677792116916 856 142.02236978342086 Q 858 142.02236978342086 860 142.8566992088713 Q 862 142.8566992088713 864 143.63790852238952 Q 866 143.63790852238952 868 144.3568599767188 Q 870 144.3568599767188 872 145.00729849526428 Q 874 145.00729849526428 876 145.5859351127633 Q 878 145.5859351127633 880 146.09244949440165 Q 882 146.09244949440165 884 146.52941195511633 Q 886 146.52941195511633 888 146.90212742863696 Q 890 146.90212742863696 892 147.21840580004462 Q 894 147.21840580004462 896 147.488264867654 Q 898 147.488264867654 900 147.7235738939937 Q 902 147.7235738939937 904 147.93764719966 Q 906 147.93764719966 908 148.14479851085542 Q 910 148.14479851085542 912 148.35986776039172 Q 914 148.35986776039172 916 148.5977327383355 Q 918 148.5977327383355 920 148.87281837505043 Q 922 148.87281837505043 924 149.19861650653743 Q 926 149.19861650653743 928 149.58722871798892 Q 930 149.58722871798892 932 150.04894429257826 Q 934 150.04894429257826 936 150.59186442271857 Q 938 150.59186442271857 940 151.22158269179565 Q 942 151.22158269179565 944 151.9409304340584 Q 946 151.9409304340584 948 152.74979396352893 Q 950 152.74979396352893 952 153.6450088693767 Q 954 153.6450088693767 956 154.62033464952117 Q 958 154.62033464952117 960 155.66651094385034 " stroke="url(#grad)" stroke-width="3" fill="none">
+  <path d="M 0 140 Q 2.1818181818181817 140 4.363636363636363 139.2979123548645 Q 6.545454545454545 139.2979123548645 8.727272727272727 138.59874106058976 Q 10.909090909090908 138.59874106058976 13.09090909090909 137.90538289464126 Q 15.272727272727272 137.90538289464126 17.454545454545453 137.22069562980872 Q 19.636363636363633 137.22069562980872 21.818181818181817 136.54747888611266 Q 24 136.54747888611266 26.18181818181818 135.88845540489697 Q 28.36363636363636 135.88845540489697 30.545454545454543 135.24625288101063 Q 32.72727272727273 135.24625288101063 34.90909090909091 134.62338648489356 Q 37.090909090909086 134.62338648489356 39.272727272727266 134.02224220132592 Q 41.45454545454545 134.02224220132592 43.63636363636363 133.44506110561497 Q 45.81818181818182 133.44506110561497 48 132.89392469112585 Q 50.18181818181818 132.89392469112585 52.36363636363636 132.37074135435816 Q 54.54545454545454 132.37074135435816 56.72727272727272 131.8772341352886 Q 58.90909090909091 131.8772341352886 61.090909090909086 131.4149298015032 Q 63.27272727272727 131.4149298015032 65.45454545454545 130.98514935479648 Q 67.63636363636363 130.98514935479648 69.81818181818181 130.5890000284933 Q 71.99999999999999 130.5890000284933 74.18181818181817 130.227368832828 Q 76.36363636363635 130.227368832828 78.54545454545453 129.90091769437436 Q 80.72727272727272 129.90091769437436 82.9090909090909 129.6100802238427 Q 85.09090909090908 129.6100802238427 87.27272727272727 129.3550601346329 Q 89.45454545454544 129.3550601346329 91.63636363636363 129.13583132244096 Q 93.81818181818181 129.13583132244096 96 128.95213960405067 Q 98.18181818181817 128.95213960405067 100.36363636363636 128.80350610129238 Q 102.54545454545453 128.80350610129238 104.72727272727272 128.68923224410273 Q 106.90909090909089 128.68923224410273 109.09090909090908 128.6084063547656 Q 111.27272727272725 128.6084063547656 113.45454545454544 128.55991176383822 Q 115.63636363636363 128.55991176383822 117.81818181818181 128.54243639705558 Q 119.99999999999999 128.54243639705558 122.18181818181817 128.55448376174155 Q 124.36363636363635 128.55448376174155 126.54545454545453 128.5943852510143 Q 128.72727272727272 128.5943852510143 130.9090909090909 128.6603136744354 Q 133.09090909090907 128.6603136744354 135.27272727272725 128.75029791478318 Q 137.45454545454544 128.75029791478318 139.63636363636363 128.86223860239966 Q 141.8181818181818 128.86223860239966 144 128.99392469112584 Q 146.18181818181816 128.99392469112584 148.36363636363635 129.1430508132585 Q 150.54545454545453 129.1430508132585 152.72727272727272 129.30723528527804 Q 154.90909090909088 129.30723528527804 157.09090909090907 129.4840386313573 Q 159.27272727272725 129.4840386313573 161.45454545454544 129.6709824878962 Q 163.63636363636363 129.6709824878962 165.8181818181818 129.8655687495665 Q 167.99999999999997 129.8655687495665 170.18181818181816 130.06529881561582 Q 172.36363636363635 130.06529881561582 174.54545454545453 130.26769279447979 Q 176.72727272727272 130.26769279447979 178.9090909090909 130.47030852509448 Q 181.09090909090907 130.47030852509448 183.27272727272725 130.6707602746841 Q 185.45454545454544 130.6707602746841 187.63636363636363 130.86673697520934 Q 189.8181818181818 130.86673697520934 192 131.05601986408655 Q 194.18181818181816 131.05601986408655 196.36363636363635 131.23649939919622 Q 198.54545454545453 131.23649939919622 200.72727272727272 131.40619132356414 Q 202.90909090909088 131.40619132356414 205.09090909090907 131.56325176137614 Q 207.27272727272725 131.56325176137614 209.45454545454544 131.70599123413493 Q 211.63636363636363 131.70599123413493 213.8181818181818 131.83288749373074 Q 215.99999999999997 131.83288749373074 218.18181818181816 131.94259707791778 Q 220.36363636363635 131.94259707791778 222.54545454545453 132.0339655031034 Q 224.7272727272727 132.0339655031034 226.90909090909088 132.10603601939593 Q 229.09090909090907 132.10603601939593 231.27272727272725 132.1580568634467 Q 233.45454545454544 132.1580568634467 235.63636363636363 132.18948695568503 Q 237.81818181818178 132.18948695568503 239.99999999999997 132.2 Q 242.18181818181816 132.2 244.36363636363635 132.18948695568503 Q 246.54545454545453 132.18948695568503 248.72727272727272 132.1580568634467 Q 250.90909090909088 132.1580568634467 253.09090909090907 132.10603601939593 Q 255.27272727272725 132.10603601939593 257.45454545454544 132.0339655031034 Q 259.6363636363636 132.0339655031034 261.8181818181818 131.94259707791778 Q 264 131.94259707791778 266.1818181818182 131.83288749373074 Q 268.3636363636363 131.83288749373074 270.5454545454545 131.70599123413493 Q 272.7272727272727 131.70599123413493 274.9090909090909 131.56325176137614 Q 277.09090909090907 131.56325176137614 279.27272727272725 131.40619132356417 Q 281.45454545454544 131.40619132356417 283.6363636363636 131.23649939919622 Q 285.8181818181818 131.23649939919622 288 131.05601986408655 Q 290.18181818181813 131.05601986408655 292.3636363636363 130.86673697520934 Q 294.5454545454545 130.86673697520934 296.7272727272727 130.6707602746841 Q 298.9090909090909 130.6707602746841 301.09090909090907 130.47030852509448 Q 303.27272727272725 130.47030852509448 305.45454545454544 130.26769279447979 Q 307.6363636363636 130.26769279447979 309.8181818181818 130.06529881561582 Q 311.99999999999994 130.06529881561582 314.18181818181813 129.8655687495665 Q 316.3636363636363 129.8655687495665 318.5454545454545 129.6709824878962 Q 320.7272727272727 129.6709824878962 322.9090909090909 129.4840386313573 Q 325.09090909090907 129.4840386313573 327.27272727272725 129.30723528527804 Q 329.45454545454544 129.30723528527804 331.6363636363636 129.1430508132585 Q 333.8181818181818 129.1430508132585 336 128.99392469112584 Q 338.18181818181813 128.99392469112584 340.3636363636363 128.86223860239966 Q 342.5454545454545 128.86223860239966 344.7272727272727 128.75029791478318 Q 346.9090909090909 128.75029791478318 349.09090909090907 128.6603136744354 Q 351.27272727272725 128.6603136744354 353.45454545454544 128.5943852510143 Q 355.6363636363636 128.5943852510143 357.8181818181818 128.55448376174155 Q 359.99999999999994 128.55448376174155 362.18181818181813 128.54243639705558 Q 364.3636363636363 128.54243639705558 366.5454545454545 128.55991176383822 Q 368.7272727272727 128.55991176383822 370.9090909090909 128.6084063547656 Q 373.09090909090907 128.6084063547656 375.27272727272725 128.68923224410273 Q 377.45454545454544 128.68923224410273 379.6363636363636 128.80350610129238 Q 381.8181818181818 128.80350610129238 384 128.95213960405067 Q 386.18181818181813 128.95213960405067 388.3636363636363 129.13583132244096 Q 390.5454545454545 129.13583132244096 392.7272727272727 129.3550601346329 Q 394.9090909090909 129.3550601346329 397.09090909090907 129.6100802238427 Q 399.27272727272725 129.6100802238427 401.45454545454544 129.90091769437436 Q 403.6363636363636 129.90091769437436 405.8181818181818 130.227368832828 Q 407.99999999999994 130.227368832828 410.18181818181813 130.58900002849327 Q 412.3636363636363 130.58900002849327 414.5454545454545 130.98514935479648 Q 416.7272727272727 130.98514935479648 418.9090909090909 131.4149298015032 Q 421.09090909090907 131.4149298015032 423.27272727272725 131.8772341352886 Q 425.45454545454544 131.8772341352886 427.6363636363636 132.37074135435816 Q 429.81818181818176 132.37074135435816 431.99999999999994 132.89392469112585 Q 434.18181818181813 132.89392469112585 436.3636363636363 133.44506110561494 Q 438.5454545454545 133.44506110561494 440.7272727272727 134.02224220132592 Q 442.9090909090909 134.02224220132592 445.09090909090907 134.62338648489356 Q 447.27272727272725 134.62338648489356 449.45454545454544 135.24625288101063 Q 451.63636363636357 135.24625288101063 453.81818181818176 135.88845540489697 Q 455.99999999999994 135.88845540489697 458.18181818181813 136.54747888611266 Q 460.3636363636363 136.54747888611266 462.5454545454545 137.2206956298087 Q 464.7272727272727 137.2206956298087 466.9090909090909 137.90538289464126 Q 469.09090909090907 137.90538289464126 471.27272727272725 138.59874106058976 Q 473.45454545454544 138.59874106058976 475.6363636363636 139.29791235486454 Q 477.81818181818176 139.29791235486454 479.99999999999994 140 Q 482.18181818181813 140 484.3636363636363 140.70208764513546 Q 486.5454545454545 140.70208764513546 488.7272727272727 141.40125893941024 Q 490.9090909090909 141.40125893941024 493.09090909090907 142.0946171053587 Q 495.27272727272725 142.0946171053587 497.45454545454544 142.77930437019128 Q 499.63636363636357 142.77930437019128 501.81818181818176 143.45252111388734 Q 503.99999999999994 143.45252111388734 506.18181818181813 144.111544595103 Q 508.3636363636363 144.111544595103 510.5454545454545 144.75374711898937 Q 512.7272727272727 144.75374711898937 514.9090909090909 145.3766135151064 Q 517.0909090909091 145.3766135151064 519.2727272727273 145.97775779867408 Q 521.4545454545455 145.97775779867408 523.6363636363636 146.55493889438503 Q 525.8181818181819 146.55493889438503 528 147.10607530887415 Q 530.1818181818182 147.10607530887415 532.3636363636364 147.62925864564184 Q 534.5454545454545 147.62925864564184 536.7272727272726 148.1227658647114 Q 538.9090909090909 148.1227658647114 541.090909090909 148.5850701984968 Q 543.2727272727273 148.5850701984968 545.4545454545454 149.01485064520352 Q 547.6363636363636 149.01485064520352 549.8181818181818 149.41099997150673 Q 552 149.41099997150673 554.1818181818181 149.772631167172 Q 556.3636363636364 149.772631167172 558.5454545454545 150.09908230562564 Q 560.7272727272727 150.09908230562564 562.9090909090909 150.3899197761573 Q 565.0909090909091 150.3899197761573 567.2727272727273 150.6449398653671 Q 569.4545454545455 150.6449398653671 571.6363636363636 150.86416867755904 Q 573.8181818181819 150.86416867755904 576 151.04786039594933 Q 578.1818181818182 151.04786039594933 580.3636363636364 151.19649389870762 Q 582.5454545454545 151.19649389870762 584.7272727272726 151.31076775589727 Q 586.9090909090909 151.31076775589727 589.090909090909 151.3915936452344 Q 591.2727272727273 151.3915936452344 593.4545454545454 151.44008823616178 Q 595.6363636363636 151.44008823616178 597.8181818181818 151.45756360294442 Q 600 151.45756360294442 602.1818181818181 151.44551623825845 Q 604.3636363636364 151.44551623825845 606.5454545454545 151.4056147489857 Q 608.7272727272727 151.4056147489857 610.9090909090909 151.3396863255646 Q 613.0909090909091 151.3396863255646 615.2727272727273 151.24970208521682 Q 617.4545454545455 151.24970208521682 619.6363636363636 151.13776139760034 Q 621.8181818181819 151.13776139760034 624 151.00607530887416 Q 626.1818181818181 151.00607530887416 628.3636363636363 150.8569491867415 Q 630.5454545454545 150.8569491867415 632.7272727272726 150.69276471472196 Q 634.9090909090909 150.69276471472196 637.090909090909 150.5159613686427 Q 639.2727272727273 150.5159613686427 641.4545454545454 150.3290175121038 Q 643.6363636363636 150.3290175121038 645.8181818181818 150.1344312504335 Q 648 150.1344312504335 650.1818181818181 149.93470118438415 Q 652.3636363636364 149.93470118438415 654.5454545454545 149.73230720552021 Q 656.7272727272727 149.73230720552021 658.9090909090909 149.5296914749055 Q 661.0909090909091 149.5296914749055 663.2727272727273 149.32923972531592 Q 665.4545454545455 149.32923972531592 667.6363636363636 149.13326302479066 Q 669.8181818181819 149.13326302479066 672 148.94398013591345 Q 674.1818181818181 148.94398013591345 676.3636363636363 148.76350060080378 Q 678.5454545454545 148.76350060080378 680.7272727272726 148.59380867643583 Q 682.9090909090909 148.59380867643583 685.090909090909 148.43674823862386 Q 687.2727272727273 148.43674823862386 689.4545454545454 148.29400876586507 Q 691.6363636363636 148.29400876586507 693.8181818181818 148.16711250626926 Q 696 148.16711250626926 698.1818181818181 148.05740292208222 Q 700.3636363636364 148.05740292208222 702.5454545454545 147.9660344968966 Q 704.7272727272727 147.9660344968966 706.9090909090909 147.89396398060407 Q 709.0909090909091 147.89396398060407 711.2727272727273 147.8419431365533 Q 713.4545454545455 147.8419431365533 715.6363636363636 147.81051304431497 Q 717.8181818181819 147.81051304431497 720 147.8 Q 722.1818181818181 147.8 724.3636363636363 147.81051304431497 Q 726.5454545454545 147.81051304431497 728.7272727272726 147.8419431365533 Q 730.9090909090909 147.8419431365533 733.090909090909 147.89396398060407 Q 735.2727272727273 147.89396398060407 737.4545454545454 147.9660344968966 Q 739.6363636363636 147.9660344968966 741.8181818181818 148.05740292208222 Q 744 148.05740292208222 746.1818181818181 148.16711250626926 Q 748.3636363636364 148.16711250626926 750.5454545454545 148.29400876586507 Q 752.7272727272727 148.29400876586507 754.9090909090909 148.43674823862386 Q 757.0909090909091 148.43674823862386 759.2727272727273 148.59380867643583 Q 761.4545454545455 148.59380867643583 763.6363636363636 148.76350060080378 Q 765.8181818181819 148.76350060080378 768 148.94398013591345 Q 770.1818181818181 148.94398013591345 772.3636363636363 149.13326302479066 Q 774.5454545454545 149.13326302479066 776.7272727272726 149.3292397253159 Q 778.9090909090909 149.3292397253159 781.090909090909 149.5296914749055 Q 783.2727272727273 149.5296914749055 785.4545454545454 149.73230720552021 Q 787.6363636363636 149.73230720552021 789.8181818181818 149.93470118438415 Q 792 149.93470118438415 794.1818181818181 150.1344312504335 Q 796.3636363636364 150.1344312504335 798.5454545454545 150.3290175121038 Q 800.7272727272727 150.3290175121038 802.9090909090909 150.51596136864268 Q 805.0909090909091 150.51596136864268 807.2727272727273 150.69276471472196 Q 809.4545454545455 150.69276471472196 811.6363636363636 150.8569491867415 Q 813.8181818181818 150.8569491867415 815.9999999999999 151.00607530887413 Q 818.1818181818181 151.00607530887413 820.3636363636363 151.13776139760034 Q 822.5454545454545 151.13776139760034 824.7272727272726 151.24970208521682 Q 826.9090909090909 151.24970208521682 829.090909090909 151.3396863255646 Q 831.2727272727273 151.3396863255646 833.4545454545454 151.4056147489857 Q 835.6363636363636 151.4056147489857 837.8181818181818 151.44551623825845 Q 840 151.44551623825845 842.1818181818181 151.45756360294442 Q 844.3636363636364 151.45756360294442 846.5454545454545 151.44008823616178 Q 848.7272727272727 151.44008823616178 850.9090909090909 151.3915936452344 Q 853.0909090909091 151.3915936452344 855.2727272727273 151.31076775589727 Q 857.4545454545455 151.31076775589727 859.6363636363636 151.19649389870762 Q 861.8181818181818 151.19649389870762 863.9999999999999 151.04786039594933 Q 866.1818181818181 151.04786039594933 868.3636363636363 150.86416867755904 Q 870.5454545454545 150.86416867755904 872.7272727272726 150.6449398653671 Q 874.9090909090909 150.6449398653671 877.090909090909 150.3899197761573 Q 879.2727272727273 150.3899197761573 881.4545454545454 150.09908230562564 Q 883.6363636363636 150.09908230562564 885.8181818181818 149.772631167172 Q 888 149.772631167172 890.1818181818181 149.4109999715067 Q 892.3636363636364 149.4109999715067 894.5454545454545 149.01485064520352 Q 896.7272727272727 149.01485064520352 898.9090909090909 148.5850701984968 Q 901.0909090909091 148.5850701984968 903.2727272727273 148.1227658647114 Q 905.4545454545454 148.1227658647114 907.6363636363635 147.62925864564184 Q 909.8181818181818 147.62925864564184 911.9999999999999 147.10607530887415 Q 914.1818181818181 147.10607530887415 916.3636363636363 146.55493889438503 Q 918.5454545454545 146.55493889438503 920.7272727272726 145.97775779867408 Q 922.9090909090909 145.97775779867408 925.090909090909 145.37661351510644 Q 927.2727272727273 145.37661351510644 929.4545454545454 144.7537471189894 Q 931.6363636363636 144.7537471189894 933.8181818181818 144.11154459510303 Q 936 144.11154459510303 938.1818181818181 143.45252111388734 Q 940.3636363636364 143.45252111388734 942.5454545454545 142.77930437019128 Q 944.7272727272727 142.77930437019128 946.9090909090909 142.09461710535874 Q 949.0909090909091 142.09461710535874 951.2727272727273 141.4012589394102 Q 953.4545454545454 141.4012589394102 955.6363636363635 140.7020876451355 Q 957.8181818181818 140.7020876451355 959.9999999999999 140 "
+        stroke="url(#grad)"
+        stroke-width="3"
+        fill="none">
     <animateTransform
       attributeName="transform"
       type="translate"
-      from="0 0"
-      to="-960 0"
-      dur="10s"
-      repeatCount="indefinite"/>
-  </path>
-  <path d="M 0 155.66651094385034 Q 2 155.66651094385034 4 156.77139458308756 Q 6 156.77139458308756 8 157.9201746395813 Q 10 157.9201746395813 12 159.0956607023592 Q 14 159.0956607023592 16 160.27863774930796 Q 18 160.27863774930796 20 161.4482793001356 Q 22 161.4482793001356 24 162.58260904674415 Q 26 162.58260904674415 28 163.6589999097243 Q 30 163.6589999097243 32 164.65469849193937 Q 34 164.65469849193937 36 165.54736221701893 Q 38 165.54736221701893 40 166.31559606920624 Q 42 166.31559606920624 44 166.93947580091225 Q 46 166.93947580091225 48 167.40104474711805 Q 50 167.40104474711805 52 167.68477197509955 Q 54 167.68477197509955 56 167.77796038968066 Q 58 167.77796038968066 60 167.67109458677004 Q 62 167.67109458677004 64 167.3581196727986 Q 66 167.3581196727986 68 166.8366439101253 Q 70 166.8366439101253 72 166.1080598684321 Q 74 166.1080598684321 76 165.17758071511167 Q 78 165.17758071511167 80 164.05419031590876 Q 82 164.05419031590876 84 162.7505078907327 Q 86 162.7505078907327 88 161.28257002785773 Q 90 161.28257002785773 92 159.66953485226324 Q 94 159.66953485226324 96 157.9333150218429 Q 98 157.9333150218429 100 156.0981479426207 Q 102 156.0981479426207 104 154.19011310888686 Q 106 154.19011310888686 108 152.23660774919588 Q 110 152.23660774919588 112 150.26579296322674 Q 114 150.26579296322674 116 148.30602324300517 Q 118 148.30602324300517 120 146.3852726675967 Q 122 146.3852726675967 124 144.53057113343965 Q 126 144.53057113343965 128 142.76746373125488 Q 130 142.76746373125488 132 141.11950581115306 Q 134 141.11950581115306 136 139.60780540417994 Q 138 139.60780540417994 140 138.250623512563 Q 142 138.250623512563 144 137.06304137075344 Q 146 137.06304137075344 148 136.056702149627 Q 150 136.056702149627 152 135.23963276692692 Q 154 135.23963276692692 156 134.61614952260376 Q 158 134.61614952260376 160 134.18684924583926 Q 162 134.18684924583926 164 133.94868557106338 Q 166 133.94868557106338 168 133.89512790392402 Q 170 133.89512790392402 172 134.0163986453329 Q 174 134.0163986453329 176 134.29978236119516 Q 178 134.29978236119516 180 134.72999886325002 Q 182 134.72999886325002 184 135.28963064470904 Q 186 135.28963064470904 188 135.95959383022446 Q 190 135.95959383022446 192 136.7196407844422 Q 194 136.7196407844422 196 137.5488818016404 Q 198 137.5488818016404 200 138.4263128881467 Q 202 138.4263128881467 204 139.33133655911072 Q 206 139.33133655911072 208 140.24426280363815 Q 210 140.24426280363815 212 141.1467779211692 Q 214 141.1467779211692 216 142.02236978342083 Q 218 142.02236978342083 220 142.8566992088713 Q 222 142.8566992088713 224 143.63790852238952 Q 226 143.63790852238952 228 144.3568599767188 Q 230 144.3568599767188 232 145.00729849526428 Q 234 145.00729849526428 236 145.58593511276334 Q 238 145.58593511276334 240 146.09244949440165 Q 242 146.09244949440165 244 146.52941195511636 Q 246 146.52941195511636 248 146.90212742863696 Q 250 146.90212742863696 252 147.21840580004465 Q 254 147.21840580004465 256 147.48826486765395 Q 258 147.48826486765395 260 147.72357389399366 Q 262 147.72357389399366 264 147.93764719965995 Q 266 147.93764719965995 268 148.1447985108554 Q 270 148.1447985108554 272 148.3598677603917 Q 274 148.3598677603917 276 148.5977327383355 Q 278 148.5977327383355 280 148.87281837505037 Q 282 148.87281837505037 284 149.1986165065374 Q 286 149.1986165065374 288 149.58722871798892 Q 290 149.58722871798892 292 150.0489442925782 Q 294 150.0489442925782 296 150.59186442271857 Q 298 150.59186442271857 300 151.22158269179562 Q 302 151.22158269179562 304 151.9409304340584 Q 306 151.9409304340584 308 152.7497939635289 Q 310 152.7497939635289 312 153.6450088693767 Q 314 153.6450088693767 316 154.62033464952123 Q 318 154.62033464952123 320 155.66651094385034 Q 322 155.66651094385034 324 156.77139458308756 Q 326 156.77139458308756 328 157.9201746395813 Q 330 157.9201746395813 332 159.09566070235917 Q 334 159.09566070235917 336 160.27863774930796 Q 338 160.27863774930796 340 161.4482793001356 Q 342 161.4482793001356 344 162.58260904674412 Q 346 162.58260904674412 348 163.6589999097243 Q 350 163.6589999097243 352 164.65469849193937 Q 354 164.65469849193937 356 165.54736221701893 Q 358 165.54736221701893 360 166.3155960692062 Q 362 166.3155960692062 364 166.93947580091225 Q 366 166.93947580091225 368 167.40104474711805 Q 370 167.40104474711805 372 167.68477197509955 Q 374 167.68477197509955 376 167.77796038968066 Q 378 167.77796038968066 380 167.67109458677004 Q 382 167.67109458677004 384 167.3581196727986 Q 386 167.3581196727986 388 166.8366439101253 Q 390 166.8366439101253 392 166.1080598684321 Q 394 166.1080598684321 396 165.17758071511167 Q 398 165.17758071511167 400 164.05419031590876 Q 402 164.05419031590876 404 162.7505078907327 Q 406 162.7505078907327 408 161.28257002785776 Q 410 161.28257002785776 412 159.66953485226327 Q 414 159.66953485226327 416 157.9333150218429 Q 418 157.9333150218429 420 156.0981479426207 Q 422 156.0981479426207 424 154.1901131088869 Q 426 154.1901131088869 428 152.23660774919585 Q 430 152.23660774919585 432 150.26579296322674 Q 434 150.26579296322674 436 148.30602324300517 Q 438 148.30602324300517 440 146.3852726675967 Q 442 146.3852726675967 444 144.53057113343965 Q 446 144.53057113343965 448 142.76746373125488 Q 450 142.76746373125488 452 141.11950581115306 Q 454 141.11950581115306 456 139.6078054041799 Q 458 139.6078054041799 460 138.250623512563 Q 462 138.250623512563 464 137.06304137075347 Q 466 137.06304137075347 468 136.05670214962703 Q 470 136.05670214962703 472 135.23963276692695 Q 474 135.23963276692695 476 134.61614952260376 Q 478 134.61614952260376 480 134.18684924583926 Q 482 134.18684924583926 484 133.94868557106338 Q 486 133.94868557106338 488 133.89512790392402 Q 490 133.89512790392402 492 134.0163986453329 Q 494 134.0163986453329 496 134.29978236119516 Q 498 134.29978236119516 500 134.72999886325002 Q 502 134.72999886325002 504 135.289630644709 Q 506 135.289630644709 508 135.95959383022446 Q 510 135.95959383022446 512 136.7196407844422 Q 514 136.7196407844422 516 137.54888180164042 Q 518 137.54888180164042 520 138.4263128881467 Q 522 138.4263128881467 524 139.33133655911072 Q 526 139.33133655911072 528 140.24426280363815 Q 530 140.24426280363815 532 141.1467779211692 Q 534 141.1467779211692 536 142.02236978342083 Q 538 142.02236978342083 540 142.8566992088713 Q 542 142.8566992088713 544 143.63790852238952 Q 546 143.63790852238952 548 144.3568599767188 Q 550 144.3568599767188 552 145.00729849526428 Q 554 145.00729849526428 556 145.58593511276337 Q 558 145.58593511276337 560 146.09244949440165 Q 562 146.09244949440165 564 146.52941195511633 Q 566 146.52941195511633 568 146.90212742863693 Q 570 146.90212742863693 572 147.21840580004465 Q 574 147.21840580004465 576 147.48826486765395 Q 578 147.48826486765395 580 147.72357389399366 Q 582 147.72357389399366 584 147.93764719965995 Q 586 147.93764719965995 588 148.1447985108554 Q 590 148.1447985108554 592 148.3598677603917 Q 594 148.3598677603917 596 148.59773273833548 Q 598 148.59773273833548 600 148.87281837505037 Q 602 148.87281837505037 604 149.19861650653738 Q 606 149.19861650653738 608 149.58722871798892 Q 610 149.58722871798892 612 150.0489442925782 Q 614 150.0489442925782 616 150.59186442271857 Q 618 150.59186442271857 620 151.22158269179562 Q 622 151.22158269179562 624 151.9409304340584 Q 626 151.9409304340584 628 152.7497939635289 Q 630 152.7497939635289 632 153.6450088693767 Q 634 153.6450088693767 636 154.62033464952117 Q 638 154.62033464952117 640 155.66651094385037 Q 642 155.66651094385037 644 156.77139458308756 Q 646 156.77139458308756 648 157.92017463958132 Q 650 157.92017463958132 652 159.0956607023592 Q 654 159.0956607023592 656 160.278637749308 Q 658 160.278637749308 660 161.4482793001356 Q 662 161.4482793001356 664 162.58260904674412 Q 666 162.58260904674412 668 163.6589999097243 Q 670 163.6589999097243 672 164.65469849193937 Q 674 164.65469849193937 676 165.54736221701893 Q 678 165.54736221701893 680 166.31559606920624 Q 682 166.31559606920624 684 166.93947580091225 Q 686 166.93947580091225 688 167.40104474711802 Q 690 167.40104474711802 692 167.68477197509955 Q 694 167.68477197509955 696 167.77796038968063 Q 698 167.77796038968063 700 167.67109458677007 Q 702 167.67109458677007 704 167.35811967279864 Q 706 167.35811967279864 708 166.83664391012533 Q 710 166.83664391012533 712 166.10805986843206 Q 714 166.10805986843206 716 165.1775807151117 Q 718 165.1775807151117 720 164.05419031590876 Q 722 164.05419031590876 724 162.7505078907327 Q 726 162.7505078907327 728 161.2825700278578 Q 730 161.2825700278578 732 159.66953485226324 Q 734 159.66953485226324 736 157.93331502184287 Q 738 157.93331502184287 740 156.09814794262067 Q 742 156.09814794262067 744 154.1901131088869 Q 746 154.1901131088869 748 152.23660774919583 Q 750 152.23660774919583 752 150.26579296322674 Q 754 150.26579296322674 756 148.30602324300526 Q 758 148.30602324300526 760 146.3852726675967 Q 762 146.3852726675967 764 144.5305711334397 Q 766 144.5305711334397 768 142.76746373125488 Q 770 142.76746373125488 772 141.1195058111531 Q 774 141.1195058111531 776 139.6078054041799 Q 778 139.6078054041799 780 138.25062351256304 Q 782 138.25062351256304 784 137.0630413707535 Q 786 137.0630413707535 788 136.05670214962703 Q 790 136.05670214962703 792 135.23963276692695 Q 794 135.23963276692695 796 134.61614952260373 Q 798 134.61614952260373 800 134.18684924583926 Q 802 134.18684924583926 804 133.94868557106335 Q 806 133.94868557106335 808 133.89512790392402 Q 810 133.89512790392402 812 134.0163986453329 Q 814 134.0163986453329 816 134.29978236119513 Q 818 134.29978236119513 820 134.72999886325002 Q 822 134.72999886325002 824 135.289630644709 Q 826 135.289630644709 828 135.95959383022446 Q 830 135.95959383022446 832 136.71964078444216 Q 834 136.71964078444216 836 137.5488818016404 Q 838 137.5488818016404 840 138.4263128881467 Q 842 138.4263128881467 844 139.33133655911072 Q 846 139.33133655911072 848 140.2442628036381 Q 850 140.2442628036381 852 141.14677792116916 Q 854 141.14677792116916 856 142.02236978342086 Q 858 142.02236978342086 860 142.8566992088713 Q 862 142.8566992088713 864 143.63790852238952 Q 866 143.63790852238952 868 144.3568599767188 Q 870 144.3568599767188 872 145.00729849526428 Q 874 145.00729849526428 876 145.5859351127633 Q 878 145.5859351127633 880 146.09244949440165 Q 882 146.09244949440165 884 146.52941195511633 Q 886 146.52941195511633 888 146.90212742863696 Q 890 146.90212742863696 892 147.21840580004462 Q 894 147.21840580004462 896 147.488264867654 Q 898 147.488264867654 900 147.7235738939937 Q 902 147.7235738939937 904 147.93764719966 Q 906 147.93764719966 908 148.14479851085542 Q 910 148.14479851085542 912 148.35986776039172 Q 914 148.35986776039172 916 148.5977327383355 Q 918 148.5977327383355 920 148.87281837505043 Q 922 148.87281837505043 924 149.19861650653743 Q 926 149.19861650653743 928 149.58722871798892 Q 930 149.58722871798892 932 150.04894429257826 Q 934 150.04894429257826 936 150.59186442271857 Q 938 150.59186442271857 940 151.22158269179565 Q 942 151.22158269179565 944 151.9409304340584 Q 946 151.9409304340584 948 152.74979396352893 Q 950 152.74979396352893 952 153.6450088693767 Q 954 153.6450088693767 956 154.62033464952117 Q 958 154.62033464952117 960 155.66651094385034 " stroke="url(#grad)" stroke-width="3" fill="none"
-        transform="translate(960,0)">
-    <animateTransform
-      attributeName="transform"
-      type="translate"
-      from="0 0"
-      to="-960 0"
-      dur="10s"
-      repeatCount="indefinite"/>
+      from="0 -6"
+      to="0 6"
+      dur="4s"
+      repeatCount="indefinite"
+      direction="alternate"/>
   </path>
 </g>
 <g opacity="1" filter="url(#glow)">
-  <path d="M 0 121.57667553572223 Q 2 121.57667553572223 4 121.21840410099479 Q 6 121.21840410099479 8 120.99849904598221 Q 10 120.99849904598221 12 120.92153295337667 Q 14 120.92153295337667 16 120.9909914720328 Q 18 120.9909914720328 20 121.20922788485612 Q 22 121.20922788485612 24 121.5774287897043 Q 26 121.5774287897043 28 122.09559129270566 Q 30 122.09559129270566 32 122.76251199074719 Q 34 122.76251199074719 36 123.5757878941273 Q 38 123.5757878941273 40 124.53182931287445 Q 42 124.53182931287445 44 125.62588460238764 Q 46 125.62588460238764 48 126.85207653725396 Q 50 126.85207653725396 52 128.20344995771848 Q 54 128.20344995771848 56 129.6720302126805 Q 58 129.6720302126805 60 131.24889180757935 Q 62 131.24889180757935 64 132.92423655636995 Q 66 132.92423655636995 68 134.68748043516493 Q 70 134.68748043516493 72 136.52734824213744 Q 74 136.52734824213744 76 138.43197508495595 Q 78 138.43197508495595 80 140.3890136442597 Q 82 140.3890136442597 84 142.38574610027717 Q 86 142.38574610027717 88 144.40919956030584 Q 90 144.40919956030584 92 146.44626378794553 Q 94 146.44626378794553 96 148.48381001111017 Q 98 148.48381001111017 100 150.50880957519138 Q 102 150.50880957519138 104 152.50845121042454 Q 106 152.50845121042454 108 154.4702556984829 Q 110 154.4702556984829 112 156.38218675242078 Q 114 156.38218675242078 116 158.23275696598105 Q 118 158.23275696598105 120 160.01112774251686 Q 122 160.01112774251686 124 161.70720217975602 Q 126 161.70720217975602 128 163.31170996363818 Q 130 163.31170996363818 132 164.816283411634 Q 134 164.816283411634 136 166.21352390235938 Q 138 166.21352390235938 140 167.49705803287316 Q 142 167.49705803287316 144 168.66158295664513 Q 146 168.66158295664513 148 169.7029004725892 Q 150 169.7029004725892 152 170.6179395574846 Q 154 170.6179395574846 156 171.4047671592285 Q 158 171.4047671592285 160 172.06258719530678 Q 162 172.06258719530678 164 172.59172782825092 Q 166 172.59172782825092 168 172.9936172162773 Q 170 172.9936172162773 172 173.27074806140135 Q 174 173.27074806140135 176 173.4266313977277 Q 178 173.4266313977277 180 173.4657401780285 Q 182 173.4657401780285 184 173.393443325875 Q 186 173.393443325875 188 173.21593102229645 Q 190 173.21593102229645 192 172.94013208909487 Q 194 172.94013208909487 196 172.57362441453583 Q 198 172.57362441453583 200 172.1245394402533 Q 202 172.1245394402533 204 171.6014617900588 Q 206 171.6014617900588 208 171.01332517126463 Q 210 171.01332517126463 212 170.36930571657675 Q 214 170.36930571657675 216 169.67871395918792 Q 218 169.67871395918792 220 168.95088664514145 Q 222 168.95088664514145 224 168.19507958523005 Q 226 168.19507958523005 228 167.42036273366733 Q 230 167.42036273366733 232 166.6355186527008 Q 234 166.6355186527008 236 165.84894548153753 Q 238 165.84894548153753 240 165.06856547488866 Q 242 165.06856547488866 244 164.30174011169566 Q 246 164.30174011169566 248 163.55519269889817 Q 250 163.55519269889817 252 162.83493930928455 Q 254 162.83493930928455 256 162.14622879747625 Q 258 162.14622879747625 260 161.49349253499153 Q 262 161.49349253499153 264 160.88030439525056 Q 266 160.88030439525056 268 160.3093514035374 Q 270 160.3093514035374 272 159.78241534660646 Q 274 159.78241534660646 276 159.30036551313768 Q 278 159.30036551313768 280 158.86316261096712 Q 282 158.86316261096712 284 158.4698737813343 Q 286 158.4698737813343 288 158.11869850567274 Q 290 158.11869850567274 292 157.80700507811025 Q 294 157.80700507811025 296 157.53137719817815 Q 298 157.53137719817815 300 157.28767012457507 Q 302 157.28767012457507 304 157.07107572343017 Q 306 157.07107572343017 308 156.87619564455892 Q 310 156.87619564455892 312 156.69712176779495 Q 314 156.69712176779495 316 156.52752297962692 Q 318 156.52752297962692 320 156.36073726897098 Q 322 156.36073726897098 324 156.1898680707543 Q 326 156.1898680707543 328 156.00788373774049 Q 330 156.00788373774049 332 155.80771898522198 Q 334 155.80771898522198 336 155.58237713023948 Q 338 155.58237713023948 340 155.32503193711537 Q 342 155.32503193711537 344 155.02912788442072 Q 346 155.02912788442072 348 154.68847768499788 Q 350 154.68847768499788 352 154.29735592015797 Q 354 154.29735592015797 356 153.85058769133687 Q 358 153.85058769133687 360 153.34363124687223 Q 362 153.34363124687223 364 152.77265360755354 Q 366 152.77265360755354 368 152.1345982914814 Q 370 152.1345982914814 372 151.42724432570478 Q 374 151.42724432570478 376 150.64925582813157 Q 378 150.64925582813157 380 149.8002215472792 Q 382 149.8002215472792 384 148.8806838584 Q 386 148.8806838584 388 147.89215683116774 Q 390 147.89215683116774 392 146.83713310516177 Q 394 146.83713310516177 396 145.71907943350652 Q 398 145.71907943350652 400 144.5424208808516 Q 402 144.5424208808516 404 143.31251378802716 Q 406 143.31251378802716 408 142.035607740796 Q 410 142.035607740796 412 140.71879690276995 Q 414 140.71879690276995 416 139.36996119141358 Q 418 139.36996119141358 420 137.9976978898171 Q 422 137.9976978898171 424 136.6112443943249 Q 426 136.6112443943249 428 135.22039289797968 Q 430 135.22039289797968 432 133.83539790097277 Q 434 133.83539790097277 436 132.46687752088127 Q 438 132.46687752088127 440 131.12570964651601 Q 442 131.12570964651601 444 129.82292403890972 Q 446 129.82292403890972 448 128.56959153068902 Q 450 128.56959153068902 452 127.37671151025576 Q 454 127.37671151025576 456 126.25509889946245 Q 458 126.25509889946245 460 125.21527184255176 Q 462 125.21527184255176 464 124.2673413199247 Q 466 124.2673413199247 468 123.42090388285189 Q 470 123.42090388285189 472 122.68493867472047 Q 474 122.68493867472047 476 122.06770986114456 Q 478 122.06770986114456 480 121.57667553572223 Q 482 121.57667553572223 484 121.21840410099479 Q 486 121.21840410099479 488 120.99849904598221 Q 490 120.99849904598221 492 120.92153295337667 Q 494 120.92153295337667 496 120.9909914720328 Q 498 120.9909914720328 500 121.20922788485612 Q 502 121.20922788485612 504 121.5774287897043 Q 506 121.5774287897043 508 122.09559129270566 Q 510 122.09559129270566 512 122.76251199074716 Q 514 122.76251199074716 516 123.5757878941273 Q 518 123.5757878941273 520 124.53182931287444 Q 522 124.53182931287444 524 125.62588460238763 Q 526 125.62588460238763 528 126.85207653725396 Q 530 126.85207653725396 532 128.20344995771848 Q 534 128.20344995771848 536 129.67203021268054 Q 538 129.67203021268054 540 131.24889180757933 Q 542 131.24889180757933 544 132.92423655636992 Q 546 132.92423655636992 548 134.6874804351649 Q 550 134.6874804351649 552 136.52734824213738 Q 554 136.52734824213738 556 138.43197508495595 Q 558 138.43197508495595 560 140.38901364425973 Q 562 140.38901364425973 564 142.38574610027715 Q 566 142.38574610027715 568 144.40919956030584 Q 570 144.40919956030584 572 146.4462637879455 Q 574 146.4462637879455 576 148.48381001111017 Q 578 148.48381001111017 580 150.50880957519135 Q 582 150.50880957519135 584 152.5084512104245 Q 586 152.5084512104245 588 154.47025569848293 Q 590 154.47025569848293 592 156.38218675242075 Q 594 156.38218675242075 596 158.23275696598105 Q 598 158.23275696598105 600 160.01112774251683 Q 602 160.01112774251683 604 161.70720217975597 Q 606 161.70720217975597 608 163.31170996363818 Q 610 163.31170996363818 612 164.81628341163398 Q 614 164.81628341163398 616 166.2135239023594 Q 618 166.2135239023594 620 167.49705803287316 Q 622 167.49705803287316 624 168.66158295664513 Q 626 168.66158295664513 628 169.7029004725892 Q 630 169.7029004725892 632 170.6179395574846 Q 634 170.6179395574846 636 171.40476715922847 Q 638 171.40476715922847 640 172.06258719530678 Q 642 172.06258719530678 644 172.59172782825092 Q 646 172.59172782825092 648 172.9936172162773 Q 650 172.9936172162773 652 173.27074806140138 Q 654 173.27074806140138 656 173.42663139772773 Q 658 173.42663139772773 660 173.4657401780285 Q 662 173.4657401780285 664 173.393443325875 Q 666 173.393443325875 668 173.21593102229647 Q 670 173.21593102229647 672 172.94013208909487 Q 674 172.94013208909487 676 172.57362441453583 Q 678 172.57362441453583 680 172.12453944025333 Q 682 172.12453944025333 684 171.60146179005883 Q 686 171.60146179005883 688 171.01332517126465 Q 690 171.01332517126465 692 170.36930571657678 Q 694 170.36930571657678 696 169.67871395918795 Q 698 169.67871395918795 700 168.95088664514148 Q 702 168.95088664514148 704 168.19507958523008 Q 706 168.19507958523008 708 167.42036273366733 Q 710 167.42036273366733 712 166.6355186527008 Q 714 166.6355186527008 716 165.84894548153753 Q 718 165.84894548153753 720 165.0685654748887 Q 722 165.0685654748887 724 164.30174011169566 Q 726 164.30174011169566 728 163.5551926988982 Q 730 163.5551926988982 732 162.83493930928458 Q 734 162.83493930928458 736 162.14622879747623 Q 738 162.14622879747623 740 161.49349253499156 Q 742 161.49349253499156 744 160.8803043952506 Q 746 160.8803043952506 748 160.3093514035374 Q 750 160.3093514035374 752 159.78241534660646 Q 754 159.78241534660646 756 159.30036551313768 Q 758 159.30036551313768 760 158.86316261096712 Q 762 158.86316261096712 764 158.4698737813343 Q 766 158.4698737813343 768 158.11869850567274 Q 770 158.11869850567274 772 157.80700507811025 Q 774 157.80700507811025 776 157.53137719817815 Q 778 157.53137719817815 780 157.28767012457507 Q 782 157.28767012457507 784 157.07107572343017 Q 786 157.07107572343017 788 156.8761956445589 Q 790 156.8761956445589 792 156.69712176779493 Q 794 156.69712176779493 796 156.52752297962692 Q 798 156.52752297962692 800 156.36073726897095 Q 802 156.36073726897095 804 156.18986807075427 Q 806 156.18986807075427 808 156.00788373774046 Q 810 156.00788373774046 812 155.80771898522195 Q 814 155.80771898522195 816 155.58237713023945 Q 818 155.58237713023945 820 155.32503193711537 Q 822 155.32503193711537 824 155.0291278844207 Q 826 155.0291278844207 828 154.68847768499788 Q 830 154.68847768499788 832 154.29735592015794 Q 834 154.29735592015794 836 153.85058769133687 Q 838 153.85058769133687 840 153.34363124687223 Q 842 153.34363124687223 844 152.77265360755354 Q 846 152.77265360755354 848 152.13459829148144 Q 850 152.13459829148144 852 151.42724432570478 Q 854 151.42724432570478 856 150.64925582813154 Q 858 150.64925582813154 860 149.8002215472792 Q 862 149.8002215472792 864 148.8806838584 Q 866 148.8806838584 868 147.89215683116777 Q 870 147.89215683116777 872 146.83713310516177 Q 874 146.83713310516177 876 145.71907943350655 Q 878 145.71907943350655 880 144.54242088085164 Q 882 144.54242088085164 884 143.3125137880272 Q 886 143.3125137880272 888 142.035607740796 Q 890 142.035607740796 892 140.71879690276992 Q 894 140.71879690276992 896 139.3699611914136 Q 898 139.3699611914136 900 137.99769788981712 Q 902 137.99769788981712 904 136.6112443943249 Q 906 136.6112443943249 908 135.22039289797974 Q 910 135.22039289797974 912 133.8353979009728 Q 914 133.8353979009728 916 132.4668775208813 Q 918 132.4668775208813 920 131.12570964651601 Q 922 131.12570964651601 924 129.82292403890972 Q 926 129.82292403890972 928 128.56959153068908 Q 930 128.56959153068908 932 127.37671151025577 Q 934 127.37671151025577 936 126.25509889946247 Q 938 126.25509889946247 940 125.21527184255177 Q 942 125.21527184255177 944 124.26734131992474 Q 946 124.26734131992474 948 123.42090388285189 Q 950 123.42090388285189 952 122.68493867472046 Q 954 122.68493867472046 956 122.06770986114458 Q 958 122.06770986114458 960 121.57667553572223 " stroke="url(#grad)" stroke-width="4" fill="none">
+  <path d="M 0 140 Q 2.1818181818181817 140 4.363636363636363 139.5319415699097 Q 6.545454545454545 139.5319415699097 8.727272727272727 139.0658273737265 Q 10.909090909090908 139.0658273737265 13.09090909090909 138.60358859642753 Q 15.272727272727272 138.60358859642753 17.454545454545453 138.14713041987247 Q 19.636363636363633 138.14713041987247 21.818181818181817 137.69831925740843 Q 24 137.69831925740843 26.18181818181818 137.25897026993132 Q 28.36363636363636 137.25897026993132 30.545454545454543 136.83083525400707 Q 32.72727272727273 136.83083525400707 34.90909090909091 136.41559098992906 Q 37.090909090909086 136.41559098992906 39.272727272727266 136.01482813421728 Q 41.45454545454545 136.01482813421728 43.63636363636363 135.63004073707663 Q 45.81818181818182 135.63004073707663 48 135.26261646075056 Q 50.18181818181818 135.26261646075056 52.36363636363636 134.9138275695721 Q 54.54545454545454 134.9138275695721 56.72727272727272 134.58482275685907 Q 58.90909090909091 134.58482275685907 61.090909090909086 134.2766198676688 Q 63.27272727272727 134.2766198676688 65.45454545454545 133.99009956986433 Q 67.63636363636363 133.99009956986433 69.81818181818181 133.72600001899553 Q 71.99999999999999 133.72600001899553 74.18181818181817 133.48491255521867 Q 76.36363636363635 133.48491255521867 78.54545454545453 133.26727846291624 Q 80.72727272727272 133.26727846291624 82.9090909090909 133.07338681589513 Q 85.09090909090908 133.07338681589513 87.27272727272727 132.9033734230886 Q 89.45454545454544 132.9033734230886 91.63636363636363 132.75722088162732 Q 93.81818181818181 132.75722088162732 96 132.63475973603377 Q 98.18181818181817 132.63475973603377 100.36363636363636 132.53567073419492 Q 102.54545454545453 132.53567073419492 104.72727272727272 132.45948816273517 Q 106.90909090909089 132.45948816273517 109.09090909090908 132.4056042365104 Q 111.27272727272725 132.4056042365104 113.45454545454544 132.37327450922547 Q 115.63636363636363 132.37327450922547 117.81818181818181 132.36162426470372 Q 119.99999999999999 132.36162426470372 122.18181818181817 132.36965584116103 Q 124.36363636363635 132.36965584116103 126.54545454545453 132.39625683400953 Q 128.72727272727272 132.39625683400953 130.9090909090909 132.44020911629025 Q 133.09090909090907 132.44020911629025 135.27272727272725 132.50019860985546 Q 137.45454545454544 132.50019860985546 139.63636363636363 132.5748257349331 Q 141.8181818181818 132.5748257349331 144 132.66261646075057 Q 146.18181818181816 132.66261646075057 148.36363636363635 132.76203387550567 Q 150.54545454545453 132.76203387550567 152.72727272727272 132.87149019018534 Q 154.90909090909088 132.87149019018534 157.09090909090907 132.98935908757153 Q 159.27272727272725 132.98935908757153 161.45454545454544 133.11398832526413 Q 163.63636363636363 133.11398832526413 165.8181818181818 133.243712499711 Q 167.99999999999997 133.243712499711 170.18181818181816 133.37686587707722 Q 172.36363636363635 133.37686587707722 174.54545454545453 133.51179519631987 Q 176.72727272727272 133.51179519631987 178.9090909090909 133.646872350063 Q 181.09090909090907 133.646872350063 183.27272727272725 133.7805068497894 Q 185.45454545454544 133.7805068497894 187.63636363636363 133.9111579834729 Q 189.8181818181818 133.9111579834729 192 134.0373465760577 Q 194.18181818181816 134.0373465760577 196.36363636363635 134.15766626613083 Q 198.54545454545453 134.15766626613083 200.72727272727272 134.27079421570943 Q 202.90909090909088 134.27079421570943 205.09090909090907 134.37550117425076 Q 207.27272727272725 134.37550117425076 209.45454545454544 134.47066082275663 Q 211.63636363636363 134.47066082275663 213.8181818181818 134.55525832915384 Q 215.99999999999997 134.55525832915384 218.18181818181816 134.6283980519452 Q 220.36363636363635 134.6283980519452 222.54545454545453 134.68931033540227 Q 224.7272727272727 134.68931033540227 226.90909090909088 134.73735734626396 Q 229.09090909090907 134.73735734626396 231.27272727272725 134.77203790896445 Q 233.45454545454544 134.77203790896445 235.63636363636363 134.79299130379002 Q 237.81818181818178 134.79299130379002 239.99999999999997 134.8 Q 242.18181818181816 134.8 244.36363636363635 134.79299130379002 Q 246.54545454545453 134.79299130379002 248.72727272727272 134.77203790896445 Q 250.90909090909088 134.77203790896445 253.09090909090907 134.73735734626393 Q 255.27272727272725 134.73735734626393 257.45454545454544 134.68931033540227 Q 259.6363636363636 134.68931033540227 261.8181818181818 134.6283980519452 Q 264 134.6283980519452 266.1818181818182 134.55525832915384 Q 268.3636363636363 134.55525832915384 270.5454545454545 134.47066082275663 Q 272.7272727272727 134.47066082275663 274.9090909090909 134.37550117425076 Q 277.09090909090907 134.37550117425076 279.27272727272725 134.27079421570943 Q 281.45454545454544 134.27079421570943 283.6363636363636 134.15766626613083 Q 285.8181818181818 134.15766626613083 288 134.0373465760577 Q 290.18181818181813 134.0373465760577 292.3636363636363 133.9111579834729 Q 294.5454545454545 133.9111579834729 296.7272727272727 133.7805068497894 Q 298.9090909090909 133.7805068497894 301.09090909090907 133.646872350063 Q 303.27272727272725 133.646872350063 305.45454545454544 133.51179519631987 Q 307.6363636363636 133.51179519631987 309.8181818181818 133.37686587707722 Q 311.99999999999994 133.37686587707722 314.18181818181813 133.243712499711 Q 316.3636363636363 133.243712499711 318.5454545454545 133.11398832526413 Q 320.7272727272727 133.11398832526413 322.9090909090909 132.98935908757153 Q 325.09090909090907 132.98935908757153 327.27272727272725 132.87149019018534 Q 329.45454545454544 132.87149019018534 331.6363636363636 132.76203387550567 Q 333.8181818181818 132.76203387550567 336 132.66261646075057 Q 338.18181818181813 132.66261646075057 340.3636363636363 132.5748257349331 Q 342.5454545454545 132.5748257349331 344.7272727272727 132.50019860985546 Q 346.9090909090909 132.50019860985546 349.09090909090907 132.44020911629025 Q 351.27272727272725 132.44020911629025 353.45454545454544 132.39625683400953 Q 355.6363636363636 132.39625683400953 357.8181818181818 132.36965584116103 Q 359.99999999999994 132.36965584116103 362.18181818181813 132.36162426470372 Q 364.3636363636363 132.36162426470372 366.5454545454545 132.37327450922547 Q 368.7272727272727 132.37327450922547 370.9090909090909 132.4056042365104 Q 373.09090909090907 132.4056042365104 375.27272727272725 132.45948816273517 Q 377.45454545454544 132.45948816273517 379.6363636363636 132.53567073419492 Q 381.8181818181818 132.53567073419492 384 132.63475973603377 Q 386.18181818181813 132.63475973603377 388.3636363636363 132.75722088162732 Q 390.5454545454545 132.75722088162732 392.7272727272727 132.9033734230886 Q 394.9090909090909 132.9033734230886 397.09090909090907 133.07338681589513 Q 399.27272727272725 133.07338681589513 401.45454545454544 133.26727846291624 Q 403.6363636363636 133.26727846291624 405.8181818181818 133.48491255521867 Q 407.99999999999994 133.48491255521867 410.18181818181813 133.72600001899553 Q 412.3636363636363 133.72600001899553 414.5454545454545 133.99009956986433 Q 416.7272727272727 133.99009956986433 418.9090909090909 134.2766198676688 Q 421.09090909090907 134.2766198676688 423.27272727272725 134.58482275685907 Q 425.45454545454544 134.58482275685907 427.6363636363636 134.9138275695721 Q 429.81818181818176 134.9138275695721 431.99999999999994 135.26261646075056 Q 434.18181818181813 135.26261646075056 436.3636363636363 135.63004073707663 Q 438.5454545454545 135.63004073707663 440.7272727272727 136.01482813421728 Q 442.9090909090909 136.01482813421728 445.09090909090907 136.41559098992906 Q 447.27272727272725 136.41559098992906 449.45454545454544 136.83083525400707 Q 451.63636363636357 136.83083525400707 453.81818181818176 137.25897026993132 Q 455.99999999999994 137.25897026993132 458.18181818181813 137.69831925740843 Q 460.3636363636363 137.69831925740843 462.5454545454545 138.14713041987247 Q 464.7272727272727 138.14713041987247 466.9090909090909 138.60358859642753 Q 469.09090909090907 138.60358859642753 471.27272727272725 139.0658273737265 Q 473.45454545454544 139.0658273737265 475.6363636363636 139.5319415699097 Q 477.81818181818176 139.5319415699097 479.99999999999994 140 Q 482.18181818181813 140 484.3636363636363 140.4680584300903 Q 486.5454545454545 140.4680584300903 488.7272727272727 140.9341726262735 Q 490.9090909090909 140.9341726262735 493.09090909090907 141.39641140357247 Q 495.27272727272725 141.39641140357247 497.45454545454544 141.85286958012753 Q 499.63636363636357 141.85286958012753 501.81818181818176 142.30168074259154 Q 503.99999999999994 142.30168074259154 506.18181818181813 142.74102973006868 Q 508.3636363636363 142.74102973006868 510.5454545454545 143.16916474599293 Q 512.7272727272727 143.16916474599293 514.9090909090909 143.58440901007094 Q 517.0909090909091 143.58440901007094 519.2727272727273 143.98517186578272 Q 521.4545454545455 143.98517186578272 523.6363636363636 144.36995926292335 Q 525.8181818181819 144.36995926292335 528 144.73738353924944 Q 530.1818181818182 144.73738353924944 532.3636363636364 145.0861724304279 Q 534.5454545454545 145.0861724304279 536.7272727272726 145.41517724314093 Q 538.9090909090909 145.41517724314093 541.090909090909 145.7233801323312 Q 543.2727272727273 145.7233801323312 545.4545454545454 146.00990043013567 Q 547.6363636363636 146.00990043013567 549.8181818181818 146.27399998100447 Q 552 146.27399998100447 554.1818181818181 146.51508744478133 Q 556.3636363636364 146.51508744478133 558.5454545454545 146.73272153708376 Q 560.7272727272727 146.73272153708376 562.9090909090909 146.92661318410487 Q 565.0909090909091 146.92661318410487 567.2727272727273 147.0966265769114 Q 569.4545454545455 147.0966265769114 571.6363636363636 147.24277911837268 Q 573.8181818181819 147.24277911837268 576 147.3652402639662 Q 578.1818181818182 147.3652402639662 580.3636363636364 147.46432926580508 Q 582.5454545454545 147.46432926580508 584.7272727272726 147.54051183726483 Q 586.9090909090909 147.54051183726483 589.090909090909 147.5943957634896 Q 591.2727272727273 147.5943957634896 593.4545454545454 147.62672549077453 Q 595.6363636363636 147.62672549077453 597.8181818181818 147.63837573529628 Q 600 147.63837573529628 602.1818181818181 147.63034415883897 Q 604.3636363636364 147.63034415883897 606.5454545454545 147.60374316599047 Q 608.7272727272727 147.60374316599047 610.9090909090909 147.55979088370975 Q 613.0909090909091 147.55979088370975 615.2727272727273 147.49980139014454 Q 617.4545454545455 147.49980139014454 619.6363636363636 147.4251742650669 Q 621.8181818181819 147.4251742650669 624 147.33738353924943 Q 626.1818181818181 147.33738353924943 628.3636363636363 147.23796612449433 Q 630.5454545454545 147.23796612449433 632.7272727272726 147.12850980981466 Q 634.9090909090909 147.12850980981466 637.090909090909 147.01064091242847 Q 639.2727272727273 147.01064091242847 641.4545454545454 146.88601167473587 Q 643.6363636363636 146.88601167473587 645.8181818181818 146.756287500289 Q 648 146.756287500289 650.1818181818181 146.62313412292278 Q 652.3636363636364 146.62313412292278 654.5454545454545 146.48820480368016 Q 656.7272727272727 146.48820480368016 658.9090909090909 146.353127649937 Q 661.0909090909091 146.353127649937 663.2727272727273 146.2194931502106 Q 665.4545454545455 146.2194931502106 667.6363636363636 146.0888420165271 Q 669.8181818181819 146.0888420165271 672 145.9626534239423 Q 674.1818181818181 145.9626534239423 676.3636363636363 145.84233373386917 Q 678.5454545454545 145.84233373386917 680.7272727272726 145.72920578429057 Q 682.9090909090909 145.72920578429057 685.090909090909 145.62449882574924 Q 687.2727272727273 145.62449882574924 689.4545454545454 145.52933917724337 Q 691.6363636363636 145.52933917724337 693.8181818181818 145.44474167084616 Q 696 145.44474167084616 698.1818181818181 145.3716019480548 Q 700.3636363636364 145.3716019480548 702.5454545454545 145.31068966459773 Q 704.7272727272727 145.31068966459773 706.9090909090909 145.26264265373607 Q 709.0909090909091 145.26264265373607 711.2727272727273 145.22796209103555 Q 713.4545454545455 145.22796209103555 715.6363636363636 145.20700869620998 Q 717.8181818181819 145.20700869620998 720 145.2 Q 722.1818181818181 145.2 724.3636363636363 145.20700869620998 Q 726.5454545454545 145.20700869620998 728.7272727272726 145.22796209103555 Q 730.9090909090909 145.22796209103555 733.090909090909 145.26264265373607 Q 735.2727272727273 145.26264265373607 737.4545454545454 145.31068966459773 Q 739.6363636363636 145.31068966459773 741.8181818181818 145.3716019480548 Q 744 145.3716019480548 746.1818181818181 145.44474167084616 Q 748.3636363636364 145.44474167084616 750.5454545454545 145.52933917724337 Q 752.7272727272727 145.52933917724337 754.9090909090909 145.62449882574924 Q 757.0909090909091 145.62449882574924 759.2727272727273 145.72920578429057 Q 761.4545454545455 145.72920578429057 763.6363636363636 145.84233373386917 Q 765.8181818181819 145.84233373386917 768 145.9626534239423 Q 770.1818181818181 145.9626534239423 772.3636363636363 146.0888420165271 Q 774.5454545454545 146.0888420165271 776.7272727272726 146.2194931502106 Q 778.9090909090909 146.2194931502106 781.090909090909 146.353127649937 Q 783.2727272727273 146.353127649937 785.4545454545454 146.48820480368013 Q 787.6363636363636 146.48820480368013 789.8181818181818 146.62313412292278 Q 792 146.62313412292278 794.1818181818181 146.756287500289 Q 796.3636363636364 146.756287500289 798.5454545454545 146.88601167473587 Q 800.7272727272727 146.88601167473587 802.9090909090909 147.01064091242847 Q 805.0909090909091 147.01064091242847 807.2727272727273 147.12850980981466 Q 809.4545454545455 147.12850980981466 811.6363636363636 147.23796612449433 Q 813.8181818181818 147.23796612449433 815.9999999999999 147.33738353924943 Q 818.1818181818181 147.33738353924943 820.3636363636363 147.4251742650669 Q 822.5454545454545 147.4251742650669 824.7272727272726 147.49980139014454 Q 826.9090909090909 147.49980139014454 829.090909090909 147.55979088370972 Q 831.2727272727273 147.55979088370972 833.4545454545454 147.60374316599047 Q 835.6363636363636 147.60374316599047 837.8181818181818 147.63034415883897 Q 840 147.63034415883897 842.1818181818181 147.63837573529628 Q 844.3636363636364 147.63837573529628 846.5454545454545 147.62672549077453 Q 848.7272727272727 147.62672549077453 850.9090909090909 147.5943957634896 Q 853.0909090909091 147.5943957634896 855.2727272727273 147.54051183726483 Q 857.4545454545455 147.54051183726483 859.6363636363636 147.46432926580508 Q 861.8181818181818 147.46432926580508 863.9999999999999 147.36524026396623 Q 866.1818181818181 147.36524026396623 868.3636363636363 147.24277911837268 Q 870.5454545454545 147.24277911837268 872.7272727272726 147.0966265769114 Q 874.9090909090909 147.0966265769114 877.090909090909 146.92661318410487 Q 879.2727272727273 146.92661318410487 881.4545454545454 146.73272153708376 Q 883.6363636363636 146.73272153708376 885.8181818181818 146.51508744478133 Q 888 146.51508744478133 890.1818181818181 146.27399998100447 Q 892.3636363636364 146.27399998100447 894.5454545454545 146.0099004301357 Q 896.7272727272727 146.0099004301357 898.9090909090909 145.7233801323312 Q 901.0909090909091 145.7233801323312 903.2727272727273 145.41517724314093 Q 905.4545454545454 145.41517724314093 907.6363636363635 145.0861724304279 Q 909.8181818181818 145.0861724304279 911.9999999999999 144.73738353924944 Q 914.1818181818181 144.73738353924944 916.3636363636363 144.36995926292335 Q 918.5454545454545 144.36995926292335 920.7272727272726 143.98517186578272 Q 922.9090909090909 143.98517186578272 925.090909090909 143.58440901007097 Q 927.2727272727273 143.58440901007097 929.4545454545454 143.16916474599293 Q 931.6363636363636 143.16916474599293 933.8181818181818 142.74102973006868 Q 936 142.74102973006868 938.1818181818181 142.30168074259157 Q 940.3636363636364 142.30168074259157 942.5454545454545 141.85286958012753 Q 944.7272727272727 141.85286958012753 946.9090909090909 141.3964114035725 Q 949.0909090909091 141.3964114035725 951.2727272727273 140.9341726262735 Q 953.4545454545454 140.9341726262735 955.6363636363635 140.46805843009034 Q 957.8181818181818 140.46805843009034 959.9999999999999 140 "
+        stroke="url(#grad)"
+        stroke-width="4"
+        fill="none">
     <animateTransform
       attributeName="transform"
       type="translate"
-      from="0 0"
-      to="-960 0"
-      dur="5s"
-      repeatCount="indefinite"/>
-  </path>
-  <path d="M 0 121.57667553572223 Q 2 121.57667553572223 4 121.21840410099479 Q 6 121.21840410099479 8 120.99849904598221 Q 10 120.99849904598221 12 120.92153295337667 Q 14 120.92153295337667 16 120.9909914720328 Q 18 120.9909914720328 20 121.20922788485612 Q 22 121.20922788485612 24 121.5774287897043 Q 26 121.5774287897043 28 122.09559129270566 Q 30 122.09559129270566 32 122.76251199074719 Q 34 122.76251199074719 36 123.5757878941273 Q 38 123.5757878941273 40 124.53182931287445 Q 42 124.53182931287445 44 125.62588460238764 Q 46 125.62588460238764 48 126.85207653725396 Q 50 126.85207653725396 52 128.20344995771848 Q 54 128.20344995771848 56 129.6720302126805 Q 58 129.6720302126805 60 131.24889180757935 Q 62 131.24889180757935 64 132.92423655636995 Q 66 132.92423655636995 68 134.68748043516493 Q 70 134.68748043516493 72 136.52734824213744 Q 74 136.52734824213744 76 138.43197508495595 Q 78 138.43197508495595 80 140.3890136442597 Q 82 140.3890136442597 84 142.38574610027717 Q 86 142.38574610027717 88 144.40919956030584 Q 90 144.40919956030584 92 146.44626378794553 Q 94 146.44626378794553 96 148.48381001111017 Q 98 148.48381001111017 100 150.50880957519138 Q 102 150.50880957519138 104 152.50845121042454 Q 106 152.50845121042454 108 154.4702556984829 Q 110 154.4702556984829 112 156.38218675242078 Q 114 156.38218675242078 116 158.23275696598105 Q 118 158.23275696598105 120 160.01112774251686 Q 122 160.01112774251686 124 161.70720217975602 Q 126 161.70720217975602 128 163.31170996363818 Q 130 163.31170996363818 132 164.816283411634 Q 134 164.816283411634 136 166.21352390235938 Q 138 166.21352390235938 140 167.49705803287316 Q 142 167.49705803287316 144 168.66158295664513 Q 146 168.66158295664513 148 169.7029004725892 Q 150 169.7029004725892 152 170.6179395574846 Q 154 170.6179395574846 156 171.4047671592285 Q 158 171.4047671592285 160 172.06258719530678 Q 162 172.06258719530678 164 172.59172782825092 Q 166 172.59172782825092 168 172.9936172162773 Q 170 172.9936172162773 172 173.27074806140135 Q 174 173.27074806140135 176 173.4266313977277 Q 178 173.4266313977277 180 173.4657401780285 Q 182 173.4657401780285 184 173.393443325875 Q 186 173.393443325875 188 173.21593102229645 Q 190 173.21593102229645 192 172.94013208909487 Q 194 172.94013208909487 196 172.57362441453583 Q 198 172.57362441453583 200 172.1245394402533 Q 202 172.1245394402533 204 171.6014617900588 Q 206 171.6014617900588 208 171.01332517126463 Q 210 171.01332517126463 212 170.36930571657675 Q 214 170.36930571657675 216 169.67871395918792 Q 218 169.67871395918792 220 168.95088664514145 Q 222 168.95088664514145 224 168.19507958523005 Q 226 168.19507958523005 228 167.42036273366733 Q 230 167.42036273366733 232 166.6355186527008 Q 234 166.6355186527008 236 165.84894548153753 Q 238 165.84894548153753 240 165.06856547488866 Q 242 165.06856547488866 244 164.30174011169566 Q 246 164.30174011169566 248 163.55519269889817 Q 250 163.55519269889817 252 162.83493930928455 Q 254 162.83493930928455 256 162.14622879747625 Q 258 162.14622879747625 260 161.49349253499153 Q 262 161.49349253499153 264 160.88030439525056 Q 266 160.88030439525056 268 160.3093514035374 Q 270 160.3093514035374 272 159.78241534660646 Q 274 159.78241534660646 276 159.30036551313768 Q 278 159.30036551313768 280 158.86316261096712 Q 282 158.86316261096712 284 158.4698737813343 Q 286 158.4698737813343 288 158.11869850567274 Q 290 158.11869850567274 292 157.80700507811025 Q 294 157.80700507811025 296 157.53137719817815 Q 298 157.53137719817815 300 157.28767012457507 Q 302 157.28767012457507 304 157.07107572343017 Q 306 157.07107572343017 308 156.87619564455892 Q 310 156.87619564455892 312 156.69712176779495 Q 314 156.69712176779495 316 156.52752297962692 Q 318 156.52752297962692 320 156.36073726897098 Q 322 156.36073726897098 324 156.1898680707543 Q 326 156.1898680707543 328 156.00788373774049 Q 330 156.00788373774049 332 155.80771898522198 Q 334 155.80771898522198 336 155.58237713023948 Q 338 155.58237713023948 340 155.32503193711537 Q 342 155.32503193711537 344 155.02912788442072 Q 346 155.02912788442072 348 154.68847768499788 Q 350 154.68847768499788 352 154.29735592015797 Q 354 154.29735592015797 356 153.85058769133687 Q 358 153.85058769133687 360 153.34363124687223 Q 362 153.34363124687223 364 152.77265360755354 Q 366 152.77265360755354 368 152.1345982914814 Q 370 152.1345982914814 372 151.42724432570478 Q 374 151.42724432570478 376 150.64925582813157 Q 378 150.64925582813157 380 149.8002215472792 Q 382 149.8002215472792 384 148.8806838584 Q 386 148.8806838584 388 147.89215683116774 Q 390 147.89215683116774 392 146.83713310516177 Q 394 146.83713310516177 396 145.71907943350652 Q 398 145.71907943350652 400 144.5424208808516 Q 402 144.5424208808516 404 143.31251378802716 Q 406 143.31251378802716 408 142.035607740796 Q 410 142.035607740796 412 140.71879690276995 Q 414 140.71879690276995 416 139.36996119141358 Q 418 139.36996119141358 420 137.9976978898171 Q 422 137.9976978898171 424 136.6112443943249 Q 426 136.6112443943249 428 135.22039289797968 Q 430 135.22039289797968 432 133.83539790097277 Q 434 133.83539790097277 436 132.46687752088127 Q 438 132.46687752088127 440 131.12570964651601 Q 442 131.12570964651601 444 129.82292403890972 Q 446 129.82292403890972 448 128.56959153068902 Q 450 128.56959153068902 452 127.37671151025576 Q 454 127.37671151025576 456 126.25509889946245 Q 458 126.25509889946245 460 125.21527184255176 Q 462 125.21527184255176 464 124.2673413199247 Q 466 124.2673413199247 468 123.42090388285189 Q 470 123.42090388285189 472 122.68493867472047 Q 474 122.68493867472047 476 122.06770986114456 Q 478 122.06770986114456 480 121.57667553572223 Q 482 121.57667553572223 484 121.21840410099479 Q 486 121.21840410099479 488 120.99849904598221 Q 490 120.99849904598221 492 120.92153295337667 Q 494 120.92153295337667 496 120.9909914720328 Q 498 120.9909914720328 500 121.20922788485612 Q 502 121.20922788485612 504 121.5774287897043 Q 506 121.5774287897043 508 122.09559129270566 Q 510 122.09559129270566 512 122.76251199074716 Q 514 122.76251199074716 516 123.5757878941273 Q 518 123.5757878941273 520 124.53182931287444 Q 522 124.53182931287444 524 125.62588460238763 Q 526 125.62588460238763 528 126.85207653725396 Q 530 126.85207653725396 532 128.20344995771848 Q 534 128.20344995771848 536 129.67203021268054 Q 538 129.67203021268054 540 131.24889180757933 Q 542 131.24889180757933 544 132.92423655636992 Q 546 132.92423655636992 548 134.6874804351649 Q 550 134.6874804351649 552 136.52734824213738 Q 554 136.52734824213738 556 138.43197508495595 Q 558 138.43197508495595 560 140.38901364425973 Q 562 140.38901364425973 564 142.38574610027715 Q 566 142.38574610027715 568 144.40919956030584 Q 570 144.40919956030584 572 146.4462637879455 Q 574 146.4462637879455 576 148.48381001111017 Q 578 148.48381001111017 580 150.50880957519135 Q 582 150.50880957519135 584 152.5084512104245 Q 586 152.5084512104245 588 154.47025569848293 Q 590 154.47025569848293 592 156.38218675242075 Q 594 156.38218675242075 596 158.23275696598105 Q 598 158.23275696598105 600 160.01112774251683 Q 602 160.01112774251683 604 161.70720217975597 Q 606 161.70720217975597 608 163.31170996363818 Q 610 163.31170996363818 612 164.81628341163398 Q 614 164.81628341163398 616 166.2135239023594 Q 618 166.2135239023594 620 167.49705803287316 Q 622 167.49705803287316 624 168.66158295664513 Q 626 168.66158295664513 628 169.7029004725892 Q 630 169.7029004725892 632 170.6179395574846 Q 634 170.6179395574846 636 171.40476715922847 Q 638 171.40476715922847 640 172.06258719530678 Q 642 172.06258719530678 644 172.59172782825092 Q 646 172.59172782825092 648 172.9936172162773 Q 650 172.9936172162773 652 173.27074806140138 Q 654 173.27074806140138 656 173.42663139772773 Q 658 173.42663139772773 660 173.4657401780285 Q 662 173.4657401780285 664 173.393443325875 Q 666 173.393443325875 668 173.21593102229647 Q 670 173.21593102229647 672 172.94013208909487 Q 674 172.94013208909487 676 172.57362441453583 Q 678 172.57362441453583 680 172.12453944025333 Q 682 172.12453944025333 684 171.60146179005883 Q 686 171.60146179005883 688 171.01332517126465 Q 690 171.01332517126465 692 170.36930571657678 Q 694 170.36930571657678 696 169.67871395918795 Q 698 169.67871395918795 700 168.95088664514148 Q 702 168.95088664514148 704 168.19507958523008 Q 706 168.19507958523008 708 167.42036273366733 Q 710 167.42036273366733 712 166.6355186527008 Q 714 166.6355186527008 716 165.84894548153753 Q 718 165.84894548153753 720 165.0685654748887 Q 722 165.0685654748887 724 164.30174011169566 Q 726 164.30174011169566 728 163.5551926988982 Q 730 163.5551926988982 732 162.83493930928458 Q 734 162.83493930928458 736 162.14622879747623 Q 738 162.14622879747623 740 161.49349253499156 Q 742 161.49349253499156 744 160.8803043952506 Q 746 160.8803043952506 748 160.3093514035374 Q 750 160.3093514035374 752 159.78241534660646 Q 754 159.78241534660646 756 159.30036551313768 Q 758 159.30036551313768 760 158.86316261096712 Q 762 158.86316261096712 764 158.4698737813343 Q 766 158.4698737813343 768 158.11869850567274 Q 770 158.11869850567274 772 157.80700507811025 Q 774 157.80700507811025 776 157.53137719817815 Q 778 157.53137719817815 780 157.28767012457507 Q 782 157.28767012457507 784 157.07107572343017 Q 786 157.07107572343017 788 156.8761956445589 Q 790 156.8761956445589 792 156.69712176779493 Q 794 156.69712176779493 796 156.52752297962692 Q 798 156.52752297962692 800 156.36073726897095 Q 802 156.36073726897095 804 156.18986807075427 Q 806 156.18986807075427 808 156.00788373774046 Q 810 156.00788373774046 812 155.80771898522195 Q 814 155.80771898522195 816 155.58237713023945 Q 818 155.58237713023945 820 155.32503193711537 Q 822 155.32503193711537 824 155.0291278844207 Q 826 155.0291278844207 828 154.68847768499788 Q 830 154.68847768499788 832 154.29735592015794 Q 834 154.29735592015794 836 153.85058769133687 Q 838 153.85058769133687 840 153.34363124687223 Q 842 153.34363124687223 844 152.77265360755354 Q 846 152.77265360755354 848 152.13459829148144 Q 850 152.13459829148144 852 151.42724432570478 Q 854 151.42724432570478 856 150.64925582813154 Q 858 150.64925582813154 860 149.8002215472792 Q 862 149.8002215472792 864 148.8806838584 Q 866 148.8806838584 868 147.89215683116777 Q 870 147.89215683116777 872 146.83713310516177 Q 874 146.83713310516177 876 145.71907943350655 Q 878 145.71907943350655 880 144.54242088085164 Q 882 144.54242088085164 884 143.3125137880272 Q 886 143.3125137880272 888 142.035607740796 Q 890 142.035607740796 892 140.71879690276992 Q 894 140.71879690276992 896 139.3699611914136 Q 898 139.3699611914136 900 137.99769788981712 Q 902 137.99769788981712 904 136.6112443943249 Q 906 136.6112443943249 908 135.22039289797974 Q 910 135.22039289797974 912 133.8353979009728 Q 914 133.8353979009728 916 132.4668775208813 Q 918 132.4668775208813 920 131.12570964651601 Q 922 131.12570964651601 924 129.82292403890972 Q 926 129.82292403890972 928 128.56959153068908 Q 930 128.56959153068908 932 127.37671151025577 Q 934 127.37671151025577 936 126.25509889946247 Q 938 126.25509889946247 940 125.21527184255177 Q 942 125.21527184255177 944 124.26734131992474 Q 946 124.26734131992474 948 123.42090388285189 Q 950 123.42090388285189 952 122.68493867472046 Q 954 122.68493867472046 956 122.06770986114458 Q 958 122.06770986114458 960 121.57667553572223 " stroke="url(#grad)" stroke-width="4" fill="none"
-        transform="translate(960,0)">
-    <animateTransform
-      attributeName="transform"
-      type="translate"
-      from="0 0"
-      to="-960 0"
-      dur="5s"
-      repeatCount="indefinite"/>
+      from="0 -6"
+      to="0 6"
+      dur="2.8s"
+      repeatCount="indefinite"
+      direction="alternate"/>
   </path>
 </g>
 
 <!-- BRAND -->
-<text x="50%" y="52%"
+<text x="50%" y="50%"
       text-anchor="middle"
       dominant-baseline="middle"
       font-size="32"
       letter-spacing="6"
       fill="#ffffff"
-      opacity="0.85"
+      opacity="0.9"
       style="font-family: monospace"
       filter="url(#glow)">
   LORDZEFAN
