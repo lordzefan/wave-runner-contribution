@@ -70,33 +70,58 @@ function generateBars() {
   const barWidth = WIDTH / BARS;
 
   for (let i = 0; i < BARS; i++) {
-    const base = 20 + Math.random() * 30;
-    const peak = base + Math.random() * 80;
+    const minH = 20 + Math.random() * 20;
+    const midH = minH + Math.random() * 40;
+    const maxH = midH + Math.random() * 60;
 
-    const dur1 = (0.3 + Math.random() * 0.8).toFixed(2);
-    const dur2 = (0.3 + Math.random() * 0.8).toFixed(2);
+    const baseDur = 1.2 + Math.random() * 2.5;
+
+    const yMin = HEIGHT - minH;
+    const yMid = HEIGHT - midH;
+    const yMax = HEIGHT - maxH;
 
     bars.push(`
       <rect x="${i * barWidth}"
-            y="${HEIGHT - base}"
+            y="${yMin}"
             width="${barWidth - 2}"
-            height="${base}"
+            height="${minH}"
             fill="url(#grad)"
-            opacity="${0.3 + Math.random() * 0.5}">
+            opacity="${0.35 + Math.random() * 0.45}">
+
+        <!-- HEIGHT -->
         <animate attributeName="height"
-                 dur="${dur1}s"
-                 repeatCount="indefinite"
-                 values="${base};${peak};${base};${base + Math.random() * 40}" />
+          dur="${baseDur}s"
+          repeatCount="indefinite"
+          values="${minH};${maxH};${midH};${maxH};${minH}"
+          keyTimes="0;0.2;0.5;0.7;1"
+          calcMode="spline"
+          keySplines="
+            0.9 0.1 0.1 0.9;
+            0.2 0.8 0.3 1;
+            0.8 0 0.2 1;
+            0.1 0.9 0.9 0.1
+          " />
+
+        <!-- Y -->
         <animate attributeName="y"
-                 dur="${dur2}s"
-                 repeatCount="indefinite"
-                 values="${HEIGHT - base};${HEIGHT - peak};${HEIGHT - base}" />
+          dur="${baseDur}s"
+          repeatCount="indefinite"
+          values="${yMin};${yMax};${yMid};${yMax};${yMin}"
+          keyTimes="0;0.2;0.5;0.7;1"
+          calcMode="spline"
+          keySplines="
+            0.9 0.1 0.1 0.9;
+            0.2 0.8 0.3 1;
+            0.8 0 0.2 1;
+            0.1 0.9 0.9 0.1
+          " />
       </rect>
     `);
   }
 
   return bars.join("");
 }
+
 
 /* =======================
    SVG OUTPUT
