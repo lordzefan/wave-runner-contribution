@@ -70,15 +70,41 @@ function generateBars() {
   const barWidth = WIDTH / BARS;
 
   for (let i = 0; i < BARS; i++) {
-    const minH = 20 + Math.random() * 20;
-    const midH = minH + Math.random() * 40;
-    const maxH = midH + Math.random() * 60;
 
-    const baseDur = 1.2 + Math.random() * 2.5;
+    const pos = i / BARS;
+    let minH, midH, maxH, baseDur, chaos;
+
+    /* ======================
+       STEREO BEHAVIOR
+    ====================== */
+    if (pos < 0.35) {
+      // LEFT – BASS
+      minH = 30 + Math.random() * 20;
+      midH = minH + Math.random() * 50;
+      maxH = midH + Math.random() * 90;
+      baseDur = 2.5 + Math.random() * 2.5;
+      chaos = 0.6;
+    } else if (pos > 0.65) {
+      // RIGHT – TREBLE
+      minH = 10 + Math.random() * 15;
+      midH = minH + Math.random() * 35;
+      maxH = midH + Math.random() * 55;
+      baseDur = 0.6 + Math.random() * 1.2;
+      chaos = 1.2;
+    } else {
+      // CENTER – MIX
+      minH = 20 + Math.random() * 15;
+      midH = minH + Math.random() * 40;
+      maxH = midH + Math.random() * 70;
+      baseDur = 1.2 + Math.random() * 2;
+      chaos = 1;
+    }
 
     const yMin = HEIGHT - minH;
     const yMid = HEIGHT - midH;
     const yMax = HEIGHT - maxH;
+
+    const opacity = 0.3 + Math.random() * 0.5;
 
     bars.push(`
       <rect x="${i * barWidth}"
@@ -86,33 +112,31 @@ function generateBars() {
             width="${barWidth - 2}"
             height="${minH}"
             fill="url(#grad)"
-            opacity="${0.35 + Math.random() * 0.45}">
+            opacity="${opacity}">
 
-        <!-- HEIGHT -->
         <animate attributeName="height"
           dur="${baseDur}s"
           repeatCount="indefinite"
-          values="${minH};${maxH};${midH};${maxH};${minH}"
-          keyTimes="0;0.2;0.5;0.7;1"
+          values="${minH};${maxH};${midH};${maxH * chaos};${minH}"
+          keyTimes="0;0.2;0.45;0.7;1"
           calcMode="spline"
           keySplines="
+            0.8 0.2 0.2 1;
+            0.2 0.8 0.4 1;
             0.9 0.1 0.1 0.9;
-            0.2 0.8 0.3 1;
-            0.8 0 0.2 1;
             0.1 0.9 0.9 0.1
           " />
 
-        <!-- Y -->
         <animate attributeName="y"
           dur="${baseDur}s"
           repeatCount="indefinite"
-          values="${yMin};${yMax};${yMid};${yMax};${yMin}"
-          keyTimes="0;0.2;0.5;0.7;1"
+          values="${yMin};${yMax};${yMid};${HEIGHT - maxH * chaos};${yMin}"
+          keyTimes="0;0.2;0.45;0.7;1"
           calcMode="spline"
           keySplines="
+            0.8 0.2 0.2 1;
+            0.2 0.8 0.4 1;
             0.9 0.1 0.1 0.9;
-            0.2 0.8 0.3 1;
-            0.8 0 0.2 1;
             0.1 0.9 0.9 0.1
           " />
       </rect>
@@ -121,6 +145,7 @@ function generateBars() {
 
   return bars.join("");
 }
+
 
 
 
