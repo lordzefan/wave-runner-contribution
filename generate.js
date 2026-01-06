@@ -71,11 +71,13 @@ function generateBars() {
 
   for (let i = 0; i < BARS; i++) {
     const minH = 20 + Math.random() * 20;
-    const maxH = minH + Math.random() * 90;
+    const midH = minH + Math.random() * 40;
+    const maxH = midH + Math.random() * 60;
 
-    const dur = (0.3 + Math.random() * 0.9).toFixed(2);
+    const baseDur = 1.2 + Math.random() * 2.5;
 
     const yMin = HEIGHT - minH;
+    const yMid = HEIGHT - midH;
     const yMax = HEIGHT - maxH;
 
     bars.push(`
@@ -85,20 +87,41 @@ function generateBars() {
             height="${minH}"
             fill="url(#grad)"
             opacity="${0.35 + Math.random() * 0.45}">
+
+        <!-- HEIGHT -->
         <animate attributeName="height"
-                 dur="${dur}s"
-                 repeatCount="indefinite"
-                 values="${minH};${maxH};${minH}" />
+          dur="${baseDur}s"
+          repeatCount="indefinite"
+          values="${minH};${maxH};${midH};${maxH};${minH}"
+          keyTimes="0;0.2;0.5;0.7;1"
+          calcMode="spline"
+          keySplines="
+            0.9 0.1 0.1 0.9;
+            0.2 0.8 0.3 1;
+            0.8 0 0.2 1;
+            0.1 0.9 0.9 0.1
+          " />
+
+        <!-- Y -->
         <animate attributeName="y"
-                 dur="${dur}s"
-                 repeatCount="indefinite"
-                 values="${yMin};${yMax};${yMin}" />
+          dur="${baseDur}s"
+          repeatCount="indefinite"
+          values="${yMin};${yMax};${yMid};${yMax};${yMin}"
+          keyTimes="0;0.2;0.5;0.7;1"
+          calcMode="spline"
+          keySplines="
+            0.9 0.1 0.1 0.9;
+            0.2 0.8 0.3 1;
+            0.8 0 0.2 1;
+            0.1 0.9 0.9 0.1
+          " />
       </rect>
     `);
   }
 
   return bars.join("");
 }
+
 
 
 /* =======================
