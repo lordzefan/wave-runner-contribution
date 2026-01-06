@@ -70,33 +70,36 @@ function generateBars() {
   const barWidth = WIDTH / BARS;
 
   for (let i = 0; i < BARS; i++) {
-    const base = 20 + Math.random() * 30;
-    const peak = base + Math.random() * 80;
+    const minH = 20 + Math.random() * 20;
+    const maxH = minH + Math.random() * 90;
 
-    const dur1 = (0.3 + Math.random() * 0.8).toFixed(2);
-    const dur2 = (0.3 + Math.random() * 0.8).toFixed(2);
+    const dur = (0.3 + Math.random() * 0.9).toFixed(2);
+
+    const yMin = HEIGHT - minH;
+    const yMax = HEIGHT - maxH;
 
     bars.push(`
       <rect x="${i * barWidth}"
-            y="${HEIGHT - base}"
+            y="${yMin}"
             width="${barWidth - 2}"
-            height="${base}"
+            height="${minH}"
             fill="url(#grad)"
-            opacity="${0.3 + Math.random() * 0.5}">
+            opacity="${0.35 + Math.random() * 0.45}">
         <animate attributeName="height"
-                 dur="${dur1}s"
+                 dur="${dur}s"
                  repeatCount="indefinite"
-                 values="${base};${peak};${base};${base + Math.random() * 40}" />
+                 values="${minH};${maxH};${minH}" />
         <animate attributeName="y"
-                 dur="${dur2}s"
+                 dur="${dur}s"
                  repeatCount="indefinite"
-                 values="${HEIGHT - base};${HEIGHT - peak};${HEIGHT - base}" />
+                 values="${yMin};${yMax};${yMin}" />
       </rect>
     `);
   }
 
   return bars.join("");
 }
+
 
 /* =======================
    SVG OUTPUT
