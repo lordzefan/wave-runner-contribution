@@ -1,22 +1,31 @@
 const fs = require("fs");
 
 /* =======================
-   CONFIG
+   PRESET CONFIG
 ======================= */
-const WIDTH = 900;
-const HEIGHT = 220;
-const BASELINE = 110;
-const POINTS = 160;
-const BARS = 48;
+const PRESET = "SYNTHWAVE"; // EDM | LOFI | SYNTHWAVE
+
+const PRESETS = {
+  EDM:      { bpm: 140, waveAmp: 1.2, barAmp: 1.4 },
+  LOFI:     { bpm: 80,  waveAmp: 0.6, barAmp: 0.5 },
+  SYNTHWAVE:{ bpm: 110, waveAmp: 1.0, barAmp: 1.0 }
+};
+
+const CFG = PRESETS[PRESET];
 
 /* =======================
-   FAKE BPM SYSTEM
+   CORE CONFIG
 ======================= */
-const BPM = 120;
-const BEAT_DURATION = 60 / BPM;
+const WIDTH = 960;
+const HEIGHT = 260;
+const BASELINE = 130;
+const POINTS = 180;
+const BARS = 56;
+
+const BEAT = 60 / CFG.bpm;
 
 /* =======================
-   WAVE GENERATION
+   WAVE GENERATOR
 ======================= */
 function generateWave(mult = 1, phaseShift = 0) {
   const points = [];
@@ -25,11 +34,11 @@ function generateWave(mult = 1, phaseShift = 0) {
   for (let i = 0; i < POINTS; i++) {
     const t = i / POINTS;
     const amp =
-      Math.sin(t * Math.PI * 2 + phase) * 28 * mult +
-      Math.sin(t * Math.PI * 6 + phase * 0.6) * 14 * mult +
-      Math.sin(t * Math.PI * 12) * 6 * mult;
+      Math.sin(t * Math.PI * 2 + phase) * 30 +
+      Math.sin(t * Math.PI * 6 + phase * 0.7) * 14 +
+      Math.sin(t * Math.PI * 12) * 6;
 
-    points.push(BASELINE - amp);
+    points.push(BASELINE - amp * mult * CFG.waveAmp);
   }
   return points;
 }
@@ -48,29 +57,29 @@ function buildPath(points) {
 }
 
 /* =======================
-   EQUALIZER BARS
+   EQUALIZER
 ======================= */
 function generateBars() {
   const bars = [];
-  const barWidth = WIDTH / BARS;
+  const bw = WIDTH / BARS;
 
   for (let i = 0; i < BARS; i++) {
-    const h1 = 20 + Math.random() * 60;
-    const h2 = 20 + Math.random() * 60;
+    const h1 = (20 + Math.random() * 70) * CFG.barAmp;
+    const h2 = (20 + Math.random() * 70) * CFG.barAmp;
 
     bars.push(`
-      <rect x="${i * barWidth}"
+      <rect x="${i * bw}"
             y="${HEIGHT - h1}"
-            width="${barWidth - 3}"
+            width="${bw - 3}"
             height="${h1}"
-            fill="url(#cyberGradient)"
+            fill="url(#grad)"
             opacity="0.55">
         <animate attributeName="height"
-                 dur="${BEAT_DURATION}s"
+                 dur="${BEAT}s"
                  repeatCount="indefinite"
                  values="${h1};${h2};${h1}" />
         <animate attributeName="y"
-                 dur="${BEAT_DURATION}s"
+                 dur="${BEAT}s"
                  repeatCount="indefinite"
                  values="${HEIGHT - h1};${HEIGHT - h2};${HEIGHT - h1}" />
       </rect>
@@ -80,7 +89,7 @@ function generateBars() {
 }
 
 /* =======================
-   GENERATE SVG
+   SVG OUTPUT
 ======================= */
 function generateSVG() {
   const waveFront = buildPath(generateWave(1.0, 0));
@@ -90,88 +99,78 @@ function generateSVG() {
   const svg = `
 <svg viewBox="0 0 ${WIDTH} ${HEIGHT}" xmlns="http://www.w3.org/2000/svg">
 
-  <defs>
-    <!-- Cyberpunk Gradient -->
-    <linearGradient id="cyberGradient" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#ff2fdc"/>
-      <stop offset="45%" stop-color="#9b5cff"/>
-      <stop offset="75%" stop-color="#00f5ff"/>
-      <stop offset="100%" stop-color="#00f5ff"/>
-    </linearGradient>
+<defs>
+  <!-- CYBERPUNK GRADIENT -->
+  <linearGradient id="grad" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#ff2fdc"/>
+    <stop offset="40%" stop-color="#9b5cff"/>
+    <stop offset="70%" stop-color="#00f5ff"/>
+    <stop offset="100%" stop-color="#00f5ff"/>
+  </linearGradient>
 
-    <!-- Neon Glow -->
-    <filter id="neonGlow">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
+  <!-- NEON GLOW -->
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="4" result="b"/>
+    <feMerge>
+      <feMergeNode in="b"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
 
-    <!-- Beat Pulse -->
-    <animateTransform id="pulse"
-      attributeName="transform"
-      type="scale"
-      from="1"
-      to="1.03"
-      dur="${BEAT_DURATION}s"
-      repeatCount="indefinite"
-      additive="sum" />
-  </defs>
+  <!-- CRT SCANLINE -->
+  <pattern id="scanline" width="4" height="4" patternUnits="userSpaceOnUse">
+    <rect width="4" height="1" fill="rgba(255,255,255,0.04)"/>
+  </pattern>
+</defs>
 
-  <!-- Background -->
-  <rect width="100%" height="100%" fill="#05010d"/>
+<!-- BACKGROUND -->
+<rect width="100%" height="100%" fill="#05010d"/>
+<rect width="100%" height="100%" fill="url(#scanline)"/>
 
-  <!-- Equalizer -->
-  <g filter="url(#neonGlow)">
-    ${generateBars()}
-  </g>
+<!-- EQUALIZER -->
+<g filter="url(#glow)">
+  ${generateBars()}
+</g>
 
-  <!-- Back Wave -->
-  <path d="${waveBack}"
-        stroke="url(#cyberGradient)"
-        stroke-width="2"
-        opacity="0.25"
+<!-- WAVES -->
+<path d="${waveBack}" stroke="url(#grad)" stroke-width="2"
+      opacity="0.25" fill="none">
+  <animateTransform type="translate" from="0 0" to="-24 0"
+                    dur="7s" repeatCount="indefinite"/>
+</path>
+
+<path d="${waveMid}" stroke="url(#grad)" stroke-width="3"
+      opacity="0.45" fill="none">
+  <animateTransform type="translate" from="0 0" to="-14 0"
+                    dur="4.5s" repeatCount="indefinite"/>
+</path>
+
+<g filter="url(#glow)">
+  <path d="${waveFront}" stroke="url(#grad)" stroke-width="4"
         fill="none">
-    <animateTransform
-      attributeName="transform"
-      type="translate"
-      from="0 0"
-      to="-20 0"
-      dur="6s"
-      repeatCount="indefinite"/>
+    <animateTransform type="translate" from="0 0" to="-7 0"
+                      dur="2.6s" repeatCount="indefinite"/>
   </path>
+</g>
 
-  <!-- Mid Wave -->
-  <path d="${waveMid}"
-        stroke="url(#cyberGradient)"
-        stroke-width="3"
-        opacity="0.45"
-        fill="none">
-    <animateTransform
-      attributeName="transform"
-      type="translate"
-      from="0 0"
-      to="-12 0"
-      dur="4s"
-      repeatCount="indefinite"/>
-  </path>
-
-  <!-- Front Wave -->
-  <g filter="url(#neonGlow)">
-    <path d="${waveFront}"
-          stroke="url(#cyberGradient)"
-          stroke-width="4"
-          fill="none">
-      <animateTransform
-        attributeName="transform"
-        type="translate"
-        from="0 0"
-        to="-6 0"
-        dur="2.5s"
-        repeatCount="indefinite"/>
-    </path>
-  </g>
+<!-- BRANDING -->
+<text x="50%" y="48%"
+      text-anchor="middle"
+      font-size="28"
+      letter-spacing="4"
+      fill="#ffffff"
+      opacity="0.85"
+      style="font-family: monospace"
+      filter="url(#glow)">
+  LORDZEFAN
+  <animateTransform
+    type="scale"
+    from="1"
+    to="1.04"
+    dur="${BEAT}s"
+    repeatCount="indefinite"
+    additive="sum"/>
+</text>
 
 </svg>
 `;
