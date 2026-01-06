@@ -70,17 +70,49 @@ function generateBars() {
   const barWidth = WIDTH / BARS;
 
   for (let i = 0; i < BARS; i++) {
-    const minH = 20 + Math.random() * 20;
-    const maxH = minH + Math.random() * 90;
-    const midH = minH + Math.random() * 40;
-    const maxH = midH + Math.random() * 60;
 
-    const dur = (0.3 + Math.random() * 0.9).toFixed(2);
-    const baseDur = 1.2 + Math.random() * 2.5;
+    const pos = i / BARS;
+    let minH, midH, maxH, baseDur, chaos;
+
+    /* ======================
+       STEREO BEHAVIOR
+    ====================== */
+    if (pos < 0.35) {
+      // LEFT – BASS
+      minH = 30 + Math.random() * 20;
+      midH = minH + Math.random() * 50;
+      maxH = midH + Math.random() * 90;
+      baseDur = 2.5 + Math.random() * 2.5;
+      chaos = 0.6;
+    } else if (pos > 0.65) {
+      // RIGHT – TREBLE
+      minH = 10 + Math.random() * 15;
+      midH = minH + Math.random() * 35;
+      maxH = midH + Math.random() * 55;
+      baseDur = 0.6 + Math.random() * 1.2;
+      chaos = 1.2;
+    } else {
+      // CENTER – MIX
+      minH = 20 + Math.random() * 15;
+      midH = minH + Math.random() * 40;
+      maxH = midH + Math.random() * 70;
+      baseDur = 1.2 + Math.random() * 2;
+      chaos = 1;
+    }
 
     const yMin = HEIGHT - minH;
     const yMid = HEIGHT - midH;
     const yMax = HEIGHT - maxH;
+
+    const opacity = 0.3 + Math.random() * 0.5;
+
+    /* ======================
+       GLITCH PARAM
+    ====================== */
+    const glitchHeight = maxH * (1.4 + Math.random() * 0.6);
+    const glitchY = HEIGHT - glitchHeight;
+    const glitchDelay = (Math.random() * baseDur).toFixed(2);
+    const glitchDur = (0.08 + Math.random() * 0.15).toFixed(2);
 
     bars.push(`
       <rect x="${i * barWidth}"
@@ -88,43 +120,148 @@ function generateBars() {
             width="${barWidth - 2}"
             height="${minH}"
             fill="url(#grad)"
-            opacity="${0.35 + Math.random() * 0.45}">
+            opacity="${opacity}">
 
-        <!-- HEIGHT -->
+        <!-- MAIN HEIGHT -->
         <animate attributeName="height"
-                 dur="${dur}s"
-                 repeatCount="indefinite"
-                 values="${minH};${maxH};${minH}" />
           dur="${baseDur}s"
           repeatCount="indefinite"
-          values="${minH};${maxH};${midH};${maxH};${minH}"
-          keyTimes="0;0.2;0.5;0.7;1"
+          values="${minH};${maxH};${midH};${maxH * chaos};${minH}"
+          keyTimes="0;0.2;0.45;0.7;1"
           calcMode="spline"
           keySplines="
+            0.8 0.2 0.2 1;
+            0.2 0.8 0.4 1;
             0.9 0.1 0.1 0.9;
-            0.2 0.8 0.3 1;
-            0.8 0 0.2 1;
             0.1 0.9 0.9 0.1
           " />
 
-        <!-- Y -->
+        <!-- MAIN Y -->
         <animate attributeName="y"
-                 dur="${dur}s"
-                 repeatCount="indefinite"
-                 values="${yMin};${yMax};${yMin}" />
           dur="${baseDur}s"
           repeatCount="indefinite"
-          values="${yMin};${yMax};${yMid};${yMax};${yMin}"
-          keyTimes="0;0.2;0.5;0.7;1"
+          values="${yMin};${yMax};${yMid};${HEIGHT - maxH * chaos};${yMin}"
+          keyTimes="0;0.2;0.45;0.7;1"
           calcMode="spline"
           keySplines="
+            0.8 0.2 0.2 1;
+            0.2 0.8 0.4 1;
             0.9 0.1 0.1 0.9;
-            0.2 0.8 0.3 1;
-            0.8 0 0.2 1;
             0.1 0.9 0.9 0.1
           " />
+
+        <!-- GLITCH SPIKE HEIGHT -->
+        <animate attributeName="height"
+          begin="${glitchDelay}s"
+          dur="${glitchDur}s"
+          values="${minH};${glitchHeight};${minH}"
+          repeatCount="indefinite" />
+
+        <!-- GLITCH SPIKE Y -->
+        <animate attributeName="y"
+          begin="${glitchDelay}s"
+          dur="${glitchDur}s"
+          values="${yMin};${glitchY};${yMin}"
+          repeatCount="indefinite" />
+
+        <!-- GLITCH FLICKER -->
+        <animate attributeName="opacity"
+          begin="${glitchDelay}s"
+          dur="${glitchDur}s"
+          values="${opacity};1;${opacity}"
+          repeatCount="indefinite" />
       </rect>
     `);
   }
 
   return bars.join("");
+}
+
+
+/* =======================
+   SVG OUTPUT
+======================= */
+function generateSVG() {
+  const waveBack  = buildPath(generateWave(2));
+  const waveMid   = buildPath(generateWave(1));
+  const waveFront = buildPath(generateWave(0));
+
+  const svg = `
+<svg viewBox="0 0 ${WIDTH} ${HEIGHT}" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+  <!-- CYBER GRADIENT -->
+  <linearGradient id="grad" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#ff2fdc"/>
+    <stop offset="40%" stop-color="#9b5cff"/>
+    <stop offset="70%" stop-color="#00f5ff"/>
+    <stop offset="100%" stop-color="#00f5ff"/>
+  </linearGradient>
+
+  <!-- NEON GLOW -->
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="4" result="b"/>
+    <feMerge>
+      <feMergeNode in="b"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+
+  <!-- CRT SCANLINE -->
+  <pattern id="scanline" width="4" height="4">
+    <rect width="4" height="1" fill="rgba(255,255,255,0.05)"/>
+  </pattern>
+</defs>
+
+<!-- BACKGROUND -->
+<rect width="100%" height="100%" fill="#05010d"/>
+<rect width="100%" height="100%" fill="url(#scanline)"/>
+
+<!-- EQUALIZER (CHAOTIC) -->
+<g filter="url(#glow)">
+  ${generateBars()}
+</g>
+
+<!-- TRUE PARALLAX WAVES -->
+<path d="${waveBack}" stroke="url(#grad)" stroke-width="2"
+      opacity="0.18" fill="none">
+  <animateTransform type="translate"
+                    from="0 0" to="-40 0"
+                    dur="9s" repeatCount="indefinite"/>
+</path>
+
+<path d="${waveMid}" stroke="url(#grad)" stroke-width="3"
+      opacity="0.35" fill="none">
+  <animateTransform type="translate"
+                    from="0 0" to="-22 0"
+                    dur="5.5s" repeatCount="indefinite"/>
+</path>
+
+<g filter="url(#glow)">
+  <path d="${waveFront}" stroke="url(#grad)" stroke-width="4"
+        fill="none">
+    <animateTransform type="translate"
+                      from="0 0" to="-10 0"
+                      dur="3s" repeatCount="indefinite"/>
+  </path>
+</g>
+
+<!-- BRANDING -->
+<text x="50%" y="50%"
+      text-anchor="middle"
+      font-size="30"
+      letter-spacing="5"
+      fill="#ffffff"
+      opacity="0.9"
+      style="font-family: monospace"
+      filter="url(#glow)">
+  LORDZEFAN
+</text>
+
+</svg>
+`;
+
+  fs.writeFileSync("output.svg", svg.trim());
+}
+
+generateSVG();
