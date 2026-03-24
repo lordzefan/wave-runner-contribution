@@ -200,7 +200,7 @@ function generateSVG() {
       opacity="0.9"
       style="font-family: monospace"
       filter="url(#glow)">
-  LORDZEFAN
+  ZEFANRIHINDIA
 </text>
 
 </svg>
